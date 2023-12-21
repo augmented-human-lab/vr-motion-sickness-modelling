@@ -4,12 +4,20 @@ import os
 import pickle
 import struct
 import zipfile
+import csv
+import shutil
+import gzip
 
 from PIL import Image
+from datetime import datetime
 
-dataset_dir_path = "raw_datasets"
-output_dir = "datasets"
+dataset_dir_path = "/data/VR_NET/dummy"
+output_dir = "/data/VR_NET/data"
 
+def convert_timestamp(timestamp_str):
+    timestamp_dt = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S')
+    timestamp_ms = int(timestamp_dt.timestamp() * 1000)
+    return timestamp_ms
 
 def extract_gaze(archive, item, dataset_name):
     gaze_data_pkg = archive.read(item)
@@ -37,7 +45,7 @@ def extract_gaze(archive, item, dataset_name):
         if frame not in res:
             res[frame] = {}
 
-        res[frame] = (l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3, r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
+        res[frame] = (timestamp, l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3, r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
 
     target_dir = os.path.join(output_dir, dataset_name)
     os.makedirs(target_dir, exist_ok=True)
@@ -84,7 +92,7 @@ def extract_pose(archive, item, dataset_name):
 
     target_dir = os.path.join(output_dir, dataset_name)
     os.makedirs(target_dir, exist_ok=True)
-    target_file = os.path.join(target_dir, "control.pickle")
+    target_file = os.path.join(target_dir, "pose.pickle")
     with open(target_file, "wb") as outfp:
         pickle.dump(res, outfp)
 
@@ -106,12 +114,92 @@ def extract_video(archive, item, dataset_name):
         original_jpg_image = Image.open(io.BytesIO(jpg))
         flipped = original_jpg_image.transpose(Image.FLIP_LEFT_RIGHT)
         rotated = flipped.rotate(180)
-        target_dir = os.path.join(output_dir, dataset_name)
+        target_dir = os.path.join(output_dir, dataset_name, "video")
         os.makedirs(target_dir, exist_ok=True)
         target_file = os.path.join(target_dir, "%d.jpg" % frame)
         rotated.save(target_file)
 
+        
+def extract_scene(archive, item, dataset_name):
+    scene_data_pkg = archive.read(item)
+    fp1 = io.BytesIO(scene_data_pkg)
+    camera_res = {}
+    obj_res = {}
+    with gzip.open(fp1, "rb") as fp:
+        while (True):
+            try:
+                data = fp.read(24)
+                type1, frameIndex, timestamp = struct.unpack("QQQ", data)
+                utfname = fp.read(128)
+                name = utfname.decode("utf-16", errors="ignore")
 
+                if type1 == 0xF1:
+                    camera = fp.read(128)
+                    p_matrix = struct.unpack("ffffffffffffffff", camera[:64])
+                    v_matrix = struct.unpack("ffffffffffffffff", camera[64:])
+                    if frameIndex not in camera_res:
+                        camera_res[frameIndex] = {}
+                        camera_res[frameIndex]["object_name"]=[name.rstrip('\x00')]
+                        camera_res[frameIndex]["p_matrix"]= [p_matrix]
+                        camera_res[frameIndex]["v_matrix"]= [v_matrix]
+
+                    else:
+                        camera_res[frameIndex]["object_name"].append(name.rstrip('\x00'))
+                        camera_res[frameIndex]["p_matrix"].append(p_matrix)
+                        camera_res[frameIndex]["v_matrix"].append(v_matrix)
+                    # if name.startswith("CenterEyeAnchor"):
+                    #     camera_res[frameIndex] = v_matrix
+
+                else:
+                    renderer = fp.read(88)
+                    bounds = struct.unpack("ffffff", renderer[:24])
+                    m_matrix = struct.unpack("ffffffffffffffff", renderer[24:])
+                    if frameIndex not in obj_res:
+                        obj_res[frameIndex] = {}
+                        obj_res[frameIndex]["object_name"] = [name.rstrip('\x00')]
+                        obj_res[frameIndex]["bounds"] = [bounds]
+                        obj_res[frameIndex]["m_matrix"] = [m_matrix]
+                    else:
+                        obj_res[frameIndex]["object_name"].append(name.rstrip('\x00'))
+                        obj_res[frameIndex]["bounds"].append(bounds)
+                        obj_res[frameIndex]["m_matrix"].append(m_matrix)
+            except:
+                break
+            
+        target_dir = os.path.join(output_dir, dataset_name)
+        os.makedirs(target_dir, exist_ok=True)
+        target_file_1 = os.path.join(target_dir, "camera_res.pickle")
+        target_file_2 = os.path.join(target_dir, "obj_res.pickle")
+        with open(target_file_1, "wb") as outfp:
+            pickle.dump(camera_res, outfp)
+        with open(target_file_2, "wb") as outfp:
+            pickle.dump(obj_res, outfp)
+
+        
+def extract_VRlog(archive, item, dataset_name):
+    target_dir = os.path.join(output_dir, dataset_name)
+    os.makedirs(target_dir, exist_ok=True)
+    output_csv_path = os.path.join(target_dir, "VRMS_log.csv")
+    archive.extract(item, 'temp')
+    csv_file_path = os.path.join('temp', item)
+    with open(csv_file_path, 'r') as input_csv:
+        csv_reader = csv.DictReader(input_csv)
+        with open(output_csv_path, 'w', newline='') as output_csv:
+            fieldnames = csv_reader.fieldnames
+            csv_writer = csv.DictWriter(output_csv, fieldnames=fieldnames)
+            csv_writer.writeheader()
+
+            for row in csv_reader:
+                # Assuming the timestamp column is named 'timestamp'
+                timestamp_str = row['Timestamp']
+                timestamp_ms = convert_timestamp(timestamp_str)
+                # print(timestamp_str, timestamp_ms)
+                row['Timestamp'] = timestamp_ms
+
+                csv_writer.writerow(row)
+    shutil.rmtree('temp')
+    
+        
 def worker(dataset):
     dataset_name = dataset[:-4]
     dataset_abs_path = os.path.join(dataset_dir_path, dataset)
@@ -123,6 +211,10 @@ def worker(dataset):
                 extract_video(archive, item, dataset_name)
             if "_gaze/data" in item:
                 extract_gaze(archive, item, dataset_name)
+            if "_scene/data" in item:
+                extract_scene(archive, item, dataset_name)
+            if "VRLOG" in item:
+                extract_VRlog(archive, item, dataset_name)
 
 
 def main():
@@ -136,7 +228,6 @@ def main():
     count = 0
     for res in pool.imap(worker, tasks):
         count += 1
-        print(count)
 
 
 if __name__ == "__main__":
