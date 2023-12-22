@@ -2,7 +2,8 @@
 Modelling VR motion sickness from the VR.net Dataset
 
 ## DataExtractionScripts
-This contains scripts to extract csv files from the VRLOG zip folders
+**Data Extraction.py**: This contains scripts to extract csv files from the VRLOG zip folders.
+**Transfer.py**: Script to transfer zip files from Google Drive to the server
 
 ## ScriptsForDataVersion1
 This folder contains some scripts used to analyse the data collected in the first round.
