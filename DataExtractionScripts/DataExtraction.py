@@ -11,8 +11,8 @@ import gzip
 from PIL import Image
 from datetime import datetime
 
-dataset_dir_path = "/data/VR_NET/dummy"
-output_dir = "/data/VR_NET/data"
+dataset_dir_path = "/data/VR_NET/zipped/27"
+output_dir = "/data/VR_NET/data/27"
 
 def convert_timestamp(timestamp_str):
     timestamp_dt = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S')
@@ -45,7 +45,11 @@ def extract_gaze(archive, item, dataset_name):
         if frame not in res:
             res[frame] = {}
 
-        res[frame] = (timestamp, l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3, r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
+        # res[frame] = (timestamp, l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3, r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
+        
+        res[frame]["timestamp"]=timestamp
+        res[frame]["left_eye"] =(l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3)
+        res[frame]["right_eye"]=(r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
 
     target_dir = os.path.join(output_dir, dataset_name)
     os.makedirs(target_dir, exist_ok=True)
@@ -84,7 +88,8 @@ def extract_pose(archive, item, dataset_name):
 
         x, y, z, w, p1, p2, p3, v1, v2, v3, a1, a2, a3, angv1, angv2, angv3, anga1, anga2, anga3 = struct.unpack(
             "fffffffffffffffffff", data[0:76])
-
+        
+        res[frame]["timestamp"] = timestamp
         res[frame][node_str + "_dir"] = (x, y, z, w)
         res[frame][node_str + "_pos"] = (p1, p2, p3)
         res[frame][node_str + "_vel"] = (v1, v2, v3)
@@ -116,7 +121,7 @@ def extract_video(archive, item, dataset_name):
         rotated = flipped.rotate(180)
         target_dir = os.path.join(output_dir, dataset_name, "video")
         os.makedirs(target_dir, exist_ok=True)
-        target_file = os.path.join(target_dir, "%d.jpg" % frame)
+        target_file = os.path.join(target_dir, "%d_%d.jpg" % (frame, timestamp))
         rotated.save(target_file)
 
         
@@ -139,6 +144,7 @@ def extract_scene(archive, item, dataset_name):
                     v_matrix = struct.unpack("ffffffffffffffff", camera[64:])
                     if frameIndex not in camera_res:
                         camera_res[frameIndex] = {}
+                        camera_res[frameIndex]["timestamp"]= timestamp
                         camera_res[frameIndex]["object_name"]=[name.rstrip('\x00')]
                         camera_res[frameIndex]["p_matrix"]= [p_matrix]
                         camera_res[frameIndex]["v_matrix"]= [v_matrix]
@@ -156,6 +162,7 @@ def extract_scene(archive, item, dataset_name):
                     m_matrix = struct.unpack("ffffffffffffffff", renderer[24:])
                     if frameIndex not in obj_res:
                         obj_res[frameIndex] = {}
+                        obj_res[frameIndex]["timestamp"]= timestamp
                         obj_res[frameIndex]["object_name"] = [name.rstrip('\x00')]
                         obj_res[frameIndex]["bounds"] = [bounds]
                         obj_res[frameIndex]["m_matrix"] = [m_matrix]
@@ -175,6 +182,46 @@ def extract_scene(archive, item, dataset_name):
         with open(target_file_2, "wb") as outfp:
             pickle.dump(obj_res, outfp)
 
+
+def extract_control(archive, item, dataset_name):
+    pose_data_pkg = archive.read(item)
+    bio = io.BytesIO(pose_data_pkg)
+    control = {}
+    while True:
+        data = bio.read(120)
+        if not data or len(data) != 120:
+            break
+
+        metadata = data[-24:]
+        unused, controllerMask, frame, timestamp = struct.unpack("iiLL", metadata)
+
+        ConnectedControllerTypes, Buttons, Touches, NearTouches, IndexTrigger_1, IndexTrigger_2, HandTrigger_1, HandTrigger_2, Thumbstick_1_x, Thumbstick_1_y, Thumbstick_2_x, Thumbstick_2_y, Touchpad_1_x, Touchpad_1_y, Touchpad_2_x, Touchpad_2_y = struct.unpack("IIIIffffffffffff", data[0:64])
+        
+        # BatteryPercentRemaining_1, BatteryPercentRemaining_2 , RecenterCount_1, RecenterCount_2= struct.unpack(
+        #     "BBBB", data[64:68])
+   
+        if frame not in control:
+            control[frame] = {}
+            
+        control[frame]["timestamp"] = timestamp
+        control[frame]["ConnectedControllerTypes"] =ConnectedControllerTypes
+        control[frame]["Buttons"] =Buttons
+        control[frame]["Touches"] =  Touches
+        control[frame]["NearTouches"] = NearTouches
+        control[frame]["IndexTrigger"] = (IndexTrigger_1, IndexTrigger_2)
+        control[frame]["HandTrigger"] = (HandTrigger_1, HandTrigger_2)
+        control[frame]["Thumbstick"] = (Thumbstick_1_x, Thumbstick_1_y, Thumbstick_2_x, Thumbstick_2_y)
+        control[frame]["Touchpad"] = (Touchpad_1_x, Touchpad_1_y, Touchpad_2_x, Touchpad_2_y)
+        # control[frame]["BatteryPercentRemaining"]=(BatteryPercentRemaining_1, BatteryPercentRemaining_2)
+        # control[frame]["RecenterCount"]=(RecenterCount_1, RecenterCount_2)
+
+    target_dir = os.path.join(output_dir, dataset_name)
+    os.makedirs(target_dir, exist_ok=True)
+    target_file = os.path.join(target_dir, "control.pickle")
+    with open(target_file, "wb") as outfp:
+        pickle.dump(control, outfp)
+        
+        
         
 def extract_VRlog(archive, item, dataset_name):
     target_dir = os.path.join(output_dir, dataset_name)
@@ -213,8 +260,11 @@ def worker(dataset):
                 extract_gaze(archive, item, dataset_name)
             if "_scene/data" in item:
                 extract_scene(archive, item, dataset_name)
+            if "_control/data" in item:
+                extract_control(archive, item, dataset_name)
             if "VRLOG" in item:
                 extract_VRlog(archive, item, dataset_name)
+            
 
 
 def main():
