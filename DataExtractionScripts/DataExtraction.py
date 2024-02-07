@@ -11,8 +11,8 @@ import gzip
 from PIL import Image
 from datetime import datetime
 
-dataset_dir_path = "/data/VR_NET/zipped/27"
-output_dir = "/data/VR_NET/data/27"
+dataset_dir_path = "/data/VR_NET/zipped"
+output_dir = "/data/VR_NET/data/test1"
 
 def convert_timestamp(timestamp_str):
     timestamp_dt = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S')
@@ -38,6 +38,9 @@ def extract_gaze(archive, item, dataset_name):
 
         r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3 = struct.unpack(
             "fffffff", right_eye[:28])
+        
+        l_c,l_i = struct.unpack("fi", left_eye[28:36])
+        r_c,r_i = struct.unpack("fi", right_eye[28:36])
 
         metadata = data[-24:]
         unused, frame, timestamp = struct.unpack("iLL", metadata)
@@ -50,7 +53,9 @@ def extract_gaze(archive, item, dataset_name):
         res[frame]["timestamp"]=timestamp
         res[frame]["left_eye"] =(l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3)
         res[frame]["right_eye"]=(r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
-
+        res[frame]["confidence"] =(l_c, r_c)
+        res[frame]["is_valid"]=(l_i, r_i) 
+        
     target_dir = os.path.join(output_dir, dataset_name)
     os.makedirs(target_dir, exist_ok=True)
     target_file = os.path.join(target_dir, "gaze.pickle")
@@ -145,12 +150,12 @@ def extract_scene(archive, item, dataset_name):
                     if frameIndex not in camera_res:
                         camera_res[frameIndex] = {}
                         camera_res[frameIndex]["timestamp"]= timestamp
-                        camera_res[frameIndex]["object_name"]=[name.rstrip('\x00')]
+                        camera_res[frameIndex]["camera_name"]=[name.rstrip('\x00')]
                         camera_res[frameIndex]["p_matrix"]= [p_matrix]
                         camera_res[frameIndex]["v_matrix"]= [v_matrix]
 
                     else:
-                        camera_res[frameIndex]["object_name"].append(name.rstrip('\x00'))
+                        camera_res[frameIndex]["camera_name"].append(name.rstrip('\x00'))
                         camera_res[frameIndex]["p_matrix"].append(p_matrix)
                         camera_res[frameIndex]["v_matrix"].append(v_matrix)
                     # if name.startswith("CenterEyeAnchor"):
@@ -211,7 +216,7 @@ def extract_control(archive, item, dataset_name):
         control[frame]["IndexTrigger"] = (IndexTrigger_1, IndexTrigger_2)
         control[frame]["HandTrigger"] = (HandTrigger_1, HandTrigger_2)
         control[frame]["Thumbstick"] = (Thumbstick_1_x, Thumbstick_1_y, Thumbstick_2_x, Thumbstick_2_y)
-        control[frame]["Touchpad"] = (Touchpad_1_x, Touchpad_1_y, Touchpad_2_x, Touchpad_2_y)
+        # control[frame]["Touchpad"] = (Touchpad_1_x, Touchpad_1_y, Touchpad_2_x, Touchpad_2_y)
         # control[frame]["BatteryPercentRemaining"]=(BatteryPercentRemaining_1, BatteryPercentRemaining_2)
         # control[frame]["RecenterCount"]=(RecenterCount_1, RecenterCount_2)
 
@@ -248,8 +253,10 @@ def extract_VRlog(archive, item, dataset_name):
     
         
 def worker(dataset):
-    dataset_name = dataset[:-4]
+    dataset_name = dataset.split("/")[-1][:-4]
+    print(dataset_name)
     dataset_abs_path = os.path.join(dataset_dir_path, dataset)
+    print(dataset_abs_path)
     with zipfile.ZipFile(dataset_abs_path, mode='r') as archive:
         for item in archive.namelist():
             if "_pose/data" in item:
@@ -269,10 +276,14 @@ def worker(dataset):
 
 def main():
     tasks = []
-    datasets = os.listdir(dataset_dir_path)
-    for dataset in datasets:
-        if dataset.endswith(".zip"):
-            tasks.append(dataset)
+    dataset2=[]
+    folders=os.listdir(dataset_dir_path)
+    for folder in folders:
+        dataset_dir_path1=os.path.join(dataset_dir_path, folder)
+        datasets = os.listdir(dataset_dir_path1)
+        # print(datasets)
+        if datasets[0].endswith(".zip"):
+            tasks.append(os.path.join(dataset_dir_path1,datasets[0]))
 
     pool = multiprocessing.Pool(1)
     count = 0

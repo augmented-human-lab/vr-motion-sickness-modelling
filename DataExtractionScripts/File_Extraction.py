@@ -11,7 +11,13 @@ import gzip
 from PIL import Image
 from datetime import datetime
 # from VR_log_Clean import *
+import logging
 
+# Define logger
+from logger_config import setup_logger
+
+# Get logger
+logger = setup_logger()
 
 def extract_gaze(archive, item, dataset_name):
     gaze_data_pkg = archive.read(item)
@@ -49,7 +55,7 @@ def extract_gaze(archive, item, dataset_name):
         res[frame]["right_eye"]=(r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
         res[frame]["confidence"] =(l_c, r_c)
         res[frame]["is_valid"]=(l_i, r_i) 
-    print("gaze_extracted")
+    logger.info("gaze_extracted")
     
     return res
         
@@ -94,7 +100,7 @@ def extract_pose(archive, item, dataset_name):
         res[frame][node_str + "_vel"] = (v1, v2, v3)
         res[frame][node_str + "_angvel"] = (angv1, angv2, angv3)
 
-    print("pose extracted")
+    logger.info("pose extracted")
     return exp_res, res
 
 def extract_video(archive, item, dataset_name,output_dir):
@@ -115,10 +121,11 @@ def extract_video(archive, item, dataset_name,output_dir):
         flipped = original_jpg_image.transpose(Image.FLIP_LEFT_RIGHT)
         rotated = flipped.rotate(180)
         target_dir = os.path.join(output_dir, dataset_name, "video")
+        # print(target_dir)
         os.makedirs(target_dir, exist_ok=True)
         target_file = os.path.join(target_dir, "%d.jpg" % (frame))
         rotated.save(target_file)
-    print("video extracted")
+    logger.info("video extracted")
         
 def extract_scene(archive, item, dataset_name):
     scene_data_pkg = archive.read(item)
@@ -166,8 +173,9 @@ def extract_scene(archive, item, dataset_name):
                         obj_res[frameIndex]["bounds"].append(bounds)
                         obj_res[frameIndex]["m_matrix"].append(m_matrix)
             except:
+                # logger.error('This is an error message')
                 break
-    print("scene extracted")
+    logger.info("scene extracted")
     return obj_res,camera_res
 
 
@@ -202,7 +210,7 @@ def extract_control(archive, item, dataset_name):
         # control[frame]["Touchpad"] = (Touchpad_1_x, Touchpad_1_y, Touchpad_2_x, Touchpad_2_y)
         # control[frame]["BatteryPercentRemaining"]=(BatteryPercentRemaining_1, BatteryPercentRemaining_2)
         # control[frame]["RecenterCount"]=(RecenterCount_1, RecenterCount_2)
-    print("control extracted")
+    logger.info("control extracted")
     return control
 
 
