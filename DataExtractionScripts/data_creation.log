@@ -1,0 +1,793 @@
+2024-02-08 01:26:23,783 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:26:23,783 - INFO - ***************5_2_Earth_Gym********************
+2024-02-08 01:26:23,783 - INFO - There are 11 files here
+2024-02-08 01:26:23,783 - INFO - Following files are available: ['VRLOG-2023-09-25_11-36-21-voice.csv', 'log_192_168_1_128_2023_09_25_11_36_scene/', 'log_192_168_1_128_2023_09_25_11_36_scene/data', 'log_192_168_1_128_2023_09_25_11_36_video/', 'log_192_168_1_128_2023_09_25_11_36_video/data', 'log_192_168_1_128_2023_09_25_11_36_gaze/', 'log_192_168_1_128_2023_09_25_11_36_gaze/data', 'log_192_168_1_128_2023_09_25_11_36_control/', 'log_192_168_1_128_2023_09_25_11_36_control/data', 'log_192_168_1_128_2023_09_25_11_36_pose/', 'log_192_168_1_128_2023_09_25_11_36_pose/data']
+2024-02-08 01:26:23,783 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 01:26:23,784 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:26:23,784 - INFO - ***************348_1_Wizard_Sandbox********************
+2024-02-08 01:26:23,784 - INFO - There are 7 files here
+2024-02-08 01:26:23,784 - INFO - Extraction started...
+2024-02-08 01:26:23,852 - INFO - control extracted
+2024-02-08 01:26:23,852 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:26:23,908 - INFO - gaze_extracted
+2024-02-08 01:26:24,232 - INFO - pose extracted
+2024-02-08 01:26:24,233 - INFO - scene extracted
+2024-02-08 01:27:23,375 - INFO - video extracted
+2024-02-08 01:27:23,416 - INFO - Motion sickness rating extracted
+2024-02-08 01:27:23,416 - INFO - Scene: obj data is not available
+2024-02-08 01:27:23,416 - INFO - Scene: camera data is not available
+2024-02-08 01:27:32,815 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:27:32,815 - INFO - ***************346_2_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:27:32,815 - INFO - There are 7 files here
+2024-02-08 01:27:32,815 - INFO - Extraction started...
+2024-02-08 01:27:32,889 - INFO - control extracted
+2024-02-08 01:27:32,889 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:27:32,947 - INFO - gaze_extracted
+2024-02-08 01:27:33,305 - INFO - pose extracted
+2024-02-08 01:27:33,307 - INFO - scene extracted
+2024-02-08 01:28:40,320 - INFO - video extracted
+2024-02-08 01:28:40,364 - INFO - Motion sickness rating extracted
+2024-02-08 01:28:40,364 - INFO - Scene: obj data is not available
+2024-02-08 01:28:40,364 - INFO - Scene: camera data is not available
+2024-02-08 01:28:50,785 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:28:50,785 - INFO - ***************344_2_Wizard_Sandbox********************
+2024-02-08 01:28:50,785 - INFO - There are 7 files here
+2024-02-08 01:28:50,785 - INFO - Extraction started...
+2024-02-08 01:28:50,856 - INFO - control extracted
+2024-02-08 01:28:50,856 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:28:50,893 - INFO - gaze_extracted
+2024-02-08 01:28:51,201 - INFO - pose extracted
+2024-02-08 01:28:51,202 - INFO - scene extracted
+2024-02-08 01:29:51,940 - INFO - video extracted
+2024-02-08 01:29:51,979 - INFO - Motion sickness rating extracted
+2024-02-08 01:29:51,979 - INFO - Scene: obj data is not available
+2024-02-08 01:29:51,979 - INFO - Scene: camera data is not available
+2024-02-08 01:30:01,246 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:30:01,246 - INFO - ***************6_1_Wild_Quest********************
+2024-02-08 01:30:01,246 - INFO - There are 11 files here
+2024-02-08 01:30:01,246 - INFO - Following files are available: ['VRLOG-2023-09-25_13-06-45-voice.csv', 'log_192_168_1_128_2023_09_25_13_06_scene/', 'log_192_168_1_128_2023_09_25_13_06_scene/data', 'log_192_168_1_128_2023_09_25_13_06_video/', 'log_192_168_1_128_2023_09_25_13_06_video/data', 'log_192_168_1_128_2023_09_25_13_06_gaze/', 'log_192_168_1_128_2023_09_25_13_06_gaze/data', 'log_192_168_1_128_2023_09_25_13_06_control/', 'log_192_168_1_128_2023_09_25_13_06_control/data', 'log_192_168_1_128_2023_09_25_13_06_pose/', 'log_192_168_1_128_2023_09_25_13_06_pose/data']
+2024-02-08 01:30:01,246 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 01:30:01,246 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:30:01,246 - INFO - ***************345_1_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:30:01,246 - INFO - There are 7 files here
+2024-02-08 01:30:01,246 - INFO - Extraction started...
+2024-02-08 01:30:01,325 - INFO - control extracted
+2024-02-08 01:30:01,325 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:30:01,365 - INFO - gaze_extracted
+2024-02-08 01:30:01,703 - INFO - pose extracted
+2024-02-08 01:30:01,705 - INFO - scene extracted
+2024-02-08 01:31:14,189 - INFO - video extracted
+2024-02-08 01:31:14,238 - INFO - Motion sickness rating extracted
+2024-02-08 01:31:14,238 - INFO - Scene: obj data is not available
+2024-02-08 01:31:14,238 - INFO - Scene: camera data is not available
+2024-02-08 01:31:24,273 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:31:24,273 - INFO - ***************3_1_Earth_Gym********************
+2024-02-08 01:31:24,273 - INFO - There are 6 files here
+2024-02-08 01:31:24,273 - INFO - Extraction started...
+2024-02-08 01:31:24,313 - INFO - control extracted
+2024-02-08 01:31:24,313 - INFO - gaze_extracted
+2024-02-08 01:31:24,442 - INFO - pose extracted
+2024-02-08 01:31:35,591 - INFO - scene extracted
+2024-02-08 01:32:07,141 - INFO - video extracted
+2024-02-08 01:32:07,160 - INFO - Motion sickness rating extracted
+2024-02-08 01:32:07,160 - INFO - Gaze data is not available
+2024-02-08 01:32:31,018 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:32:31,018 - INFO - ***************347_1_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:32:31,018 - INFO - There are 7 files here
+2024-02-08 01:32:31,018 - INFO - Extraction started...
+2024-02-08 01:32:31,101 - INFO - control extracted
+2024-02-08 01:32:31,101 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:32:31,159 - INFO - gaze_extracted
+2024-02-08 01:32:31,489 - INFO - pose extracted
+2024-02-08 01:32:31,489 - INFO - scene extracted
+2024-02-08 01:33:53,642 - INFO - video extracted
+2024-02-08 01:33:53,694 - INFO - Motion sickness rating extracted
+2024-02-08 01:33:53,695 - INFO - Scene: obj data is not available
+2024-02-08 01:33:53,695 - INFO - Scene: camera data is not available
+2024-02-08 01:34:04,502 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:34:04,502 - INFO - ***************4_1_Earth_Gym********************
+2024-02-08 01:34:04,502 - INFO - There are 6 files here
+2024-02-08 01:34:04,502 - INFO - Extraction started...
+2024-02-08 01:34:04,557 - INFO - control extracted
+2024-02-08 01:34:04,557 - INFO - gaze_extracted
+2024-02-08 01:34:04,690 - INFO - pose extracted
+2024-02-08 01:34:14,486 - INFO - scene extracted
+2024-02-08 01:34:44,375 - INFO - video extracted
+2024-02-08 01:34:44,394 - INFO - Motion sickness rating extracted
+2024-02-08 01:34:44,395 - INFO - Gaze data is not available
+2024-02-08 01:35:06,183 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:35:06,184 - INFO - ***************344_1_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:35:06,184 - INFO - There are 7 files here
+2024-02-08 01:35:06,184 - INFO - Extraction started...
+2024-02-08 01:35:06,252 - INFO - control extracted
+2024-02-08 01:35:06,252 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:35:06,318 - INFO - gaze_extracted
+2024-02-08 01:35:06,670 - INFO - pose extracted
+2024-02-08 01:35:06,671 - INFO - scene extracted
+2024-02-08 01:36:15,380 - INFO - video extracted
+2024-02-08 01:36:15,422 - INFO - Motion sickness rating extracted
+2024-02-08 01:36:15,422 - INFO - Scene: obj data is not available
+2024-02-08 01:36:15,422 - INFO - Scene: camera data is not available
+2024-02-08 01:36:24,814 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:36:24,814 - INFO - ***************347_2_Wizard_Sandbox********************
+2024-02-08 01:36:24,814 - INFO - There are 7 files here
+2024-02-08 01:36:24,814 - INFO - Extraction started...
+2024-02-08 01:36:24,943 - INFO - control extracted
+2024-02-08 01:36:24,943 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:36:24,999 - INFO - gaze_extracted
+2024-02-08 01:36:25,371 - INFO - pose extracted
+2024-02-08 01:36:25,373 - INFO - scene extracted
+2024-02-08 01:37:33,262 - INFO - video extracted
+2024-02-08 01:37:33,302 - INFO - Motion sickness rating extracted
+2024-02-08 01:37:33,303 - INFO - Scene: obj data is not available
+2024-02-08 01:37:33,303 - INFO - Scene: camera data is not available
+2024-02-08 01:37:43,276 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:37:43,276 - INFO - ***************5_1_Wild_Quest********************
+2024-02-08 01:37:43,276 - INFO - There are 11 files here
+2024-02-08 01:37:43,276 - INFO - Following files are available: ['VRLOG-2023-09-25_11-18-07-voice.csv', 'log_192_168_1_128_2023_09_25_11_17_scene/', 'log_192_168_1_128_2023_09_25_11_17_scene/data', 'log_192_168_1_128_2023_09_25_11_17_video/', 'log_192_168_1_128_2023_09_25_11_17_video/data', 'log_192_168_1_128_2023_09_25_11_17_gaze/', 'log_192_168_1_128_2023_09_25_11_17_gaze/data', 'log_192_168_1_128_2023_09_25_11_17_control/', 'log_192_168_1_128_2023_09_25_11_17_control/data', 'log_192_168_1_128_2023_09_25_11_17_pose/', 'log_192_168_1_128_2023_09_25_11_17_pose/data']
+2024-02-08 01:37:43,276 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 01:37:43,276 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:37:43,276 - INFO - ***************351_1_HoverTag********************
+2024-02-08 01:37:43,276 - INFO - There are 7 files here
+2024-02-08 01:37:43,276 - INFO - Extraction started...
+2024-02-08 01:37:43,352 - INFO - control extracted
+2024-02-08 01:37:43,352 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:37:43,412 - INFO - gaze_extracted
+2024-02-08 01:37:43,728 - INFO - pose extracted
+2024-02-08 01:37:43,730 - INFO - scene extracted
+2024-02-08 01:38:45,228 - INFO - video extracted
+2024-02-08 01:38:45,263 - INFO - Motion sickness rating extracted
+2024-02-08 01:38:45,263 - INFO - Scene: obj data is not available
+2024-02-08 01:38:45,263 - INFO - Scene: camera data is not available
+2024-02-08 01:38:53,715 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:38:53,715 - INFO - ***************351_2_Circle_Kawaii********************
+2024-02-08 01:38:53,715 - INFO - There are 7 files here
+2024-02-08 01:38:53,715 - INFO - Extraction started...
+2024-02-08 01:38:53,742 - INFO - control extracted
+2024-02-08 01:38:53,742 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:38:53,778 - INFO - gaze_extracted
+2024-02-08 01:38:53,875 - INFO - pose extracted
+2024-02-08 01:38:53,875 - INFO - scene extracted
+2024-02-08 01:39:17,931 - INFO - video extracted
+2024-02-08 01:39:17,941 - INFO - Motion sickness rating extracted
+2024-02-08 01:39:17,941 - INFO - Scene: obj data is not available
+2024-02-08 01:39:17,941 - INFO - Scene: camera data is not available
+2024-02-08 01:39:21,010 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:39:21,010 - INFO - ***************348_2_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:39:21,010 - INFO - There are 7 files here
+2024-02-08 01:39:21,010 - INFO - Extraction started...
+2024-02-08 01:39:21,111 - INFO - control extracted
+2024-02-08 01:39:21,111 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:39:21,177 - INFO - gaze_extracted
+2024-02-08 01:39:21,560 - INFO - pose extracted
+2024-02-08 01:39:21,561 - INFO - scene extracted
+2024-02-08 01:40:28,225 - INFO - video extracted
+2024-02-08 01:40:28,263 - INFO - Motion sickness rating extracted
+2024-02-08 01:40:28,263 - INFO - Scene: obj data is not available
+2024-02-08 01:40:28,263 - INFO - Scene: camera data is not available
+2024-02-08 01:40:38,201 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:40:38,201 - INFO - ***************8_1_Wild_Quest********************
+2024-02-08 01:40:38,201 - INFO - There are 12 files here
+2024-02-08 01:40:38,201 - INFO - Following files are available: ['VRLOG-2023-09-25_14-07-20-voice.csv', '__MACOSX/._VRLOG-2023-09-25_14-07-20-voice.csv', 'log_192_168_1_128_2023_09_25_14_05_scene/', 'log_192_168_1_128_2023_09_25_14_05_scene/data', 'log_192_168_1_128_2023_09_25_14_05_video/', 'log_192_168_1_128_2023_09_25_14_05_video/data', 'log_192_168_1_128_2023_09_25_14_05_gaze/', 'log_192_168_1_128_2023_09_25_14_05_gaze/data', 'log_192_168_1_128_2023_09_25_14_05_control/', 'log_192_168_1_128_2023_09_25_14_05_control/data', 'log_192_168_1_128_2023_09_25_14_05_pose/', 'log_192_168_1_128_2023_09_25_14_05_pose/data']
+2024-02-08 01:40:38,201 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 01:40:38,202 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:40:38,202 - INFO - ***************349_1_Meta_Pizza_Hut_Classic********************
+2024-02-08 01:40:38,202 - INFO - There are 7 files here
+2024-02-08 01:40:38,202 - INFO - Extraction started...
+2024-02-08 01:40:38,325 - INFO - control extracted
+2024-02-08 01:40:38,325 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:40:38,391 - INFO - gaze_extracted
+2024-02-08 01:40:38,759 - INFO - pose extracted
+2024-02-08 01:40:38,761 - INFO - scene extracted
+2024-02-08 01:41:45,322 - INFO - video extracted
+2024-02-08 01:41:45,360 - INFO - Motion sickness rating extracted
+2024-02-08 01:41:45,360 - INFO - Scene: obj data is not available
+2024-02-08 01:41:45,361 - INFO - Scene: camera data is not available
+2024-02-08 01:41:55,296 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:41:55,296 - INFO - ***************350_1_Circle_Kawaii********************
+2024-02-08 01:41:55,296 - INFO - There are 7 files here
+2024-02-08 01:41:55,296 - INFO - Extraction started...
+2024-02-08 01:41:55,377 - INFO - control extracted
+2024-02-08 01:41:55,377 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:41:55,437 - INFO - gaze_extracted
+2024-02-08 01:41:55,749 - INFO - pose extracted
+2024-02-08 01:41:55,750 - INFO - scene extracted
+2024-02-08 01:42:52,021 - INFO - video extracted
+2024-02-08 01:42:52,054 - INFO - Motion sickness rating extracted
+2024-02-08 01:42:52,054 - INFO - Scene: obj data is not available
+2024-02-08 01:42:52,054 - INFO - Scene: camera data is not available
+2024-02-08 01:43:00,486 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:43:00,486 - INFO - ***************4_2_Wild_Quest********************
+2024-02-08 01:43:00,486 - INFO - There are 6 files here
+2024-02-08 01:43:00,486 - INFO - Extraction started...
+2024-02-08 01:43:00,529 - INFO - control extracted
+2024-02-08 01:43:00,529 - INFO - gaze_extracted
+2024-02-08 01:43:00,683 - INFO - pose extracted
+2024-02-08 01:43:17,883 - INFO - scene extracted
+2024-02-08 01:43:51,172 - INFO - video extracted
+2024-02-08 01:43:51,190 - INFO - Motion sickness rating extracted
+2024-02-08 01:43:51,190 - INFO - Gaze data is not available
+2024-02-08 01:44:24,592 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:44:24,592 - INFO - ***************349_2_Wizard_Sandbox********************
+2024-02-08 01:44:24,592 - INFO - There are 7 files here
+2024-02-08 01:44:24,592 - INFO - Extraction started...
+2024-02-08 01:44:24,665 - INFO - control extracted
+2024-02-08 01:44:24,666 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:44:24,728 - INFO - gaze_extracted
+2024-02-08 01:44:25,051 - INFO - pose extracted
+2024-02-08 01:44:25,052 - INFO - scene extracted
+2024-02-08 01:45:24,095 - INFO - video extracted
+2024-02-08 01:45:24,129 - INFO - Motion sickness rating extracted
+2024-02-08 01:45:24,129 - INFO - Scene: obj data is not available
+2024-02-08 01:45:24,129 - INFO - Scene: camera data is not available
+2024-02-08 01:45:32,857 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:45:32,857 - INFO - ***************346_1_Wizard_Sandbox********************
+2024-02-08 01:45:32,857 - INFO - There are 7 files here
+2024-02-08 01:45:32,857 - INFO - Extraction started...
+2024-02-08 01:45:32,954 - INFO - control extracted
+2024-02-08 01:45:32,954 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:45:33,026 - INFO - gaze_extracted
+2024-02-08 01:45:33,413 - INFO - pose extracted
+2024-02-08 01:45:33,413 - INFO - scene extracted
+2024-02-08 01:46:42,840 - INFO - video extracted
+2024-02-08 01:46:42,878 - INFO - Motion sickness rating extracted
+2024-02-08 01:46:42,878 - INFO - Scene: obj data is not available
+2024-02-08 01:46:42,878 - INFO - Scene: camera data is not available
+2024-02-08 01:46:53,453 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:46:53,453 - INFO - ***************7_1_Earth_Gym********************
+2024-02-08 01:46:53,453 - INFO - There are 6 files here
+2024-02-08 01:46:53,453 - INFO - Extraction started...
+2024-02-08 01:46:53,510 - INFO - control extracted
+2024-02-08 01:46:53,528 - INFO - gaze_extracted
+2024-02-08 01:46:53,676 - INFO - pose extracted
+2024-02-08 01:47:04,479 - INFO - scene extracted
+2024-02-08 01:47:41,667 - INFO - video extracted
+2024-02-08 01:47:41,686 - INFO - Motion sickness rating extracted
+2024-02-08 01:48:05,326 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:48:05,326 - INFO - ***************345_2_Wizard_Sandbox********************
+2024-02-08 01:48:05,326 - INFO - There are 7 files here
+2024-02-08 01:48:05,326 - INFO - Extraction started...
+2024-02-08 01:48:05,673 - INFO - control extracted
+2024-02-08 01:48:05,673 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:48:06,460 - INFO - gaze_extracted
+2024-02-08 01:48:07,251 - INFO - pose extracted
+2024-02-08 01:48:07,251 - INFO - scene extracted
+2024-02-08 01:49:09,912 - INFO - video extracted
+2024-02-08 01:49:09,946 - INFO - Motion sickness rating extracted
+2024-02-08 01:49:09,946 - INFO - Scene: obj data is not available
+2024-02-08 01:49:09,946 - INFO - Scene: camera data is not available
+2024-02-08 01:49:18,714 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:49:18,714 - INFO - ***************3_2_Wild_Quest********************
+2024-02-08 01:49:18,714 - INFO - There are 11 files here
+2024-02-08 01:49:18,714 - INFO - Following files are available: ['log_192_168_1_85_2023_09_25_10_46_control/', 'log_192_168_1_85_2023_09_25_10_46_control/data', 'log_192_168_1_85_2023_09_25_10_46_gaze/', 'log_192_168_1_85_2023_09_25_10_46_gaze/data', 'log_192_168_1_85_2023_09_25_10_46_pose/', 'log_192_168_1_85_2023_09_25_10_46_pose/data', 'log_192_168_1_85_2023_09_25_10_46_scene/', 'log_192_168_1_85_2023_09_25_10_46_scene/data', 'log_192_168_1_85_2023_09_25_10_46_video/', 'log_192_168_1_85_2023_09_25_10_46_video/data', 'VRLOG-2023-09-25_10-46-59-voice.csv']
+2024-02-08 01:49:18,714 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 01:49:18,714 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:49:18,714 - INFO - ***************7_2_Wild_Quest********************
+2024-02-08 01:49:18,714 - INFO - There are 6 files here
+2024-02-08 01:49:18,714 - INFO - Extraction started...
+2024-02-08 01:49:18,749 - INFO - control extracted
+2024-02-08 01:49:18,774 - INFO - gaze_extracted
+2024-02-08 01:49:18,888 - INFO - pose extracted
+2024-02-08 01:49:42,922 - INFO - scene extracted
+2024-02-08 01:50:09,868 - INFO - video extracted
+2024-02-08 01:50:09,884 - INFO - Motion sickness rating extracted
+2024-02-08 01:50:52,960 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:50:52,960 - INFO - ***************350_2_HoverTag********************
+2024-02-08 01:50:52,961 - INFO - There are 7 files here
+2024-02-08 01:50:52,961 - INFO - Extraction started...
+2024-02-08 01:50:53,031 - INFO - control extracted
+2024-02-08 01:50:53,031 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:50:53,107 - INFO - gaze_extracted
+2024-02-08 01:50:53,418 - INFO - pose extracted
+2024-02-08 01:50:53,418 - INFO - scene extracted
+2024-02-08 01:51:48,820 - INFO - video extracted
+2024-02-08 01:51:48,856 - INFO - Motion sickness rating extracted
+2024-02-08 01:51:48,856 - INFO - Scene: obj data is not available
+2024-02-08 01:51:48,856 - INFO - Scene: camera data is not available
+2024-02-08 01:51:57,218 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:51:57,218 - INFO - ***************289_1_Kawaii_Fire_Station********************
+2024-02-08 01:51:57,218 - INFO - There are 7 files here
+2024-02-08 01:51:57,218 - INFO - Extraction started...
+2024-02-08 01:51:57,284 - INFO - control extracted
+2024-02-08 01:51:57,284 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:51:57,361 - INFO - gaze_extracted
+2024-02-08 01:51:57,706 - INFO - pose extracted
+2024-02-08 01:51:57,706 - INFO - scene extracted
+2024-02-08 01:52:59,856 - INFO - video extracted
+2024-02-08 01:52:59,894 - INFO - Motion sickness rating extracted
+2024-02-08 01:52:59,894 - INFO - Scene: obj data is not available
+2024-02-08 01:52:59,894 - INFO - Scene: camera data is not available
+2024-02-08 01:53:09,512 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:53:09,512 - INFO - ***************290_2_Kawaii_Fire_Station********************
+2024-02-08 01:53:09,512 - INFO - There are 7 files here
+2024-02-08 01:53:09,512 - INFO - Extraction started...
+2024-02-08 01:53:09,593 - INFO - control extracted
+2024-02-08 01:53:09,593 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:53:09,634 - INFO - gaze_extracted
+2024-02-08 01:53:09,915 - INFO - pose extracted
+2024-02-08 01:53:09,916 - INFO - scene extracted
+2024-02-08 01:53:53,755 - INFO - video extracted
+2024-02-08 01:53:53,785 - INFO - Motion sickness rating extracted
+2024-02-08 01:53:53,785 - INFO - Scene: obj data is not available
+2024-02-08 01:53:53,785 - INFO - Scene: camera data is not available
+2024-02-08 01:54:01,736 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:54:01,736 - INFO - ***************310_1_Escape_Puzzle_Mansion********************
+2024-02-08 01:54:01,736 - INFO - There are 7 files here
+2024-02-08 01:54:01,736 - INFO - Extraction started...
+2024-02-08 01:54:01,811 - INFO - control extracted
+2024-02-08 01:54:01,812 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:54:01,871 - INFO - gaze_extracted
+2024-02-08 01:54:02,168 - INFO - pose extracted
+2024-02-08 01:54:02,170 - INFO - scene extracted
+2024-02-08 01:54:46,908 - INFO - video extracted
+2024-02-08 01:54:46,936 - INFO - Motion sickness rating extracted
+2024-02-08 01:54:46,936 - INFO - Scene: obj data is not available
+2024-02-08 01:54:46,936 - INFO - Scene: camera data is not available
+2024-02-08 01:54:54,083 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:54:54,083 - INFO - ***************285_2_Fight_the_Night********************
+2024-02-08 01:54:54,083 - INFO - There are 7 files here
+2024-02-08 01:54:54,083 - INFO - Extraction started...
+2024-02-08 01:54:54,144 - INFO - control extracted
+2024-02-08 01:54:54,144 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:54:54,198 - INFO - gaze_extracted
+2024-02-08 01:54:54,418 - INFO - pose extracted
+2024-02-08 01:54:54,418 - INFO - scene extracted
+2024-02-08 01:55:34,960 - INFO - video extracted
+2024-02-08 01:55:34,981 - INFO - Motion sickness rating extracted
+2024-02-08 01:55:34,981 - INFO - Scene: obj data is not available
+2024-02-08 01:55:34,981 - INFO - Scene: camera data is not available
+2024-02-08 01:55:41,065 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:55:41,066 - INFO - ***************309_2_Mech_Playground********************
+2024-02-08 01:55:41,066 - INFO - There are 7 files here
+2024-02-08 01:55:41,066 - INFO - Extraction started...
+2024-02-08 01:55:41,104 - INFO - control extracted
+2024-02-08 01:55:41,104 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:55:41,144 - INFO - gaze_extracted
+2024-02-08 01:55:41,287 - INFO - pose extracted
+2024-02-08 01:55:41,287 - INFO - scene extracted
+2024-02-08 01:56:04,969 - INFO - video extracted
+2024-02-08 01:56:04,978 - INFO - Motion sickness rating extracted
+2024-02-08 01:56:04,978 - INFO - Scene: obj data is not available
+2024-02-08 01:56:04,978 - INFO - Scene: camera data is not available
+2024-02-08 01:56:08,613 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:56:08,613 - INFO - ***************313_2_Mech_Playground********************
+2024-02-08 01:56:08,613 - INFO - There are 7 files here
+2024-02-08 01:56:08,613 - INFO - Extraction started...
+2024-02-08 01:56:08,668 - INFO - control extracted
+2024-02-08 01:56:08,668 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:56:08,727 - INFO - gaze_extracted
+2024-02-08 01:56:09,029 - INFO - pose extracted
+2024-02-08 01:56:09,030 - INFO - scene extracted
+2024-02-08 01:56:52,393 - INFO - video extracted
+2024-02-08 01:56:52,419 - INFO - Motion sickness rating extracted
+2024-02-08 01:56:52,420 - INFO - Scene: obj data is not available
+2024-02-08 01:56:52,420 - INFO - Scene: camera data is not available
+2024-02-08 01:57:00,091 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:57:00,091 - INFO - ***************291_2_Kawaii_Fire_Station********************
+2024-02-08 01:57:00,091 - INFO - There are 7 files here
+2024-02-08 01:57:00,091 - INFO - Extraction started...
+2024-02-08 01:57:00,157 - INFO - control extracted
+2024-02-08 01:57:00,157 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:57:00,213 - INFO - gaze_extracted
+2024-02-08 01:57:00,539 - INFO - pose extracted
+2024-02-08 01:57:00,540 - INFO - scene extracted
+2024-02-08 01:58:00,294 - INFO - video extracted
+2024-02-08 01:58:00,327 - INFO - Motion sickness rating extracted
+2024-02-08 01:58:00,327 - INFO - Scene: obj data is not available
+2024-02-08 01:58:00,327 - INFO - Scene: camera data is not available
+2024-02-08 01:58:09,077 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:58:09,077 - INFO - ***************286_1_Kawaii_Police_Station********************
+2024-02-08 01:58:09,077 - INFO - There are 7 files here
+2024-02-08 01:58:09,077 - INFO - Extraction started...
+2024-02-08 01:58:09,144 - INFO - control extracted
+2024-02-08 01:58:09,144 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:58:09,221 - INFO - gaze_extracted
+2024-02-08 01:58:09,558 - INFO - pose extracted
+2024-02-08 01:58:09,559 - INFO - scene extracted
+2024-02-08 01:59:11,517 - INFO - video extracted
+2024-02-08 01:59:11,552 - INFO - Motion sickness rating extracted
+2024-02-08 01:59:11,552 - INFO - Scene: obj data is not available
+2024-02-08 01:59:11,552 - INFO - Scene: camera data is not available
+2024-02-08 01:59:20,683 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 01:59:20,683 - INFO - ***************284_1_Kawaii_Police_Station********************
+2024-02-08 01:59:20,683 - INFO - There are 7 files here
+2024-02-08 01:59:20,683 - INFO - Extraction started...
+2024-02-08 01:59:20,772 - INFO - control extracted
+2024-02-08 01:59:20,772 - INFO - Face data present!- extract in the next phase
+2024-02-08 01:59:20,854 - INFO - gaze_extracted
+2024-02-08 01:59:21,188 - INFO - pose extracted
+2024-02-08 01:59:21,189 - INFO - scene extracted
+2024-02-08 02:00:24,765 - INFO - video extracted
+2024-02-08 02:00:24,800 - INFO - Motion sickness rating extracted
+2024-02-08 02:00:24,801 - INFO - Scene: obj data is not available
+2024-02-08 02:00:24,801 - INFO - Scene: camera data is not available
+2024-02-08 02:00:34,285 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:00:34,286 - INFO - ***************312_1_Escape_Puzzle_Mansion********************
+2024-02-08 02:00:34,286 - INFO - There are 7 files here
+2024-02-08 02:00:34,286 - INFO - Extraction started...
+2024-02-08 02:00:34,396 - INFO - control extracted
+2024-02-08 02:00:34,396 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:00:34,450 - INFO - gaze_extracted
+2024-02-08 02:00:34,687 - INFO - pose extracted
+2024-02-08 02:00:34,687 - INFO - scene extracted
+2024-02-08 02:01:16,126 - INFO - video extracted
+2024-02-08 02:01:16,150 - INFO - Motion sickness rating extracted
+2024-02-08 02:01:16,150 - INFO - Scene: obj data is not available
+2024-02-08 02:01:16,150 - INFO - Scene: camera data is not available
+2024-02-08 02:01:22,810 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:01:22,810 - INFO - ***************288_1_Man_of_Moon_Mountain********************
+2024-02-08 02:01:22,810 - INFO - There are 7 files here
+2024-02-08 02:01:22,810 - INFO - Extraction started...
+2024-02-08 02:01:22,898 - INFO - control extracted
+2024-02-08 02:01:22,898 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:01:22,945 - INFO - gaze_extracted
+2024-02-08 02:01:23,307 - INFO - pose extracted
+2024-02-08 02:01:23,308 - INFO - scene extracted
+2024-02-08 02:02:25,028 - INFO - video extracted
+2024-02-08 02:02:25,063 - INFO - Motion sickness rating extracted
+2024-02-08 02:02:25,063 - INFO - Scene: obj data is not available
+2024-02-08 02:02:25,063 - INFO - Scene: camera data is not available
+2024-02-08 02:02:34,495 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:02:34,495 - INFO - ***************289_2_Man_of_Moon_Mountain********************
+2024-02-08 02:02:34,495 - INFO - There are 7 files here
+2024-02-08 02:02:34,495 - INFO - Extraction started...
+2024-02-08 02:02:34,573 - INFO - control extracted
+2024-02-08 02:02:34,574 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:02:34,634 - INFO - gaze_extracted
+2024-02-08 02:02:34,980 - INFO - pose extracted
+2024-02-08 02:02:34,981 - INFO - scene extracted
+2024-02-08 02:03:14,560 - INFO - video extracted
+2024-02-08 02:03:14,589 - INFO - Motion sickness rating extracted
+2024-02-08 02:03:14,589 - INFO - Scene: obj data is not available
+2024-02-08 02:03:14,589 - INFO - Scene: camera data is not available
+2024-02-08 02:03:23,784 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:03:23,784 - INFO - ***************293_1_Man_of_Moon_Mountain********************
+2024-02-08 02:03:23,784 - INFO - There are 7 files here
+2024-02-08 02:03:23,784 - INFO - Extraction started...
+2024-02-08 02:03:23,877 - INFO - control extracted
+2024-02-08 02:03:23,877 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:03:23,959 - INFO - gaze_extracted
+2024-02-08 02:03:24,320 - INFO - pose extracted
+2024-02-08 02:03:24,321 - INFO - scene extracted
+2024-02-08 02:04:23,669 - INFO - video extracted
+2024-02-08 02:04:23,703 - INFO - Motion sickness rating extracted
+2024-02-08 02:04:23,703 - INFO - Scene: obj data is not available
+2024-02-08 02:04:23,703 - INFO - Scene: camera data is not available
+2024-02-08 02:04:33,371 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:04:33,371 - INFO - ***************312_2_Mech_Playground********************
+2024-02-08 02:04:33,371 - INFO - There are 7 files here
+2024-02-08 02:04:33,371 - INFO - Extraction started...
+2024-02-08 02:04:33,443 - INFO - control extracted
+2024-02-08 02:04:33,443 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:04:33,495 - INFO - gaze_extracted
+2024-02-08 02:04:33,719 - INFO - pose extracted
+2024-02-08 02:04:33,719 - INFO - scene extracted
+2024-02-08 02:05:12,950 - INFO - video extracted
+2024-02-08 02:05:12,971 - INFO - Motion sickness rating extracted
+2024-02-08 02:05:12,971 - INFO - Scene: obj data is not available
+2024-02-08 02:05:12,972 - INFO - Scene: camera data is not available
+2024-02-08 02:05:19,304 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:05:19,304 - INFO - ***************288_2_Kawaii_Fire_Station********************
+2024-02-08 02:05:19,304 - INFO - There are 7 files here
+2024-02-08 02:05:19,304 - INFO - Extraction started...
+2024-02-08 02:05:19,393 - INFO - control extracted
+2024-02-08 02:05:19,393 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:05:19,449 - INFO - gaze_extracted
+2024-02-08 02:05:19,759 - INFO - pose extracted
+2024-02-08 02:05:19,760 - INFO - scene extracted
+2024-02-08 02:06:17,603 - INFO - video extracted
+2024-02-08 02:06:17,633 - INFO - Motion sickness rating extracted
+2024-02-08 02:06:17,633 - INFO - Scene: obj data is not available
+2024-02-08 02:06:17,633 - INFO - Scene: camera data is not available
+2024-02-08 02:06:25,737 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:06:25,737 - INFO - ***************310_2_Mech_Playground********************
+2024-02-08 02:06:25,737 - INFO - There are 13 files here
+2024-02-08 02:06:25,737 - INFO - Following files are available: ['log_192_168_1_59_2023_10_17_13_08_control/data', 'log_192_168_1_59_2023_10_17_13_08_face/data', 'log_192_168_1_59_2023_10_17_13_08_gaze/data', 'log_192_168_1_59_2023_10_17_13_08_pose/data', 'log_192_168_1_59_2023_10_17_13_08_scene/data', 'log_192_168_1_59_2023_10_17_13_08_video/data', 'log_192_168_1_59_2023_10_17_13_19_control/data', 'log_192_168_1_59_2023_10_17_13_19_face/data', 'log_192_168_1_59_2023_10_17_13_19_gaze/data', 'log_192_168_1_59_2023_10_17_13_19_pose/data', 'log_192_168_1_59_2023_10_17_13_19_scene/data', 'log_192_168_1_59_2023_10_17_13_19_video/data', 'VRLOG-2023-10-17_13-09-21-voice.csv']
+2024-02-08 02:06:25,737 - INFO - Can't extract, many files: Please proceed manually
+2024-02-08 02:06:25,737 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:06:25,737 - INFO - ***************311_1_Escape_Puzzle_Mansion********************
+2024-02-08 02:06:25,737 - INFO - There are 7 files here
+2024-02-08 02:06:25,737 - INFO - Extraction started...
+2024-02-08 02:06:25,799 - INFO - control extracted
+2024-02-08 02:06:25,799 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:06:25,869 - INFO - gaze_extracted
+2024-02-08 02:06:26,134 - INFO - pose extracted
+2024-02-08 02:06:26,134 - INFO - scene extracted
+2024-02-08 02:07:11,091 - INFO - video extracted
+2024-02-08 02:07:11,115 - INFO - Motion sickness rating extracted
+2024-02-08 02:07:11,115 - INFO - Scene: obj data is not available
+2024-02-08 02:07:11,116 - INFO - Scene: camera data is not available
+2024-02-08 02:07:18,620 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:07:18,620 - INFO - ***************284_2_Fight_the_Night********************
+2024-02-08 02:07:18,620 - INFO - There are 7 files here
+2024-02-08 02:07:18,620 - INFO - Extraction started...
+2024-02-08 02:07:18,669 - INFO - control extracted
+2024-02-08 02:07:18,669 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:07:18,717 - INFO - gaze_extracted
+2024-02-08 02:07:18,910 - INFO - pose extracted
+2024-02-08 02:07:18,910 - INFO - scene extracted
+2024-02-08 02:07:55,517 - INFO - video extracted
+2024-02-08 02:07:55,537 - INFO - Motion sickness rating extracted
+2024-02-08 02:07:55,537 - INFO - Scene: obj data is not available
+2024-02-08 02:07:55,537 - INFO - Scene: camera data is not available
+2024-02-08 02:08:01,054 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:08:01,054 - INFO - ***************311_2_Mech_Playground********************
+2024-02-08 02:08:01,054 - INFO - There are 7 files here
+2024-02-08 02:08:01,054 - INFO - Extraction started...
+2024-02-08 02:08:01,112 - INFO - control extracted
+2024-02-08 02:08:01,112 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:08:01,179 - INFO - gaze_extracted
+2024-02-08 02:08:01,485 - INFO - pose extracted
+2024-02-08 02:08:01,485 - INFO - scene extracted
+2024-02-08 02:08:50,152 - INFO - video extracted
+2024-02-08 02:08:50,178 - INFO - Motion sickness rating extracted
+2024-02-08 02:08:50,179 - INFO - Scene: obj data is not available
+2024-02-08 02:08:50,179 - INFO - Scene: camera data is not available
+2024-02-08 02:08:58,090 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:08:58,091 - INFO - ***************286_2_Fight_the_Night********************
+2024-02-08 02:08:58,091 - INFO - There are 7 files here
+2024-02-08 02:08:58,091 - INFO - Extraction started...
+2024-02-08 02:08:58,154 - INFO - control extracted
+2024-02-08 02:08:58,154 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:08:58,224 - INFO - gaze_extracted
+2024-02-08 02:08:58,547 - INFO - pose extracted
+2024-02-08 02:08:58,548 - INFO - scene extracted
+2024-02-08 02:09:50,938 - INFO - video extracted
+2024-02-08 02:09:50,970 - INFO - Motion sickness rating extracted
+2024-02-08 02:09:50,970 - INFO - Scene: obj data is not available
+2024-02-08 02:09:50,970 - INFO - Scene: camera data is not available
+2024-02-08 02:09:59,547 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:09:59,547 - INFO - ***************285_1_Kawaii_Police_Station********************
+2024-02-08 02:09:59,547 - INFO - There are 7 files here
+2024-02-08 02:09:59,547 - INFO - Extraction started...
+2024-02-08 02:09:59,649 - INFO - control extracted
+2024-02-08 02:09:59,650 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:09:59,716 - INFO - gaze_extracted
+2024-02-08 02:10:00,073 - INFO - pose extracted
+2024-02-08 02:10:00,075 - INFO - scene extracted
+2024-02-08 02:11:02,651 - INFO - video extracted
+2024-02-08 02:11:02,686 - INFO - Motion sickness rating extracted
+2024-02-08 02:11:02,687 - INFO - Scene: obj data is not available
+2024-02-08 02:11:02,687 - INFO - Scene: camera data is not available
+2024-02-08 02:11:12,301 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:11:12,301 - INFO - ***************287_1_Kawaii_Police_Station********************
+2024-02-08 02:11:12,302 - INFO - There are 7 files here
+2024-02-08 02:11:12,302 - INFO - Extraction started...
+2024-02-08 02:11:12,400 - INFO - control extracted
+2024-02-08 02:11:12,400 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:11:12,468 - INFO - gaze_extracted
+2024-02-08 02:11:12,841 - INFO - pose extracted
+2024-02-08 02:11:12,842 - INFO - scene extracted
+2024-02-08 02:12:18,976 - INFO - video extracted
+2024-02-08 02:12:19,015 - INFO - Motion sickness rating extracted
+2024-02-08 02:12:19,015 - INFO - Scene: obj data is not available
+2024-02-08 02:12:19,015 - INFO - Scene: camera data is not available
+2024-02-08 02:12:29,040 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:12:29,040 - INFO - ***************292_2_Kawaii_Fire_Station********************
+2024-02-08 02:12:29,040 - INFO - There are 7 files here
+2024-02-08 02:12:29,040 - INFO - Extraction started...
+2024-02-08 02:12:29,110 - INFO - control extracted
+2024-02-08 02:12:29,110 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:12:29,158 - INFO - gaze_extracted
+2024-02-08 02:12:29,432 - INFO - pose extracted
+2024-02-08 02:12:29,433 - INFO - scene extracted
+2024-02-08 02:13:23,691 - INFO - video extracted
+2024-02-08 02:13:23,721 - INFO - Motion sickness rating extracted
+2024-02-08 02:13:23,721 - INFO - Scene: obj data is not available
+2024-02-08 02:13:23,721 - INFO - Scene: camera data is not available
+2024-02-08 02:13:31,557 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:13:31,557 - INFO - ***************290_1_Man_of_Moon_Mountain********************
+2024-02-08 02:13:31,557 - INFO - There are 7 files here
+2024-02-08 02:13:31,557 - INFO - Extraction started...
+2024-02-08 02:13:31,648 - INFO - control extracted
+2024-02-08 02:13:31,648 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:13:31,983 - INFO - pose extracted
+2024-02-08 02:13:31,984 - INFO - scene extracted
+2024-02-08 02:14:15,209 - INFO - video extracted
+2024-02-08 02:14:15,280 - INFO - gaze_extracted
+2024-02-08 02:14:15,306 - INFO - Motion sickness rating extracted
+2024-02-08 02:14:15,306 - INFO - Scene: obj data is not available
+2024-02-08 02:14:15,306 - INFO - Scene: camera data is not available
+2024-02-08 02:14:24,642 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:14:24,642 - INFO - ***************309_1_Escape_Puzzle_Mansion********************
+2024-02-08 02:14:24,642 - INFO - There are 7 files here
+2024-02-08 02:14:24,642 - INFO - Extraction started...
+2024-02-08 02:14:24,685 - INFO - control extracted
+2024-02-08 02:14:24,685 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:14:24,708 - INFO - gaze_extracted
+2024-02-08 02:14:24,881 - INFO - pose extracted
+2024-02-08 02:14:24,882 - INFO - scene extracted
+2024-02-08 02:14:53,308 - INFO - video extracted
+2024-02-08 02:14:53,325 - INFO - Motion sickness rating extracted
+2024-02-08 02:14:53,325 - INFO - Scene: obj data is not available
+2024-02-08 02:14:53,325 - INFO - Scene: camera data is not available
+2024-02-08 02:14:58,148 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:14:58,148 - INFO - ***************293_2_Kawaii_Fire_Station********************
+2024-02-08 02:14:58,148 - INFO - There are 7 files here
+2024-02-08 02:14:58,148 - INFO - Extraction started...
+2024-02-08 02:14:58,224 - INFO - control extracted
+2024-02-08 02:14:58,224 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:14:58,287 - INFO - gaze_extracted
+2024-02-08 02:14:58,616 - INFO - pose extracted
+2024-02-08 02:14:58,617 - INFO - scene extracted
+2024-02-08 02:16:02,568 - INFO - video extracted
+2024-02-08 02:16:02,605 - INFO - Motion sickness rating extracted
+2024-02-08 02:16:02,605 - INFO - Scene: obj data is not available
+2024-02-08 02:16:02,605 - INFO - Scene: camera data is not available
+2024-02-08 02:16:11,529 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:16:11,529 - INFO - ***************291_1_Man_of_Moon_Mountain********************
+2024-02-08 02:16:11,529 - INFO - There are 7 files here
+2024-02-08 02:16:11,529 - INFO - Extraction started...
+2024-02-08 02:16:11,637 - INFO - control extracted
+2024-02-08 02:16:11,637 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:16:11,714 - INFO - gaze_extracted
+2024-02-08 02:16:12,135 - INFO - pose extracted
+2024-02-08 02:16:12,136 - INFO - scene extracted
+2024-02-08 02:17:23,749 - INFO - video extracted
+2024-02-08 02:17:23,790 - INFO - Motion sickness rating extracted
+2024-02-08 02:17:23,791 - INFO - Scene: obj data is not available
+2024-02-08 02:17:23,791 - INFO - Scene: camera data is not available
+2024-02-08 02:17:35,554 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:17:35,555 - INFO - ***************287_2_Fight_the_Night********************
+2024-02-08 02:17:35,555 - INFO - There are 7 files here
+2024-02-08 02:17:35,555 - INFO - Extraction started...
+2024-02-08 02:17:35,628 - INFO - control extracted
+2024-02-08 02:17:35,629 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:17:35,667 - INFO - gaze_extracted
+2024-02-08 02:17:35,938 - INFO - pose extracted
+2024-02-08 02:17:35,938 - INFO - scene extracted
+2024-02-08 02:18:34,018 - INFO - video extracted
+2024-02-08 02:18:34,053 - INFO - Motion sickness rating extracted
+2024-02-08 02:18:34,054 - INFO - Scene: obj data is not available
+2024-02-08 02:18:34,054 - INFO - Scene: camera data is not available
+2024-02-08 02:18:42,287 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:18:42,287 - INFO - ***************313_1_Escape_Puzzle_Mansion********************
+2024-02-08 02:18:42,287 - INFO - There are 7 files here
+2024-02-08 02:18:42,287 - INFO - Extraction started...
+2024-02-08 02:18:42,373 - INFO - control extracted
+2024-02-08 02:18:42,373 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:18:42,421 - INFO - gaze_extracted
+2024-02-08 02:18:42,654 - INFO - pose extracted
+2024-02-08 02:18:42,654 - INFO - scene extracted
+2024-02-08 02:19:14,276 - INFO - video extracted
+2024-02-08 02:19:14,301 - INFO - Motion sickness rating extracted
+2024-02-08 02:19:14,301 - INFO - Scene: obj data is not available
+2024-02-08 02:19:14,301 - INFO - Scene: camera data is not available
+2024-02-08 02:19:21,129 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:19:21,129 - INFO - ***************292_1_Man_of_Moon_Mountain********************
+2024-02-08 02:19:21,129 - INFO - There are 7 files here
+2024-02-08 02:19:21,129 - INFO - Extraction started...
+2024-02-08 02:19:21,208 - INFO - control extracted
+2024-02-08 02:19:21,208 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:19:21,289 - INFO - gaze_extracted
+2024-02-08 02:19:21,666 - INFO - pose extracted
+2024-02-08 02:19:21,667 - INFO - scene extracted
+2024-02-08 02:20:22,500 - INFO - video extracted
+2024-02-08 02:20:22,538 - INFO - Motion sickness rating extracted
+2024-02-08 02:20:22,538 - INFO - Scene: obj data is not available
+2024-02-08 02:20:22,538 - INFO - Scene: camera data is not available
+2024-02-08 02:20:32,507 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:20:32,507 - INFO - ***************338_2_Jail_Simulator********************
+2024-02-08 02:20:32,507 - INFO - There are 7 files here
+2024-02-08 02:20:32,507 - INFO - Extraction started...
+2024-02-08 02:20:32,546 - INFO - control extracted
+2024-02-08 02:20:32,546 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:20:32,577 - INFO - gaze_extracted
+2024-02-08 02:20:32,695 - INFO - pose extracted
+2024-02-08 02:20:32,696 - INFO - scene extracted
+2024-02-08 02:20:57,971 - INFO - video extracted
+2024-02-08 02:20:57,981 - INFO - Motion sickness rating extracted
+2024-02-08 02:20:57,981 - INFO - Scene: obj data is not available
+2024-02-08 02:20:57,981 - INFO - Scene: camera data is not available
+2024-02-08 02:21:01,650 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 02:21:01,650 - INFO - ***************342_2_Wizard_Sandbox********************
+2024-02-08 02:21:01,650 - INFO - There are 7 files here
+2024-02-08 02:21:01,650 - INFO - Extraction started...
+2024-02-08 02:21:01,776 - INFO - control extracted
+2024-02-08 02:21:01,776 - INFO - Face data present!- extract in the next phase
+2024-02-08 02:21:01,828 - INFO - gaze_extracted
+2024-02-08 02:21:02,232 - INFO - pose extracted
+2024-02-08 02:21:02,234 - INFO - scene extracted
+2024-02-08 02:22:21,657 - INFO - video extracted
+2024-02-08 11:12:10,954 - INFO - ----------------------------------------------------Starting extraction again--------------------------------------------------------------
+2024-02-08 11:12:10,962 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:12:10,962 - INFO - ***************342_2_Wizard_Sandbox********************
+2024-02-08 11:12:10,962 - INFO - There are 7 files here
+2024-02-08 11:12:10,962 - INFO - Extraction started...
+2024-02-08 11:12:11,046 - INFO - control extracted
+2024-02-08 11:12:11,047 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:12:11,109 - INFO - gaze_extracted
+2024-02-08 11:12:11,479 - INFO - pose extracted
+2024-02-08 11:12:11,480 - INFO - scene extracted
+2024-02-08 11:13:30,667 - INFO - video extracted
+2024-02-08 11:13:30,697 - INFO - invalid MS rating: not a number : 
+2024-02-08 11:13:30,713 - INFO - Motion sickness rating extracted
+2024-02-08 11:13:30,713 - INFO - Scene: obj data is not available
+2024-02-08 11:13:30,714 - INFO - Scene: camera data is not available
+2024-02-08 11:13:41,661 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:13:41,661 - INFO - ***************340_2_Wizard_Sandbox********************
+2024-02-08 11:13:41,661 - INFO - There are 7 files here
+2024-02-08 11:13:41,661 - INFO - Extraction started...
+2024-02-08 11:13:41,763 - INFO - control extracted
+2024-02-08 11:13:41,763 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:13:41,832 - INFO - gaze_extracted
+2024-02-08 11:13:42,192 - INFO - pose extracted
+2024-02-08 11:13:42,193 - INFO - scene extracted
+2024-02-08 11:14:48,587 - INFO - video extracted
+2024-02-08 11:14:48,626 - INFO - Motion sickness rating extracted
+2024-02-08 11:14:48,626 - INFO - Scene: obj data is not available
+2024-02-08 11:14:48,626 - INFO - Scene: camera data is not available
+2024-02-08 11:14:58,480 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:14:58,480 - INFO - ***************335_2_Spy_School********************
+2024-02-08 11:14:58,480 - INFO - There are 7 files here
+2024-02-08 11:14:58,480 - INFO - Extraction started...
+2024-02-08 11:14:58,580 - INFO - control extracted
+2024-02-08 11:14:58,580 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:14:58,649 - INFO - gaze_extracted
+2024-02-08 11:14:59,026 - INFO - pose extracted
+2024-02-08 11:14:59,028 - INFO - scene extracted
+2024-02-08 11:16:02,990 - INFO - video extracted
+2024-02-08 11:16:03,024 - INFO - Motion sickness rating extracted
+2024-02-08 11:16:03,024 - INFO - Scene: obj data is not available
+2024-02-08 11:16:03,024 - INFO - Scene: camera data is not available
+2024-02-08 11:16:13,196 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:16:13,196 - INFO - ***************340_1_Meta_Pizza_Hut_Classic********************
+2024-02-08 11:16:13,196 - INFO - There are 7 files here
+2024-02-08 11:16:13,196 - INFO - Extraction started...
+2024-02-08 11:16:13,298 - INFO - control extracted
+2024-02-08 11:16:13,298 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:16:13,364 - INFO - gaze_extracted
+2024-02-08 11:16:13,736 - INFO - pose extracted
+2024-02-08 11:16:13,737 - INFO - scene extracted
+2024-02-08 11:17:23,673 - INFO - video extracted
+2024-02-08 11:17:23,714 - INFO - Motion sickness rating extracted
+2024-02-08 11:17:23,715 - INFO - Scene: obj data is not available
+2024-02-08 11:17:23,715 - INFO - Scene: camera data is not available
+2024-02-08 11:17:33,709 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:17:33,709 - INFO - ***************339_1_Spy_School********************
+2024-02-08 11:17:33,709 - INFO - There are 7 files here
+2024-02-08 11:17:33,709 - INFO - Extraction started...
+2024-02-08 11:17:33,818 - INFO - control extracted
+2024-02-08 11:17:33,818 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:17:33,910 - INFO - gaze_extracted
+2024-02-08 11:17:34,283 - INFO - pose extracted
+2024-02-08 11:17:34,285 - INFO - scene extracted
+2024-02-08 11:18:49,808 - INFO - video extracted
+2024-02-08 11:18:49,852 - INFO - Motion sickness rating extracted
+2024-02-08 11:18:49,852 - INFO - Scene: obj data is not available
+2024-02-08 11:18:49,852 - INFO - Scene: camera data is not available
+2024-02-08 11:19:01,063 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:19:01,063 - INFO - ***************336_2_Spy_School********************
+2024-02-08 11:19:01,063 - INFO - There are 7 files here
+2024-02-08 11:19:01,063 - INFO - Extraction started...
+2024-02-08 11:19:01,169 - INFO - control extracted
+2024-02-08 11:19:01,169 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:19:01,241 - INFO - gaze_extracted
+2024-02-08 11:19:01,604 - INFO - pose extracted
+2024-02-08 11:19:01,605 - INFO - scene extracted
+2024-02-08 11:20:08,104 - INFO - video extracted
+2024-02-08 11:20:08,141 - INFO - Motion sickness rating extracted
+2024-02-08 11:20:08,142 - INFO - Scene: obj data is not available
+2024-02-08 11:20:08,142 - INFO - Scene: camera data is not available
+2024-02-08 11:20:18,385 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:20:18,385 - INFO - ***************334_1_Jail_Simulator********************
+2024-02-08 11:20:18,385 - INFO - There are 7 files here
+2024-02-08 11:20:18,385 - INFO - Extraction started...
+2024-02-08 11:20:18,490 - INFO - control extracted
+2024-02-08 11:20:18,490 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:20:18,582 - INFO - gaze_extracted
+2024-02-08 11:20:18,976 - INFO - pose extracted
+2024-02-08 11:20:18,977 - INFO - scene extracted
+2024-02-08 11:21:29,463 - INFO - video extracted
+2024-02-08 11:21:29,506 - INFO - Motion sickness rating extracted
+2024-02-08 11:21:29,506 - INFO - Scene: obj data is not available
+2024-02-08 11:21:29,506 - INFO - Scene: camera data is not available
+2024-02-08 11:21:40,576 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-08 11:21:40,576 - INFO - ***************331_1_Jail_Simulator********************
+2024-02-08 11:21:40,576 - INFO - There are 7 files here
+2024-02-08 11:21:40,576 - INFO - Extraction started...
+2024-02-08 11:21:40,675 - INFO - control extracted
+2024-02-08 11:21:40,675 - INFO - Face data present!- extract in the next phase
+2024-02-08 11:21:40,760 - INFO - gaze_extracted
+2024-02-08 11:21:41,142 - INFO - pose extracted
+2024-02-08 11:21:41,143 - INFO - scene extracted
