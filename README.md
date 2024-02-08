@@ -6,7 +6,7 @@ Modelling VR motion sickness from the VR.net Dataset
 
 **Transfer.py**: Script to transfer zip files from Google Drive to the server
 
-**Combined.py**: This script is used to run the whole extraction process. It will convert and store data in the following hierarchy. It uses several support files mentioned in the script and also creates a log file and a summary csv.
+**Combined.py**: This script is used to run the whole extraction process. It will convert and store data in the following hierarchy. It uses several support files mentioned in the script and also creates a log file(data_creation.log) and a summary csv(main_log.csv).
 
 ```
 VR_NET
