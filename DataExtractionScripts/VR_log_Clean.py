@@ -21,10 +21,10 @@ def remove_nonints(row):
         if key>0 and key<=5:
             return True
         else:
-            logger.info(f'invalid MS rating: not between 1-5 : {key_val}')
+            logger.info(f'invalid MS rating: not between 1-5 : {key}')
             return False
     except:
-        logger.info(f'invalid MS rating: not a number : {key_val}')
+        logger.info(f'invalid MS rating: not a number : {key}')
         return False
 
 def find_nearest_frame(json_data, target_timestamp):
