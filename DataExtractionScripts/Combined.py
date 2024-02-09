@@ -115,7 +115,9 @@ def write_csv(pose,gaze,control,obj_res,camera_res,path,arr_k):
     frames=get_frames(pose)
     files=[pose, gaze, control, obj_res, camera_res]
     check_availability(gaze,control,obj_res,camera_res)
-    video_list=[int(x[:-4]) for x in os.listdir(os.path.join(path,"video"))]
+    video_list=[]
+    if os.path.exists(os.path.join(path,"video")):
+        video_list=[int(x[:-4]) for x in os.listdir(os.path.join(path,"video"))]
     if video_list==[]:
         logger.info("Video data is not available")
         m_log_arr[7]=0
@@ -217,9 +219,12 @@ def main():
     # log_arr=[]
     with open("main_log.csv", 'a', newline='') as main_log_file:
         csv_writer_M = csv.writer(main_log_file)
-        csv_writer_M.writerow(main_log_keys)
+    
+    logger.info('----------------------------------------------------Starting extraction again--------------------------------------------------------------')
+        # csv_writer_M.writerow(main_log_keys)
         
     folders=os.listdir(dataset_dir_path)
+    # folders=folders[15:] #Don't use this unless you are running from a middle point
     for folder in folders:
         dataset_dir_path1=os.path.join(dataset_dir_path, folder)
         datasets = os.listdir(dataset_dir_path1)
@@ -228,6 +233,7 @@ def main():
             # print(datasets[i])
             if datasets[i].endswith(".zip"):
                 tasks.append(os.path.join(dataset_dir_path1,datasets[i]))
+    # tasks=tasks[11:] #Don't use this unless you are running from a middle point
     pool = multiprocessing.Pool(1)
     count = 0
     for res in pool.imap(worker, tasks):
