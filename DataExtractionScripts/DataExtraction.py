@@ -226,7 +226,52 @@ def extract_control(archive, item, dataset_name):
     with open(target_file, "wb") as outfp:
         pickle.dump(control, outfp)
         
+def extract_face(archive, item, dataset_name):
+    gaze_data_pkg = archive.read(item)
+    print("came here")
+    bio = io.BytesIO(gaze_data_pkg)
+
+    res = {}
+    while True:
+        data = bio.read(304)
+        if not data or len(data) != 304:
+            break
+
+        # weights = data[:252]
+        # status = data[252:16]
+        exp_list=[]
+        for exp in range(63):
+            expression_w=data[exp*4:(exp+1)*4]
+            expression_w=struct.unpack("f", expression_w)
+            exp_list.append(expression_w[0])
+        # print(exp_list)
         
+        confidence=data[252:260]
+        
+        status = data[260:268]
+        
+        conf1, conf2 = struct.unpack("ff", confidence)
+        
+        IsValid, EyeFollowValid = struct.unpack("ii", status)
+        
+        # l_c,l_i = struct.unpack("fi", left_eye[28:36])
+        # r_c,r_i = struct.unpack("fi", right_eye[28:36])
+
+        metadata = data[-24:]
+        unused, frame, timestamp = struct.unpack("iLL", metadata)
+
+        if frame not in res:
+            res[frame] = {}
+
+        # res[frame] = (timestamp, l_x, l_y, l_z, l_w, l_p1, l_p2, l_p3, r_x, r_y, r_z, r_w, r_p1, r_p2, r_p3)
+        
+        # res[frame]["timestamp"]=timestamp
+        res[frame]["weights"] =exp_list
+        res[frame]["confidence"]=(conf1, conf2)
+        res[frame]["validity"]=(IsValid, EyeFollowValid)
+    # logger.info("face_extracted")
+    
+    return res        
         
 def extract_VRlog(archive, item, dataset_name):
     target_dir = os.path.join(output_dir, dataset_name)
@@ -269,22 +314,25 @@ def worker(dataset):
                 extract_scene(archive, item, dataset_name)
             if "_control/data" in item:
                 extract_control(archive, item, dataset_name)
+            if "_face/data" in item:
+                res=extract_face(archive, item, dataset_name)
             if "VRLOG" in item:
                 extract_VRlog(archive, item, dataset_name)
-            
+                # print(res[48835])
 
 
 def main():
     tasks = []
     dataset2=[]
     folders=os.listdir(dataset_dir_path)
+    print(folders)
     for folder in folders:
         dataset_dir_path1=os.path.join(dataset_dir_path, folder)
         datasets = os.listdir(dataset_dir_path1)
         # print(datasets)
         if datasets[0].endswith(".zip"):
             tasks.append(os.path.join(dataset_dir_path1,datasets[0]))
-
+    tasks=tasks[0:2]
     pool = multiprocessing.Pool(1)
     count = 0
     for res in pool.imap(worker, tasks):
