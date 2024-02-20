@@ -28863,3 +28863,1634 @@
 2024-02-09 13:23:19,599 - INFO - scene extracted
 2024-02-09 13:23:52,795 - INFO - video extracted
 2024-02-09 13:23:52,811 - INFO - Motion sickness rating extracted
+2024-02-18 22:36:44,717 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 22:36:44,725 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:36:44,726 - INFO - ***************5_2_Earth_Gym********************
+2024-02-18 22:36:44,726 - INFO - Extraction started...
+2024-02-18 22:36:44,764 - INFO - Motion sickness rating extracted
+2024-02-18 22:36:44,764 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:36:44,764 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:36:55,114 - INFO - scene extracted
+2024-02-18 22:36:55,115 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:36:55,115 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,607 - INFO - video extracted
+2024-02-18 22:37:25,612 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,612 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,627 - INFO - gaze_extracted
+2024-02-18 22:37:25,627 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,627 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,649 - INFO - control extracted
+2024-02-18 22:37:25,649 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,649 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:25,789 - INFO - pose extracted
+2024-02-18 22:37:46,806 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 22:37:47,948 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:37:47,948 - INFO - ***************6_1_Wild_Quest********************
+2024-02-18 22:37:47,948 - INFO - Extraction started...
+2024-02-18 22:37:47,963 - INFO - Motion sickness rating extracted
+2024-02-18 22:37:47,963 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:47,963 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:58,529 - INFO - scene extracted
+2024-02-18 22:37:58,530 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:37:58,530 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:23,826 - INFO - video extracted
+2024-02-18 22:38:23,829 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:23,829 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:23,841 - INFO - gaze_extracted
+2024-02-18 22:38:23,841 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:23,841 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:24,075 - INFO - control extracted
+2024-02-18 22:38:24,075 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:24,075 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:24,192 - INFO - pose extracted
+2024-02-18 22:38:43,961 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 22:38:45,119 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:38:45,119 - INFO - ***************5_1_Wild_Quest********************
+2024-02-18 22:38:45,120 - INFO - Extraction started...
+2024-02-18 22:38:45,134 - INFO - Motion sickness rating extracted
+2024-02-18 22:38:45,134 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:45,134 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:56,950 - INFO - scene extracted
+2024-02-18 22:38:56,952 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:38:56,952 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,073 - INFO - video extracted
+2024-02-18 22:39:20,075 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,075 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,087 - INFO - gaze_extracted
+2024-02-18 22:39:20,087 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,087 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,347 - INFO - control extracted
+2024-02-18 22:39:20,347 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,347 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:20,450 - INFO - pose extracted
+2024-02-18 22:39:42,581 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 22:39:43,869 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:39:43,869 - INFO - ***************8_1_Wild_Quest********************
+2024-02-18 22:39:43,869 - INFO - Extraction started...
+2024-02-18 22:39:43,882 - INFO - Motion sickness rating extracted
+2024-02-18 22:39:43,882 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,883 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:39:43,883 - INFO - ***************3_2_Wild_Quest********************
+2024-02-18 22:39:43,883 - INFO - Extraction started...
+2024-02-18 22:39:43,883 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,883 - INFO - control extracted
+2024-02-18 22:39:43,883 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,883 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,883 - INFO - gaze_extracted
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - pose extracted
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - scene extracted
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - video extracted
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - Motion sickness rating extracted
+2024-02-18 22:39:43,884 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:39:43,884 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 22:49:58,883 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 22:49:58,890 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 22:49:58,891 - INFO - ***************145_1_Roommate********************
+2024-02-18 22:49:58,891 - INFO - Extraction started...
+2024-02-18 22:49:58,891 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:49:58,950 - INFO - control extracted
+2024-02-18 22:49:58,950 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:49:58,950 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:49:58,970 - INFO - gaze_extracted
+2024-02-18 22:49:58,970 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:49:58,970 - INFO - Can't proceed: no 'pose' data
+2024-02-18 22:49:59,145 - INFO - pose extracted
+2024-02-18 22:49:59,146 - INFO - Scene: obj data is not available
+2024-02-18 22:49:59,146 - INFO - Scene: camera data is not available
+2024-02-18 22:49:59,153 - INFO - Video data is not available
+2024-02-18 22:51:16,697 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 23:04:43,405 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 23:04:43,413 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:04:43,413 - INFO - ***************5_2_Earth_Gym********************
+2024-02-18 23:04:43,413 - INFO - Extraction started...
+2024-02-18 23:04:43,414 - INFO - Motion sickness rating extracted
+2024-02-18 23:04:43,414 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:04:43,414 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:04:53,753 - INFO - scene extracted
+2024-02-18 23:04:53,754 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:04:53,754 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,862 - INFO - video extracted
+2024-02-18 23:05:23,866 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,867 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,882 - INFO - gaze_extracted
+2024-02-18 23:05:23,882 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,882 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,903 - INFO - control extracted
+2024-02-18 23:05:23,903 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:23,903 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:24,013 - INFO - pose extracted
+2024-02-18 23:05:45,122 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 23:05:46,287 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:05:46,287 - INFO - ***************6_1_Wild_Quest********************
+2024-02-18 23:05:46,287 - INFO - Extraction started...
+2024-02-18 23:05:46,291 - INFO - Motion sickness rating extracted
+2024-02-18 23:05:46,291 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:46,291 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:56,844 - INFO - scene extracted
+2024-02-18 23:05:56,845 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:05:56,845 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,443 - INFO - video extracted
+2024-02-18 23:06:20,445 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,446 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,458 - INFO - gaze_extracted
+2024-02-18 23:06:20,458 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,458 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,699 - INFO - control extracted
+2024-02-18 23:06:20,699 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,699 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:20,783 - INFO - pose extracted
+2024-02-18 23:06:40,644 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 23:06:41,822 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:06:41,822 - INFO - ***************5_1_Wild_Quest********************
+2024-02-18 23:06:41,822 - INFO - Extraction started...
+2024-02-18 23:06:41,823 - INFO - Motion sickness rating extracted
+2024-02-18 23:06:41,823 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:41,823 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:53,522 - INFO - scene extracted
+2024-02-18 23:06:53,524 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:06:53,524 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:14,734 - INFO - video extracted
+2024-02-18 23:07:14,736 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:14,736 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:14,749 - INFO - gaze_extracted
+2024-02-18 23:07:14,749 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:14,749 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:15,010 - INFO - control extracted
+2024-02-18 23:07:15,010 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:15,010 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:15,091 - INFO - pose extracted
+2024-02-18 23:07:37,271 - INFO - Can't extract, many files: Please proceed manually
+2024-02-18 23:07:38,582 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:07:38,582 - INFO - ***************8_1_Wild_Quest********************
+2024-02-18 23:07:38,583 - INFO - Extraction started...
+2024-02-18 23:07:38,583 - INFO - Motion sickness rating extracted
+2024-02-18 23:07:38,583 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:07:38,584 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:07:38,584 - INFO - ***************145_1_Roommate********************
+2024-02-18 23:07:38,584 - INFO - Extraction started...
+2024-02-18 23:07:38,584 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:17:06,925 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 23:17:06,932 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:17:06,933 - INFO - ***************5_2_Earth_Gym********************
+2024-02-18 23:17:06,933 - INFO - There are 11 files here
+2024-02-18 23:17:06,933 - INFO - Following files are available: ['VRLOG-2023-09-25_11-36-21-voice.csv', 'log_192_168_1_128_2023_09_25_11_36_scene/', 'log_192_168_1_128_2023_09_25_11_36_scene/data', 'log_192_168_1_128_2023_09_25_11_36_video/', 'log_192_168_1_128_2023_09_25_11_36_video/data', 'log_192_168_1_128_2023_09_25_11_36_gaze/', 'log_192_168_1_128_2023_09_25_11_36_gaze/data', 'log_192_168_1_128_2023_09_25_11_36_control/', 'log_192_168_1_128_2023_09_25_11_36_control/data', 'log_192_168_1_128_2023_09_25_11_36_pose/', 'log_192_168_1_128_2023_09_25_11_36_pose/data']
+2024-02-18 23:17:06,933 - INFO - Extraction started...
+2024-02-18 23:17:06,934 - INFO - Motion sickness rating extracted
+2024-02-18 23:17:17,185 - INFO - scene extracted
+2024-02-18 23:17:47,579 - INFO - video extracted
+2024-02-18 23:17:47,598 - INFO - gaze_extracted
+2024-02-18 23:17:47,620 - INFO - control extracted
+2024-02-18 23:17:47,730 - INFO - pose extracted
+2024-02-18 23:18:12,184 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:18:12,184 - INFO - ***************6_1_Wild_Quest********************
+2024-02-18 23:18:12,184 - INFO - There are 11 files here
+2024-02-18 23:18:12,184 - INFO - Following files are available: ['VRLOG-2023-09-25_13-06-45-voice.csv', 'log_192_168_1_128_2023_09_25_13_06_scene/', 'log_192_168_1_128_2023_09_25_13_06_scene/data', 'log_192_168_1_128_2023_09_25_13_06_video/', 'log_192_168_1_128_2023_09_25_13_06_video/data', 'log_192_168_1_128_2023_09_25_13_06_gaze/', 'log_192_168_1_128_2023_09_25_13_06_gaze/data', 'log_192_168_1_128_2023_09_25_13_06_control/', 'log_192_168_1_128_2023_09_25_13_06_control/data', 'log_192_168_1_128_2023_09_25_13_06_pose/', 'log_192_168_1_128_2023_09_25_13_06_pose/data']
+2024-02-18 23:18:12,184 - INFO - Extraction started...
+2024-02-18 23:18:12,185 - INFO - Motion sickness rating extracted
+2024-02-18 23:18:22,588 - INFO - scene extracted
+2024-02-18 23:18:46,342 - INFO - video extracted
+2024-02-18 23:18:46,357 - INFO - gaze_extracted
+2024-02-18 23:18:46,591 - INFO - control extracted
+2024-02-18 23:18:46,674 - INFO - pose extracted
+2024-02-18 23:19:09,554 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:19:09,554 - INFO - ***************5_1_Wild_Quest********************
+2024-02-18 23:19:09,554 - INFO - There are 11 files here
+2024-02-18 23:19:09,554 - INFO - Following files are available: ['VRLOG-2023-09-25_11-18-07-voice.csv', 'log_192_168_1_128_2023_09_25_11_17_scene/', 'log_192_168_1_128_2023_09_25_11_17_scene/data', 'log_192_168_1_128_2023_09_25_11_17_video/', 'log_192_168_1_128_2023_09_25_11_17_video/data', 'log_192_168_1_128_2023_09_25_11_17_gaze/', 'log_192_168_1_128_2023_09_25_11_17_gaze/data', 'log_192_168_1_128_2023_09_25_11_17_control/', 'log_192_168_1_128_2023_09_25_11_17_control/data', 'log_192_168_1_128_2023_09_25_11_17_pose/', 'log_192_168_1_128_2023_09_25_11_17_pose/data']
+2024-02-18 23:19:09,554 - INFO - Extraction started...
+2024-02-18 23:19:09,555 - INFO - Motion sickness rating extracted
+2024-02-18 23:19:21,235 - INFO - scene extracted
+2024-02-18 23:19:42,618 - INFO - video extracted
+2024-02-18 23:19:42,632 - INFO - gaze_extracted
+2024-02-18 23:19:42,890 - INFO - control extracted
+2024-02-18 23:19:42,969 - INFO - pose extracted
+2024-02-18 23:20:09,122 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:20:09,122 - INFO - ***************8_1_Wild_Quest********************
+2024-02-18 23:20:09,122 - INFO - There are 12 files here
+2024-02-18 23:20:09,122 - INFO - Following files are available: ['VRLOG-2023-09-25_14-07-20-voice.csv', '__MACOSX/._VRLOG-2023-09-25_14-07-20-voice.csv', 'log_192_168_1_128_2023_09_25_14_05_scene/', 'log_192_168_1_128_2023_09_25_14_05_scene/data', 'log_192_168_1_128_2023_09_25_14_05_video/', 'log_192_168_1_128_2023_09_25_14_05_video/data', 'log_192_168_1_128_2023_09_25_14_05_gaze/', 'log_192_168_1_128_2023_09_25_14_05_gaze/data', 'log_192_168_1_128_2023_09_25_14_05_control/', 'log_192_168_1_128_2023_09_25_14_05_control/data', 'log_192_168_1_128_2023_09_25_14_05_pose/', 'log_192_168_1_128_2023_09_25_14_05_pose/data']
+2024-02-18 23:20:09,122 - INFO - Extraction started...
+2024-02-18 23:20:09,123 - INFO - Motion sickness rating extracted
+2024-02-18 23:20:31,051 - INFO - scene extracted
+2024-02-18 23:21:00,317 - INFO - video extracted
+2024-02-18 23:21:00,338 - INFO - gaze_extracted
+2024-02-18 23:21:00,359 - INFO - control extracted
+2024-02-18 23:21:00,960 - INFO - pose extracted
+2024-02-18 23:24:06,596 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-18 23:24:06,604 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:24:06,605 - INFO - ***************5_2_Earth_Gym********************
+2024-02-18 23:24:06,605 - INFO - There are 11 files here
+2024-02-18 23:24:06,605 - INFO - Following files are available: ['VRLOG-2023-09-25_11-36-21-voice.csv', 'log_192_168_1_128_2023_09_25_11_36_scene/', 'log_192_168_1_128_2023_09_25_11_36_scene/data', 'log_192_168_1_128_2023_09_25_11_36_video/', 'log_192_168_1_128_2023_09_25_11_36_video/data', 'log_192_168_1_128_2023_09_25_11_36_gaze/', 'log_192_168_1_128_2023_09_25_11_36_gaze/data', 'log_192_168_1_128_2023_09_25_11_36_control/', 'log_192_168_1_128_2023_09_25_11_36_control/data', 'log_192_168_1_128_2023_09_25_11_36_pose/', 'log_192_168_1_128_2023_09_25_11_36_pose/data']
+2024-02-18 23:24:06,605 - INFO - Extraction started...
+2024-02-18 23:24:06,608 - INFO - Motion sickness rating extracted
+2024-02-18 23:24:16,949 - INFO - scene extracted
+2024-02-18 23:24:47,110 - INFO - video extracted
+2024-02-18 23:24:47,131 - INFO - gaze_extracted
+2024-02-18 23:24:47,152 - INFO - control extracted
+2024-02-18 23:24:47,262 - INFO - pose extracted
+2024-02-18 23:25:09,595 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:25:09,595 - INFO - ***************6_1_Wild_Quest********************
+2024-02-18 23:25:09,596 - INFO - There are 11 files here
+2024-02-18 23:25:09,596 - INFO - Following files are available: ['VRLOG-2023-09-25_13-06-45-voice.csv', 'log_192_168_1_128_2023_09_25_13_06_scene/', 'log_192_168_1_128_2023_09_25_13_06_scene/data', 'log_192_168_1_128_2023_09_25_13_06_video/', 'log_192_168_1_128_2023_09_25_13_06_video/data', 'log_192_168_1_128_2023_09_25_13_06_gaze/', 'log_192_168_1_128_2023_09_25_13_06_gaze/data', 'log_192_168_1_128_2023_09_25_13_06_control/', 'log_192_168_1_128_2023_09_25_13_06_control/data', 'log_192_168_1_128_2023_09_25_13_06_pose/', 'log_192_168_1_128_2023_09_25_13_06_pose/data']
+2024-02-18 23:25:09,596 - INFO - Extraction started...
+2024-02-18 23:25:09,596 - INFO - Motion sickness rating extracted
+2024-02-18 23:25:20,137 - INFO - scene extracted
+2024-02-18 23:25:43,726 - INFO - video extracted
+2024-02-18 23:25:43,741 - INFO - gaze_extracted
+2024-02-18 23:25:43,984 - INFO - control extracted
+2024-02-18 23:25:44,068 - INFO - pose extracted
+2024-02-18 23:26:06,047 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:26:06,047 - INFO - ***************5_1_Wild_Quest********************
+2024-02-18 23:26:06,047 - INFO - There are 11 files here
+2024-02-18 23:26:06,047 - INFO - Following files are available: ['VRLOG-2023-09-25_11-18-07-voice.csv', 'log_192_168_1_128_2023_09_25_11_17_scene/', 'log_192_168_1_128_2023_09_25_11_17_scene/data', 'log_192_168_1_128_2023_09_25_11_17_video/', 'log_192_168_1_128_2023_09_25_11_17_video/data', 'log_192_168_1_128_2023_09_25_11_17_gaze/', 'log_192_168_1_128_2023_09_25_11_17_gaze/data', 'log_192_168_1_128_2023_09_25_11_17_control/', 'log_192_168_1_128_2023_09_25_11_17_control/data', 'log_192_168_1_128_2023_09_25_11_17_pose/', 'log_192_168_1_128_2023_09_25_11_17_pose/data']
+2024-02-18 23:26:06,047 - INFO - Extraction started...
+2024-02-18 23:26:06,048 - INFO - Motion sickness rating extracted
+2024-02-18 23:26:17,761 - INFO - scene extracted
+2024-02-18 23:26:38,982 - INFO - video extracted
+2024-02-18 23:26:38,996 - INFO - gaze_extracted
+2024-02-18 23:26:39,258 - INFO - control extracted
+2024-02-18 23:26:39,337 - INFO - pose extracted
+2024-02-18 23:27:02,870 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:27:02,870 - INFO - ***************8_1_Wild_Quest********************
+2024-02-18 23:27:02,870 - INFO - There are 12 files here
+2024-02-18 23:27:02,870 - INFO - Following files are available: ['VRLOG-2023-09-25_14-07-20-voice.csv', '__MACOSX/._VRLOG-2023-09-25_14-07-20-voice.csv', 'log_192_168_1_128_2023_09_25_14_05_scene/', 'log_192_168_1_128_2023_09_25_14_05_scene/data', 'log_192_168_1_128_2023_09_25_14_05_video/', 'log_192_168_1_128_2023_09_25_14_05_video/data', 'log_192_168_1_128_2023_09_25_14_05_gaze/', 'log_192_168_1_128_2023_09_25_14_05_gaze/data', 'log_192_168_1_128_2023_09_25_14_05_control/', 'log_192_168_1_128_2023_09_25_14_05_control/data', 'log_192_168_1_128_2023_09_25_14_05_pose/', 'log_192_168_1_128_2023_09_25_14_05_pose/data']
+2024-02-18 23:27:02,871 - INFO - Extraction started...
+2024-02-18 23:27:02,871 - INFO - Motion sickness rating extracted
+2024-02-18 23:27:24,740 - INFO - scene extracted
+2024-02-18 23:27:53,766 - INFO - video extracted
+2024-02-18 23:27:53,785 - INFO - gaze_extracted
+2024-02-18 23:27:53,807 - INFO - control extracted
+2024-02-18 23:27:54,370 - INFO - pose extracted
+2024-02-18 23:28:35,185 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:28:35,185 - INFO - ***************3_2_Wild_Quest********************
+2024-02-18 23:28:35,185 - INFO - There are 11 files here
+2024-02-18 23:28:35,185 - INFO - Following files are available: ['log_192_168_1_85_2023_09_25_10_46_control/', 'log_192_168_1_85_2023_09_25_10_46_control/data', 'log_192_168_1_85_2023_09_25_10_46_gaze/', 'log_192_168_1_85_2023_09_25_10_46_gaze/data', 'log_192_168_1_85_2023_09_25_10_46_pose/', 'log_192_168_1_85_2023_09_25_10_46_pose/data', 'log_192_168_1_85_2023_09_25_10_46_scene/', 'log_192_168_1_85_2023_09_25_10_46_scene/data', 'log_192_168_1_85_2023_09_25_10_46_video/', 'log_192_168_1_85_2023_09_25_10_46_video/data', 'VRLOG-2023-09-25_10-46-59-voice.csv']
+2024-02-18 23:28:35,185 - INFO - Extraction started...
+2024-02-18 23:28:35,185 - INFO - control extracted
+2024-02-18 23:28:35,185 - INFO - gaze_extracted
+2024-02-18 23:28:35,185 - INFO - pose extracted
+2024-02-18 23:28:35,185 - INFO - scene extracted
+2024-02-18 23:28:35,185 - INFO - video extracted
+2024-02-18 23:28:35,186 - INFO - Motion sickness rating extracted
+2024-02-18 23:28:35,186 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:28:35,186 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:28:35,186 - INFO - ***************145_1_Roommate********************
+2024-02-18 23:28:35,186 - INFO - There are 11 files here
+2024-02-18 23:28:35,186 - INFO - Following files are available: ['145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_control/', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_control/data', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_gaze/', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_gaze/data', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_pose/', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_pose/data', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_scene/', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_scene/data', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_video/', '145_1_Bad_Roommates/log_192_168_1_59_2023_10_06_16_16_video/data', '145_1_Bad_Roommates/VRLOG-2023-10-06_16-14-47-voice.csv']
+2024-02-18 23:28:35,186 - INFO - Extraction started...
+2024-02-18 23:28:35,210 - INFO - control extracted
+2024-02-18 23:28:35,228 - INFO - gaze_extracted
+2024-02-18 23:28:35,353 - INFO - pose extracted
+2024-02-18 23:28:51,999 - INFO - scene extracted
+2024-02-18 23:29:22,378 - INFO - video extracted
+2024-02-18 23:29:22,395 - INFO - Motion sickness rating extracted
+2024-02-18 23:29:52,198 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:29:52,199 - INFO - ***************140_1_Waffle_Restaurant********************
+2024-02-18 23:29:52,199 - INFO - There are 11 files here
+2024-02-18 23:29:52,199 - INFO - Following files are available: ['140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_control/', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_control/data', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_gaze/', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_gaze/data', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_pose/', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_pose/data', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_scene/', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_scene/data', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_video/', '140_1_Waffle_Restaurant/log_192_168_1_128_2023_10_06_13_52_video/data', '140_1_Waffle_Restaurant/VRLOG-2023-10-06_13-56-08-voice.csv']
+2024-02-18 23:29:52,199 - INFO - Extraction started...
+2024-02-18 23:29:52,241 - INFO - control extracted
+2024-02-18 23:29:52,255 - INFO - gaze_extracted
+2024-02-18 23:29:52,353 - INFO - pose extracted
+2024-02-18 23:29:59,658 - INFO - scene extracted
+2024-02-18 23:30:24,287 - INFO - video extracted
+2024-02-18 23:30:24,301 - INFO - Motion sickness rating extracted
+2024-02-18 23:30:41,282 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:30:41,282 - INFO - ***************135_2_Roommate********************
+2024-02-18 23:30:41,282 - INFO - There are 11 files here
+2024-02-18 23:30:41,282 - INFO - Following files are available: ['136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_control/', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_control/data', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_gaze/', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_gaze/data', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_pose/', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_pose/data', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_scene/', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_scene/data', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_video/', '136_2_Roommate/log_192_168_1_128_2023_10_06_09_22_video/data', '136_2_Roommate/VRLOG-2023-10-06_09-23-09-voice.csv']
+2024-02-18 23:30:41,282 - INFO - Extraction started...
+2024-02-18 23:30:41,309 - INFO - control extracted
+2024-02-18 23:30:41,326 - INFO - gaze_extracted
+2024-02-18 23:30:41,454 - INFO - pose extracted
+2024-02-18 23:30:41,454 - INFO - scene extracted
+2024-02-18 23:31:03,958 - INFO - video extracted
+2024-02-18 23:31:03,976 - INFO - Motion sickness rating extracted
+2024-02-18 23:31:03,976 - INFO - Scene: obj data is not available
+2024-02-18 23:31:03,976 - INFO - Scene: camera data is not available
+2024-02-18 23:31:08,456 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:31:08,456 - INFO - ***************62_2_UFO_crash_site_venue********************
+2024-02-18 23:31:08,456 - INFO - There are 12 files here
+2024-02-18 23:31:08,456 - INFO - Following files are available: ['VRLOG-2023-09-29_17-35-48-voice.csv', '__MACOSX/._VRLOG-2023-09-29_17-35-48-voice.csv', 'log_192_168_1_59_2023_09_29_17_36_scene/', 'log_192_168_1_59_2023_09_29_17_36_scene/data', 'log_192_168_1_59_2023_09_29_17_36_video/', 'log_192_168_1_59_2023_09_29_17_36_video/data', 'log_192_168_1_59_2023_09_29_17_36_gaze/', 'log_192_168_1_59_2023_09_29_17_36_gaze/data', 'log_192_168_1_59_2023_09_29_17_36_control/', 'log_192_168_1_59_2023_09_29_17_36_control/data', 'log_192_168_1_59_2023_09_29_17_36_pose/', 'log_192_168_1_59_2023_09_29_17_36_pose/data']
+2024-02-18 23:31:08,456 - INFO - Extraction started...
+2024-02-18 23:31:08,481 - INFO - Motion sickness rating extracted
+2024-02-18 23:31:21,642 - INFO - scene extracted
+2024-02-18 23:31:52,998 - INFO - video extracted
+2024-02-18 23:31:53,000 - INFO - gaze_extracted
+2024-02-18 23:31:53,035 - INFO - control extracted
+2024-02-18 23:31:53,521 - INFO - pose extracted
+2024-02-18 23:31:53,521 - INFO - Gaze data is not available
+2024-02-18 23:32:20,066 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:32:20,066 - INFO - ***************57_1_UFO_crash_site_venue********************
+2024-02-18 23:32:20,066 - INFO - There are 11 files here
+2024-02-18 23:32:20,066 - INFO - Following files are available: ['VRLOG-2023-09-29_15-05-29-voice.csv', 'log_192_168_1_59_2023_09_29_15_02_scene/', 'log_192_168_1_59_2023_09_29_15_02_scene/data', 'log_192_168_1_59_2023_09_29_15_02_video/', 'log_192_168_1_59_2023_09_29_15_02_video/data', 'log_192_168_1_59_2023_09_29_15_02_gaze/', 'log_192_168_1_59_2023_09_29_15_02_gaze/data', 'log_192_168_1_59_2023_09_29_15_02_control/', 'log_192_168_1_59_2023_09_29_15_02_control/data', 'log_192_168_1_59_2023_09_29_15_02_pose/', 'log_192_168_1_59_2023_09_29_15_02_pose/data']
+2024-02-18 23:32:20,066 - INFO - Extraction started...
+2024-02-18 23:32:20,092 - INFO - Motion sickness rating extracted
+2024-02-18 23:32:52,254 - INFO - scene extracted
+2024-02-18 23:33:27,275 - INFO - video extracted
+2024-02-18 23:33:27,280 - INFO - gaze_extracted
+2024-02-18 23:33:27,318 - INFO - control extracted
+2024-02-18 23:33:27,523 - INFO - pose extracted
+2024-02-18 23:33:27,524 - INFO - Gaze data is not available
+2024-02-18 23:34:21,631 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:34:21,631 - INFO - ***************59_1_The_aquarium********************
+2024-02-18 23:34:21,631 - INFO - There are 11 files here
+2024-02-18 23:34:21,631 - INFO - Following files are available: ['VRLOG-2023-09-29_16-12-12-voice.csv', 'log_192_168_1_59_2023_09_29_16_09_scene/', 'log_192_168_1_59_2023_09_29_16_09_scene/data', 'log_192_168_1_59_2023_09_29_16_09_video/', 'log_192_168_1_59_2023_09_29_16_09_video/data', 'log_192_168_1_59_2023_09_29_16_09_gaze/', 'log_192_168_1_59_2023_09_29_16_09_gaze/data', 'log_192_168_1_59_2023_09_29_16_09_control/', 'log_192_168_1_59_2023_09_29_16_09_control/data', 'log_192_168_1_59_2023_09_29_16_09_pose/', 'log_192_168_1_59_2023_09_29_16_09_pose/data']
+2024-02-18 23:34:21,631 - INFO - Extraction started...
+2024-02-18 23:34:21,661 - INFO - Motion sickness rating extracted
+2024-02-18 23:34:25,600 - INFO - scene extracted
+2024-02-18 23:34:59,489 - INFO - video extracted
+2024-02-18 23:34:59,495 - INFO - gaze_extracted
+2024-02-18 23:34:59,526 - INFO - control extracted
+2024-02-18 23:34:59,702 - INFO - pose extracted
+2024-02-18 23:34:59,702 - INFO - Gaze data is not available
+2024-02-18 23:35:14,303 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:35:14,303 - INFO - ***************59_2_UFO_crash_site_venue********************
+2024-02-18 23:35:14,303 - INFO - There are 11 files here
+2024-02-18 23:35:14,303 - INFO - Following files are available: ['VRLOG-2023-09-29_16-30-21-voice.csv', 'log_192_168_1_59_2023_09_29_16_28_scene/', 'log_192_168_1_59_2023_09_29_16_28_scene/data', 'log_192_168_1_59_2023_09_29_16_28_video/', 'log_192_168_1_59_2023_09_29_16_28_video/data', 'log_192_168_1_59_2023_09_29_16_28_gaze/', 'log_192_168_1_59_2023_09_29_16_28_gaze/data', 'log_192_168_1_59_2023_09_29_16_28_control/', 'log_192_168_1_59_2023_09_29_16_28_control/data', 'log_192_168_1_59_2023_09_29_16_28_pose/', 'log_192_168_1_59_2023_09_29_16_28_pose/data']
+2024-02-18 23:35:14,303 - INFO - Extraction started...
+2024-02-18 23:35:14,333 - INFO - Motion sickness rating extracted
+2024-02-18 23:35:31,729 - INFO - scene extracted
+2024-02-18 23:36:05,440 - INFO - video extracted
+2024-02-18 23:36:05,443 - INFO - gaze_extracted
+2024-02-18 23:36:05,477 - INFO - control extracted
+2024-02-18 23:36:06,024 - INFO - pose extracted
+2024-02-18 23:36:06,024 - INFO - Gaze data is not available
+2024-02-18 23:36:38,076 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:36:38,076 - INFO - ***************57_2_The_aquarium********************
+2024-02-18 23:36:38,076 - INFO - There are 11 files here
+2024-02-18 23:36:38,076 - INFO - Following files are available: ['VRLOG-2023-09-29_15-30-13-voice.csv', 'log_192_168_1_59_2023_09_29_15_24_scene/', 'log_192_168_1_59_2023_09_29_15_24_scene/data', 'log_192_168_1_59_2023_09_29_15_24_video/', 'log_192_168_1_59_2023_09_29_15_24_video/data', 'log_192_168_1_59_2023_09_29_15_24_gaze/', 'log_192_168_1_59_2023_09_29_15_24_gaze/data', 'log_192_168_1_59_2023_09_29_15_24_control/', 'log_192_168_1_59_2023_09_29_15_24_control/data', 'log_192_168_1_59_2023_09_29_15_24_pose/', 'log_192_168_1_59_2023_09_29_15_24_pose/data']
+2024-02-18 23:36:38,076 - INFO - Extraction started...
+2024-02-18 23:36:38,119 - INFO - Motion sickness rating extracted
+2024-02-18 23:36:44,734 - INFO - scene extracted
+2024-02-18 23:37:17,065 - INFO - video extracted
+2024-02-18 23:37:17,070 - INFO - gaze_extracted
+2024-02-18 23:37:17,102 - INFO - control extracted
+2024-02-18 23:37:17,296 - INFO - pose extracted
+2024-02-18 23:37:17,297 - INFO - Gaze data is not available
+2024-02-18 23:37:35,170 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:37:35,171 - INFO - ***************64_1_Kowloon********************
+2024-02-18 23:37:35,171 - INFO - There are 11 files here
+2024-02-18 23:37:35,171 - INFO - Following files are available: ['VRLOG-2023-09-29_18-02-53-voice.csv', 'log_192_168_1_59_2023_09_29_18_01_scene/', 'log_192_168_1_59_2023_09_29_18_01_scene/data', 'log_192_168_1_59_2023_09_29_18_01_video/', 'log_192_168_1_59_2023_09_29_18_01_video/data', 'log_192_168_1_59_2023_09_29_18_01_gaze/', 'log_192_168_1_59_2023_09_29_18_01_gaze/data', 'log_192_168_1_59_2023_09_29_18_01_control/', 'log_192_168_1_59_2023_09_29_18_01_control/data', 'log_192_168_1_59_2023_09_29_18_01_pose/', 'log_192_168_1_59_2023_09_29_18_01_pose/data']
+2024-02-18 23:37:35,171 - INFO - Extraction started...
+2024-02-18 23:37:35,194 - INFO - Motion sickness rating extracted
+2024-02-18 23:37:56,286 - INFO - scene extracted
+2024-02-18 23:38:28,973 - INFO - video extracted
+2024-02-18 23:38:28,976 - INFO - gaze_extracted
+2024-02-18 23:38:29,010 - INFO - control extracted
+2024-02-18 23:38:29,196 - INFO - pose extracted
+2024-02-18 23:38:29,196 - INFO - Gaze data is not available
+2024-02-18 23:39:08,823 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:39:08,824 - INFO - ***************64_2_Wake_the_Robot********************
+2024-02-18 23:39:08,824 - INFO - There are 11 files here
+2024-02-18 23:39:08,824 - INFO - Following files are available: ['VRLOG-2023-09-29_18-18-57-voice.csv', 'log_192_168_1_59_2023_09_29_18_17_scene/', 'log_192_168_1_59_2023_09_29_18_17_scene/data', 'log_192_168_1_59_2023_09_29_18_17_video/', 'log_192_168_1_59_2023_09_29_18_17_video/data', 'log_192_168_1_59_2023_09_29_18_17_gaze/', 'log_192_168_1_59_2023_09_29_18_17_gaze/data', 'log_192_168_1_59_2023_09_29_18_17_control/', 'log_192_168_1_59_2023_09_29_18_17_control/data', 'log_192_168_1_59_2023_09_29_18_17_pose/', 'log_192_168_1_59_2023_09_29_18_17_pose/data']
+2024-02-18 23:39:08,824 - INFO - Extraction started...
+2024-02-18 23:39:08,826 - INFO - Motion sickness rating extracted
+2024-02-18 23:39:17,585 - INFO - scene extracted
+2024-02-18 23:39:48,208 - INFO - video extracted
+2024-02-18 23:39:48,212 - INFO - gaze_extracted
+2024-02-18 23:39:48,246 - INFO - control extracted
+2024-02-18 23:39:48,426 - INFO - pose extracted
+2024-02-18 23:39:48,426 - INFO - Gaze data is not available
+2024-02-18 23:40:11,964 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:40:11,964 - INFO - ***************69_1_Wake_the_Robot********************
+2024-02-18 23:40:11,964 - INFO - There are 12 files here
+2024-02-18 23:40:11,964 - INFO - Following files are available: ['VRLOG-2023-09-30_13-10-11-voice.csv', '__MACOSX/._VRLOG-2023-09-30_13-10-11-voice.csv', 'log_192_168_1_59_2023_09_30_13_06_scene/', 'log_192_168_1_59_2023_09_30_13_06_scene/data', 'log_192_168_1_59_2023_09_30_13_06_video/', 'log_192_168_1_59_2023_09_30_13_06_video/data', 'log_192_168_1_59_2023_09_30_13_06_gaze/', 'log_192_168_1_59_2023_09_30_13_06_gaze/data', 'log_192_168_1_59_2023_09_30_13_06_control/', 'log_192_168_1_59_2023_09_30_13_06_control/data', 'log_192_168_1_59_2023_09_30_13_06_pose/', 'log_192_168_1_59_2023_09_30_13_06_pose/data']
+2024-02-18 23:40:11,964 - INFO - Extraction started...
+2024-02-18 23:40:11,965 - INFO - Motion sickness rating extracted
+2024-02-18 23:40:28,190 - INFO - scene extracted
+2024-02-18 23:40:53,430 - INFO - video extracted
+2024-02-18 23:40:53,432 - INFO - gaze_extracted
+2024-02-18 23:40:53,462 - INFO - control extracted
+2024-02-18 23:40:53,599 - INFO - pose extracted
+2024-02-18 23:40:53,600 - INFO - Gaze data is not available
+2024-02-18 23:41:31,052 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:41:31,052 - INFO - ***************62_1_The_aquarium********************
+2024-02-18 23:41:31,052 - INFO - There are 11 files here
+2024-02-18 23:41:31,052 - INFO - Following files are available: ['VRLOG-2023-09-29_17-27-26-voice.csv', 'log_192_168_1_59_2023_09_29_17_18_scene/', 'log_192_168_1_59_2023_09_29_17_18_scene/data', 'log_192_168_1_59_2023_09_29_17_18_video/', 'log_192_168_1_59_2023_09_29_17_18_video/data', 'log_192_168_1_59_2023_09_29_17_18_gaze/', 'log_192_168_1_59_2023_09_29_17_18_gaze/data', 'log_192_168_1_59_2023_09_29_17_18_control/', 'log_192_168_1_59_2023_09_29_17_18_control/data', 'log_192_168_1_59_2023_09_29_17_18_pose/', 'log_192_168_1_59_2023_09_29_17_18_pose/data']
+2024-02-18 23:41:31,052 - INFO - Extraction started...
+2024-02-18 23:41:31,072 - INFO - Motion sickness rating extracted
+2024-02-18 23:41:34,069 - INFO - scene extracted
+2024-02-18 23:42:08,532 - INFO - video extracted
+2024-02-18 23:42:08,535 - INFO - gaze_extracted
+2024-02-18 23:42:08,572 - INFO - control extracted
+2024-02-18 23:42:08,766 - INFO - pose extracted
+2024-02-18 23:42:08,766 - INFO - Gaze data is not available
+2024-02-18 23:42:22,538 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:42:22,538 - INFO - ***************43_1_Scifi_Sandbox********************
+2024-02-18 23:42:22,538 - INFO - There are 11 files here
+2024-02-18 23:42:22,538 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_11_01_control/', 'log_192_168_1_59_2023_09_28_11_01_control/data', 'log_192_168_1_59_2023_09_28_11_01_gaze/', 'log_192_168_1_59_2023_09_28_11_01_gaze/data', 'log_192_168_1_59_2023_09_28_11_01_pose/', 'log_192_168_1_59_2023_09_28_11_01_pose/data', 'log_192_168_1_59_2023_09_28_11_01_scene/', 'log_192_168_1_59_2023_09_28_11_01_scene/data', 'log_192_168_1_59_2023_09_28_11_01_video/', 'log_192_168_1_59_2023_09_28_11_01_video/data', 'VRLOG-2023-09-28_11-01-13-voice.csv']
+2024-02-18 23:42:22,538 - INFO - Extraction started...
+2024-02-18 23:42:22,597 - INFO - control extracted
+2024-02-18 23:42:22,597 - INFO - gaze_extracted
+2024-02-18 23:42:22,756 - INFO - pose extracted
+2024-02-18 23:42:56,291 - INFO - scene extracted
+2024-02-18 23:43:34,850 - INFO - video extracted
+2024-02-18 23:43:34,874 - INFO - Motion sickness rating extracted
+2024-02-18 23:43:34,874 - INFO - Gaze data is not available
+2024-02-18 23:44:32,553 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:44:32,553 - INFO - ***************45_1_Scifi_Sandbox********************
+2024-02-18 23:44:32,553 - INFO - There are 12 files here
+2024-02-18 23:44:32,553 - INFO - Following files are available: ['VRLOG-2023-09-28_13-03-49-voice.csv', '__MACOSX/._VRLOG-2023-09-28_13-03-49-voice.csv', 'log_192_168_1_59_2023_09_28_13_00_scene/', 'log_192_168_1_59_2023_09_28_13_00_scene/data', 'log_192_168_1_59_2023_09_28_13_00_video/', 'log_192_168_1_59_2023_09_28_13_00_video/data', 'log_192_168_1_59_2023_09_28_13_00_gaze/', 'log_192_168_1_59_2023_09_28_13_00_gaze/data', 'log_192_168_1_59_2023_09_28_13_00_control/', 'log_192_168_1_59_2023_09_28_13_00_control/data', 'log_192_168_1_59_2023_09_28_13_00_pose/', 'log_192_168_1_59_2023_09_28_13_00_pose/data']
+2024-02-18 23:44:32,553 - INFO - Extraction started...
+2024-02-18 23:44:32,564 - INFO - Motion sickness rating extracted
+2024-02-18 23:44:48,434 - INFO - scene extracted
+2024-02-18 23:45:24,914 - INFO - video extracted
+2024-02-18 23:45:24,919 - INFO - gaze_extracted
+2024-02-18 23:45:24,953 - INFO - control extracted
+2024-02-18 23:45:25,108 - INFO - pose extracted
+2024-02-18 23:45:25,108 - INFO - Gaze data is not available
+2024-02-18 23:45:55,488 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:45:55,488 - INFO - ***************40_2_Citadel********************
+2024-02-18 23:45:55,488 - INFO - There are 11 files here
+2024-02-18 23:45:55,488 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_09_53_control/', 'log_192_168_1_59_2023_09_28_09_53_control/data', 'log_192_168_1_59_2023_09_28_09_53_gaze/', 'log_192_168_1_59_2023_09_28_09_53_gaze/data', 'log_192_168_1_59_2023_09_28_09_53_pose/', 'log_192_168_1_59_2023_09_28_09_53_pose/data', 'log_192_168_1_59_2023_09_28_09_53_scene/', 'log_192_168_1_59_2023_09_28_09_53_scene/data', 'log_192_168_1_59_2023_09_28_09_53_video/', 'log_192_168_1_59_2023_09_28_09_53_video/data', 'VRLOG-2023-09-28_09-53-05-voice.csv']
+2024-02-18 23:45:55,488 - INFO - Extraction started...
+2024-02-18 23:45:55,546 - INFO - control extracted
+2024-02-18 23:45:55,546 - INFO - gaze_extracted
+2024-02-18 23:45:55,701 - INFO - pose extracted
+2024-02-18 23:46:11,609 - INFO - scene extracted
+2024-02-18 23:46:45,391 - INFO - video extracted
+2024-02-18 23:46:45,410 - INFO - Motion sickness rating extracted
+2024-02-18 23:46:45,410 - INFO - Gaze data is not available
+2024-02-18 23:47:16,747 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:47:16,747 - INFO - ***************49_1_Scifi_Sandbox********************
+2024-02-18 23:47:16,748 - INFO - There are 11 files here
+2024-02-18 23:47:16,748 - INFO - Following files are available: ['VRLOG-2023-09-28_16-47-11-voice.csv', 'log_192_168_1_59_2023_09_28_16_44_scene/', 'log_192_168_1_59_2023_09_28_16_44_scene/data', 'log_192_168_1_59_2023_09_28_16_44_video/', 'log_192_168_1_59_2023_09_28_16_44_video/data', 'log_192_168_1_59_2023_09_28_16_44_gaze/', 'log_192_168_1_59_2023_09_28_16_44_gaze/data', 'log_192_168_1_59_2023_09_28_16_44_control/', 'log_192_168_1_59_2023_09_28_16_44_control/data', 'log_192_168_1_59_2023_09_28_16_44_pose/', 'log_192_168_1_59_2023_09_28_16_44_pose/data']
+2024-02-18 23:47:16,748 - INFO - Extraction started...
+2024-02-18 23:47:16,751 - INFO - Motion sickness rating extracted
+2024-02-18 23:47:37,602 - INFO - scene extracted
+2024-02-18 23:48:09,279 - INFO - video extracted
+2024-02-18 23:48:09,282 - INFO - gaze_extracted
+2024-02-18 23:48:09,310 - INFO - control extracted
+2024-02-18 23:48:09,457 - INFO - pose extracted
+2024-02-18 23:48:09,457 - INFO - Gaze data is not available
+2024-02-18 23:48:47,269 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:48:47,269 - INFO - ***************39_2_Citadel********************
+2024-02-18 23:48:47,269 - INFO - There are 11 files here
+2024-02-18 23:48:47,269 - INFO - Following files are available: ['39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_control/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_control/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_gaze/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_gaze/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_pose/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_pose/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_scene/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_scene/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_video/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_video/data', '39_2_Citadel/VRLOG-2023-09-28_09-25-01-voice.csv']
+2024-02-18 23:48:47,269 - INFO - Extraction started...
+2024-02-18 23:48:47,269 - INFO - control extracted
+2024-02-18 23:48:47,269 - INFO - gaze_extracted
+2024-02-18 23:48:47,269 - INFO - pose extracted
+2024-02-18 23:48:47,270 - INFO - scene extracted
+2024-02-18 23:48:47,270 - INFO - video extracted
+2024-02-18 23:48:47,270 - INFO - Motion sickness rating extracted
+2024-02-18 23:48:47,270 - INFO - Can't proceed: no 'pose' data
+2024-02-18 23:48:47,284 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:48:47,284 - INFO - ***************40_1_Super_Rumble********************
+2024-02-18 23:48:47,284 - INFO - There are 11 files here
+2024-02-18 23:48:47,284 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_09_37_control/', 'log_192_168_1_59_2023_09_28_09_37_control/data', 'log_192_168_1_59_2023_09_28_09_37_gaze/', 'log_192_168_1_59_2023_09_28_09_37_gaze/data', 'log_192_168_1_59_2023_09_28_09_37_pose/', 'log_192_168_1_59_2023_09_28_09_37_pose/data', 'log_192_168_1_59_2023_09_28_09_37_scene/', 'log_192_168_1_59_2023_09_28_09_37_scene/data', 'log_192_168_1_59_2023_09_28_09_37_video/', 'log_192_168_1_59_2023_09_28_09_37_video/data', 'VRLOG-2023-09-28_09-39-07-voice.csv']
+2024-02-18 23:48:47,284 - INFO - Extraction started...
+2024-02-18 23:48:47,320 - INFO - control extracted
+2024-02-18 23:48:47,320 - INFO - gaze_extracted
+2024-02-18 23:48:47,450 - INFO - pose extracted
+2024-02-18 23:49:16,583 - INFO - scene extracted
+2024-02-18 23:49:51,787 - INFO - video extracted
+2024-02-18 23:49:51,810 - INFO - Motion sickness rating extracted
+2024-02-18 23:49:51,810 - INFO - Gaze data is not available
+2024-02-18 23:50:49,041 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:50:49,041 - INFO - ***************45_2_Arena_Clash********************
+2024-02-18 23:50:49,041 - INFO - There are 11 files here
+2024-02-18 23:50:49,041 - INFO - Following files are available: ['VRLOG-2023-09-28_13-19-45-voice.csv', 'log_192_168_1_59_2023_09_28_13_18_scene/', 'log_192_168_1_59_2023_09_28_13_18_scene/data', 'log_192_168_1_59_2023_09_28_13_18_video/', 'log_192_168_1_59_2023_09_28_13_18_video/data', 'log_192_168_1_59_2023_09_28_13_18_gaze/', 'log_192_168_1_59_2023_09_28_13_18_gaze/data', 'log_192_168_1_59_2023_09_28_13_18_control/', 'log_192_168_1_59_2023_09_28_13_18_control/data', 'log_192_168_1_59_2023_09_28_13_18_pose/', 'log_192_168_1_59_2023_09_28_13_18_pose/data']
+2024-02-18 23:50:49,041 - INFO - Extraction started...
+2024-02-18 23:50:49,051 - INFO - Motion sickness rating extracted
+2024-02-18 23:51:16,931 - INFO - scene extracted
+2024-02-18 23:51:50,078 - INFO - video extracted
+2024-02-18 23:51:50,081 - INFO - gaze_extracted
+2024-02-18 23:51:50,656 - INFO - control extracted
+2024-02-18 23:51:50,777 - INFO - pose extracted
+2024-02-18 23:51:50,778 - INFO - Gaze data is not available
+2024-02-18 23:52:40,532 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:52:40,532 - INFO - ***************47_1_Scifi_Sandbox********************
+2024-02-18 23:52:40,532 - INFO - There are 12 files here
+2024-02-18 23:52:40,532 - INFO - Following files are available: ['VRLOG-2023-09-28_16-12-36-voice.csv', '__MACOSX/._VRLOG-2023-09-28_16-12-36-voice.csv', 'log_192_168_1_59_2023_09_28_16_10_scene/', 'log_192_168_1_59_2023_09_28_16_10_scene/data', 'log_192_168_1_59_2023_09_28_16_10_video/', 'log_192_168_1_59_2023_09_28_16_10_video/data', 'log_192_168_1_59_2023_09_28_16_10_gaze/', 'log_192_168_1_59_2023_09_28_16_10_gaze/data', 'log_192_168_1_59_2023_09_28_16_10_control/', 'log_192_168_1_59_2023_09_28_16_10_control/data', 'log_192_168_1_59_2023_09_28_16_10_pose/', 'log_192_168_1_59_2023_09_28_16_10_pose/data']
+2024-02-18 23:52:40,532 - INFO - Extraction started...
+2024-02-18 23:52:40,540 - INFO - Motion sickness rating extracted
+2024-02-18 23:52:58,491 - INFO - scene extracted
+2024-02-18 23:53:37,283 - INFO - video extracted
+2024-02-18 23:53:37,288 - INFO - gaze_extracted
+2024-02-18 23:53:37,322 - INFO - control extracted
+2024-02-18 23:53:37,879 - INFO - pose extracted
+2024-02-18 23:53:37,880 - INFO - Gaze data is not available
+2024-02-18 23:54:12,010 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:54:12,010 - INFO - ***************43_2_Arena_Clash********************
+2024-02-18 23:54:12,010 - INFO - There are 11 files here
+2024-02-18 23:54:12,010 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_11_22_control/', 'log_192_168_1_59_2023_09_28_11_22_control/data', 'log_192_168_1_59_2023_09_28_11_22_gaze/', 'log_192_168_1_59_2023_09_28_11_22_gaze/data', 'log_192_168_1_59_2023_09_28_11_22_pose/', 'log_192_168_1_59_2023_09_28_11_22_pose/data', 'log_192_168_1_59_2023_09_28_11_22_scene/', 'log_192_168_1_59_2023_09_28_11_22_scene/data', 'log_192_168_1_59_2023_09_28_11_22_video/', 'log_192_168_1_59_2023_09_28_11_22_video/data', 'VRLOG-2023-09-28_11-24-28-voice.csv']
+2024-02-18 23:54:12,010 - INFO - Extraction started...
+2024-02-18 23:54:12,054 - INFO - control extracted
+2024-02-18 23:54:12,054 - INFO - gaze_extracted
+2024-02-18 23:54:12,157 - INFO - pose extracted
+2024-02-18 23:54:51,994 - INFO - scene extracted
+2024-02-18 23:55:22,253 - INFO - video extracted
+2024-02-18 23:55:22,274 - INFO - Motion sickness rating extracted
+2024-02-18 23:55:22,274 - INFO - Gaze data is not available
+2024-02-18 23:56:27,295 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:56:27,295 - INFO - ***************42_2_Citadel********************
+2024-02-18 23:56:27,295 - INFO - There are 11 files here
+2024-02-18 23:56:27,295 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_10_37_control/', 'log_192_168_1_59_2023_09_28_10_37_control/data', 'log_192_168_1_59_2023_09_28_10_37_gaze/', 'log_192_168_1_59_2023_09_28_10_37_gaze/data', 'log_192_168_1_59_2023_09_28_10_37_pose/', 'log_192_168_1_59_2023_09_28_10_37_pose/data', 'log_192_168_1_59_2023_09_28_10_37_scene/', 'log_192_168_1_59_2023_09_28_10_37_scene/data', 'log_192_168_1_59_2023_09_28_10_37_video/', 'log_192_168_1_59_2023_09_28_10_37_video/data', 'VRLOG-2023-09-28_10-37-33-voice.csv']
+2024-02-18 23:56:27,295 - INFO - Extraction started...
+2024-02-18 23:56:27,348 - INFO - control extracted
+2024-02-18 23:56:27,348 - INFO - gaze_extracted
+2024-02-18 23:56:27,515 - INFO - pose extracted
+2024-02-18 23:56:49,457 - INFO - scene extracted
+2024-02-18 23:57:23,023 - INFO - video extracted
+2024-02-18 23:57:23,044 - INFO - Motion sickness rating extracted
+2024-02-18 23:57:23,044 - INFO - Gaze data is not available
+2024-02-18 23:58:02,133 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:58:02,133 - INFO - ***************47_2_Arena_Clash********************
+2024-02-18 23:58:02,133 - INFO - There are 11 files here
+2024-02-18 23:58:02,133 - INFO - Following files are available: ['VRLOG-2023-09-28_16-29-30-voice.csv', 'log_192_168_1_59_2023_09_28_16_28_scene/', 'log_192_168_1_59_2023_09_28_16_28_scene/data', 'log_192_168_1_59_2023_09_28_16_28_video/', 'log_192_168_1_59_2023_09_28_16_28_video/data', 'log_192_168_1_59_2023_09_28_16_28_gaze/', 'log_192_168_1_59_2023_09_28_16_28_gaze/data', 'log_192_168_1_59_2023_09_28_16_28_control/', 'log_192_168_1_59_2023_09_28_16_28_control/data', 'log_192_168_1_59_2023_09_28_16_28_pose/', 'log_192_168_1_59_2023_09_28_16_28_pose/data']
+2024-02-18 23:58:02,133 - INFO - Extraction started...
+2024-02-18 23:58:02,143 - INFO - Motion sickness rating extracted
+2024-02-18 23:58:32,454 - INFO - scene extracted
+2024-02-18 23:59:04,806 - INFO - video extracted
+2024-02-18 23:59:04,809 - INFO - gaze_extracted
+2024-02-18 23:59:05,435 - INFO - control extracted
+2024-02-18 23:59:05,583 - INFO - pose extracted
+2024-02-18 23:59:05,583 - INFO - Gaze data is not available
+2024-02-18 23:59:57,651 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-18 23:59:57,651 - INFO - ***************245_1_Slash********************
+2024-02-18 23:59:57,651 - INFO - There are 13 files here
+2024-02-18 23:59:57,651 - INFO - Following files are available: ['245_1_Splash/log_192_168_1_59_2023_10_13_16_42_control/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_control/data', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_face/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_face/data', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_gaze/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_gaze/data', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_pose/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_pose/data', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_scene/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_scene/data', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_video/', '245_1_Splash/log_192_168_1_59_2023_10_13_16_42_video/data', '245_1_Splash/VRLOG-2023-10-13_16-42-37-voice.csv']
+2024-02-18 23:59:57,651 - INFO - Extraction started...
+2024-02-18 23:59:57,750 - INFO - control extracted
+2024-02-18 23:59:57,750 - INFO - Face data present!- extract in the next phase
+2024-02-18 23:59:57,847 - INFO - gaze_extracted
+2024-02-18 23:59:58,274 - INFO - pose extracted
+2024-02-18 23:59:58,274 - INFO - scene extracted
+2024-02-19 00:01:17,153 - INFO - video extracted
+2024-02-19 00:01:17,206 - INFO - Motion sickness rating extracted
+2024-02-19 00:01:17,206 - INFO - Scene: obj data is not available
+2024-02-19 00:01:17,206 - INFO - Scene: camera data is not available
+2024-02-19 00:01:28,625 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:01:28,625 - INFO - ***************200_1_Water_Battling********************
+2024-02-19 00:01:28,625 - INFO - There are 13 files here
+2024-02-19 00:01:28,625 - INFO - Following files are available: ['200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_control/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_control/data', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_face/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_face/data', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_gaze/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_gaze/data', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_pose/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_pose/data', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_scene/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_scene/data', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_video/', '200_1_Watter_Battling/log_192_168_1_128_2023_10_12_09_00_video/data', '200_1_Watter_Battling/VRLOG-2023-10-12_09-03-03-voice.csv']
+2024-02-19 00:01:28,625 - INFO - Extraction started...
+2024-02-19 00:01:28,709 - INFO - control extracted
+2024-02-19 00:01:28,709 - INFO - Face data present!- extract in the next phase
+2024-02-19 00:01:28,763 - INFO - gaze_extracted
+2024-02-19 00:01:29,025 - INFO - pose extracted
+2024-02-19 00:01:29,025 - INFO - scene extracted
+2024-02-19 00:02:22,659 - INFO - video extracted
+2024-02-19 00:02:22,694 - INFO - Motion sickness rating extracted
+2024-02-19 00:02:22,694 - INFO - Scene: obj data is not available
+2024-02-19 00:02:22,694 - INFO - Scene: camera data is not available
+2024-02-19 00:02:30,528 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:02:30,528 - INFO - ***************78_2_Venues********************
+2024-02-19 00:02:30,528 - INFO - There are 11 files here
+2024-02-19 00:02:30,528 - INFO - Following files are available: ['VRLOG-2023-09-30_16-53-23-voice.csv', 'log_192_168_1_59_2023_09_30_16_52_scene/', 'log_192_168_1_59_2023_09_30_16_52_scene/data', 'log_192_168_1_59_2023_09_30_16_52_video/', 'log_192_168_1_59_2023_09_30_16_52_video/data', 'log_192_168_1_59_2023_09_30_16_52_gaze/', 'log_192_168_1_59_2023_09_30_16_52_gaze/data', 'log_192_168_1_59_2023_09_30_16_52_control/', 'log_192_168_1_59_2023_09_30_16_52_control/data', 'log_192_168_1_59_2023_09_30_16_52_pose/', 'log_192_168_1_59_2023_09_30_16_52_pose/data']
+2024-02-19 00:02:30,528 - INFO - Extraction started...
+2024-02-19 00:02:30,543 - INFO - Motion sickness rating extracted
+2024-02-19 00:02:38,913 - INFO - scene extracted
+2024-02-19 00:03:08,304 - INFO - video extracted
+2024-02-19 00:03:08,309 - INFO - gaze_extracted
+2024-02-19 00:03:08,507 - INFO - control extracted
+2024-02-19 00:03:08,633 - INFO - pose extracted
+2024-02-19 00:03:08,633 - INFO - Gaze data is not available
+2024-02-19 00:03:29,631 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:03:29,631 - INFO - ***************82_1_Superhero_Arena********************
+2024-02-19 00:03:29,631 - INFO - There are 7 files here
+2024-02-19 00:03:29,631 - INFO - Following files are available: ['log_192_168_1_128_2023_10_02_10_21_control/data', 'log_192_168_1_128_2023_10_02_10_21_gaze/data', 'log_192_168_1_128_2023_10_02_10_21_pose/data', 'log_192_168_1_128_2023_10_02_10_21_scene/data', 'log_192_168_1_128_2023_10_02_10_21_video/data', 'VRLOG-2023-10-02_10-22-18-voice.csv', 'VRLOG-2023-10-03_16-08-11-voice.csv']
+2024-02-19 00:03:29,631 - INFO - Extraction started...
+2024-02-19 00:03:29,659 - INFO - control extracted
+2024-02-19 00:03:29,675 - INFO - gaze_extracted
+2024-02-19 00:03:29,784 - INFO - pose extracted
+2024-02-19 00:03:46,125 - INFO - scene extracted
+2024-02-19 00:04:13,646 - INFO - video extracted
+2024-02-19 00:04:13,662 - INFO - Motion sickness rating extracted
+2024-02-19 00:04:13,673 - INFO - Motion sickness rating extracted
+2024-02-19 00:04:47,522 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:04:47,522 - INFO - ***************80_2_Venues********************
+2024-02-19 00:04:47,522 - INFO - There are 12 files here
+2024-02-19 00:04:47,522 - INFO - Following files are available: ['VRLOG-2023-09-30_17-51-32-voice.csv', '__MACOSX/._VRLOG-2023-09-30_17-51-32-voice.csv', 'log_192_168_1_59_2023_09_30_17_50_scene/', 'log_192_168_1_59_2023_09_30_17_50_scene/data', 'log_192_168_1_59_2023_09_30_17_50_video/', 'log_192_168_1_59_2023_09_30_17_50_video/data', 'log_192_168_1_59_2023_09_30_17_50_gaze/', 'log_192_168_1_59_2023_09_30_17_50_gaze/data', 'log_192_168_1_59_2023_09_30_17_50_control/', 'log_192_168_1_59_2023_09_30_17_50_control/data', 'log_192_168_1_59_2023_09_30_17_50_pose/', 'log_192_168_1_59_2023_09_30_17_50_pose/data']
+2024-02-19 00:04:47,522 - INFO - Extraction started...
+2024-02-19 00:04:47,526 - INFO - Motion sickness rating extracted
+2024-02-19 00:04:58,613 - INFO - scene extracted
+2024-02-19 00:05:29,539 - INFO - video extracted
+2024-02-19 00:05:29,543 - INFO - gaze_extracted
+2024-02-19 00:05:29,569 - INFO - control extracted
+2024-02-19 00:05:29,715 - INFO - pose extracted
+2024-02-19 00:05:29,715 - INFO - Gaze data is not available
+2024-02-19 00:05:55,295 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:05:55,295 - INFO - ***************76_2_Venues********************
+2024-02-19 00:05:55,295 - INFO - There are 11 files here
+2024-02-19 00:05:55,295 - INFO - Following files are available: ['VRLOG-2023-09-30_16-17-01-voice.csv', 'log_192_168_1_59_2023_09_30_16_15_scene/', 'log_192_168_1_59_2023_09_30_16_15_scene/data', 'log_192_168_1_59_2023_09_30_16_15_video/', 'log_192_168_1_59_2023_09_30_16_15_video/data', 'log_192_168_1_59_2023_09_30_16_15_gaze/', 'log_192_168_1_59_2023_09_30_16_15_gaze/data', 'log_192_168_1_59_2023_09_30_16_15_control/', 'log_192_168_1_59_2023_09_30_16_15_control/data', 'log_192_168_1_59_2023_09_30_16_15_pose/', 'log_192_168_1_59_2023_09_30_16_15_pose/data']
+2024-02-19 00:05:55,296 - INFO - Extraction started...
+2024-02-19 00:05:55,317 - INFO - Motion sickness rating extracted
+2024-02-19 00:06:23,990 - INFO - scene extracted
+2024-02-19 00:06:58,443 - INFO - video extracted
+2024-02-19 00:06:58,448 - INFO - gaze_extracted
+2024-02-19 00:06:58,480 - INFO - control extracted
+2024-02-19 00:06:58,659 - INFO - pose extracted
+2024-02-19 00:06:58,659 - INFO - Gaze data is not available
+2024-02-19 00:07:49,140 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:07:49,140 - INFO - ***************73_1_Superhero_Arena********************
+2024-02-19 00:07:49,140 - INFO - There are 11 files here
+2024-02-19 00:07:49,140 - INFO - Following files are available: ['VRLOG-2023-09-30_14-29-07-voice.csv', 'log_192_168_1_59_2023_09_30_14_25_scene/', 'log_192_168_1_59_2023_09_30_14_25_scene/data', 'log_192_168_1_59_2023_09_30_14_25_video/', 'log_192_168_1_59_2023_09_30_14_25_video/data', 'log_192_168_1_59_2023_09_30_14_25_gaze/', 'log_192_168_1_59_2023_09_30_14_25_gaze/data', 'log_192_168_1_59_2023_09_30_14_25_control/', 'log_192_168_1_59_2023_09_30_14_25_control/data', 'log_192_168_1_59_2023_09_30_14_25_pose/', 'log_192_168_1_59_2023_09_30_14_25_pose/data']
+2024-02-19 00:07:49,140 - INFO - Extraction started...
+2024-02-19 00:07:49,158 - INFO - Motion sickness rating extracted
+2024-02-19 00:08:19,962 - INFO - scene extracted
+2024-02-19 00:09:01,963 - INFO - video extracted
+2024-02-19 00:09:01,970 - INFO - gaze_extracted
+2024-02-19 00:09:02,006 - INFO - control extracted
+2024-02-19 00:09:02,207 - INFO - pose extracted
+2024-02-19 00:09:02,208 - INFO - Gaze data is not available
+2024-02-19 00:09:59,670 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:09:59,670 - INFO - ***************78_1_Superhero_Arena********************
+2024-02-19 00:09:59,670 - INFO - There are 12 files here
+2024-02-19 00:09:59,670 - INFO - Following files are available: ['VRLOG-2023-09-30_16-35-34-voice.csv', '__MACOSX/._VRLOG-2023-09-30_16-35-34-voice.csv', 'log_192_168_1_59_2023_09_30_16_32_scene/', 'log_192_168_1_59_2023_09_30_16_32_scene/data', 'log_192_168_1_59_2023_09_30_16_32_video/', 'log_192_168_1_59_2023_09_30_16_32_video/data', 'log_192_168_1_59_2023_09_30_16_32_gaze/', 'log_192_168_1_59_2023_09_30_16_32_gaze/data', 'log_192_168_1_59_2023_09_30_16_32_control/', 'log_192_168_1_59_2023_09_30_16_32_control/data', 'log_192_168_1_59_2023_09_30_16_32_pose/', 'log_192_168_1_59_2023_09_30_16_32_pose/data']
+2024-02-19 00:09:59,671 - INFO - Extraction started...
+2024-02-19 00:09:59,691 - INFO - Motion sickness rating extracted
+2024-02-19 00:10:23,407 - INFO - scene extracted
+2024-02-19 00:10:59,919 - INFO - video extracted
+2024-02-19 00:10:59,923 - INFO - gaze_extracted
+2024-02-19 00:10:59,954 - INFO - control extracted
+2024-02-19 00:11:00,614 - INFO - pose extracted
+2024-02-19 00:11:00,614 - INFO - Gaze data is not available
+2024-02-19 00:11:45,391 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:11:45,391 - INFO - ***************80_1_Superhero_Arena********************
+2024-02-19 00:11:45,391 - INFO - There are 11 files here
+2024-02-19 00:11:45,391 - INFO - Following files are available: ['VRLOG-2023-09-30_17-24-37-voice.csv', 'log_192_168_1_59_2023_09_30_17_23_scene/', 'log_192_168_1_59_2023_09_30_17_23_scene/data', 'log_192_168_1_59_2023_09_30_17_23_video/', 'log_192_168_1_59_2023_09_30_17_23_video/data', 'log_192_168_1_59_2023_09_30_17_23_gaze/', 'log_192_168_1_59_2023_09_30_17_23_gaze/data', 'log_192_168_1_59_2023_09_30_17_23_control/', 'log_192_168_1_59_2023_09_30_17_23_control/data', 'log_192_168_1_59_2023_09_30_17_23_pose/', 'log_192_168_1_59_2023_09_30_17_23_pose/data']
+2024-02-19 00:11:45,391 - INFO - Extraction started...
+2024-02-19 00:11:45,392 - INFO - Motion sickness rating extracted
+2024-02-19 00:11:59,113 - INFO - scene extracted
+2024-02-19 00:12:27,401 - INFO - video extracted
+2024-02-19 00:12:27,404 - INFO - gaze_extracted
+2024-02-19 00:12:27,434 - INFO - control extracted
+2024-02-19 00:12:27,603 - INFO - pose extracted
+2024-02-19 00:12:27,604 - INFO - Gaze data is not available
+2024-02-19 00:12:56,257 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:12:56,257 - INFO - ***************73_2_Venues********************
+2024-02-19 00:12:56,257 - INFO - There are 11 files here
+2024-02-19 00:12:56,257 - INFO - Following files are available: ['VRLOG-2023-09-30_14-55-22-voice.csv', 'log_192_168_1_59_2023_09_30_14_53_scene/', 'log_192_168_1_59_2023_09_30_14_53_scene/data', 'log_192_168_1_59_2023_09_30_14_53_video/', 'log_192_168_1_59_2023_09_30_14_53_video/data', 'log_192_168_1_59_2023_09_30_14_53_gaze/', 'log_192_168_1_59_2023_09_30_14_53_gaze/data', 'log_192_168_1_59_2023_09_30_14_53_control/', 'log_192_168_1_59_2023_09_30_14_53_control/data', 'log_192_168_1_59_2023_09_30_14_53_pose/', 'log_192_168_1_59_2023_09_30_14_53_pose/data']
+2024-02-19 00:12:56,257 - INFO - Extraction started...
+2024-02-19 00:12:56,267 - INFO - Motion sickness rating extracted
+2024-02-19 00:13:12,350 - INFO - scene extracted
+2024-02-19 00:13:46,082 - INFO - video extracted
+2024-02-19 00:13:46,086 - INFO - gaze_extracted
+2024-02-19 00:13:46,104 - INFO - control extracted
+2024-02-19 00:13:46,569 - INFO - pose extracted
+2024-02-19 00:13:46,569 - INFO - Gaze data is not available
+2024-02-19 00:14:21,780 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:14:21,780 - INFO - ***************76_1_Superhero_Arena********************
+2024-02-19 00:14:21,780 - INFO - There are 12 files here
+2024-02-19 00:14:21,780 - INFO - Following files are available: ['VRLOG-2023-09-30_15-54-17-voice.csv', '__MACOSX/._VRLOG-2023-09-30_15-54-17-voice.csv', 'log_192_168_1_59_2023_09_30_15_50_scene/', 'log_192_168_1_59_2023_09_30_15_50_scene/data', 'log_192_168_1_59_2023_09_30_15_50_video/', 'log_192_168_1_59_2023_09_30_15_50_video/data', 'log_192_168_1_59_2023_09_30_15_50_gaze/', 'log_192_168_1_59_2023_09_30_15_50_gaze/data', 'log_192_168_1_59_2023_09_30_15_50_control/', 'log_192_168_1_59_2023_09_30_15_50_control/data', 'log_192_168_1_59_2023_09_30_15_50_pose/', 'log_192_168_1_59_2023_09_30_15_50_pose/data']
+2024-02-19 00:14:21,780 - INFO - Extraction started...
+2024-02-19 00:14:21,788 - INFO - Motion sickness rating extracted
+2024-02-19 00:14:41,869 - INFO - scene extracted
+2024-02-19 00:15:18,457 - INFO - video extracted
+2024-02-19 00:15:18,460 - INFO - gaze_extracted
+2024-02-19 00:15:18,492 - INFO - control extracted
+2024-02-19 00:15:18,676 - INFO - pose extracted
+2024-02-19 00:15:18,677 - INFO - Gaze data is not available
+2024-02-19 00:15:59,254 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:15:59,254 - INFO - ***************258_1_98_Escapes********************
+2024-02-19 00:15:59,254 - INFO - There are 13 files here
+2024-02-19 00:15:59,254 - INFO - Following files are available: ['258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_control/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_control/data', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_face/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_face/data', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_gaze/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_gaze/data', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_pose/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_pose/data', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_scene/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_scene/data', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_video/', '258_1_98_Escapes/log_192_168_1_128_2023_10_14_12_26_video/data', '258_1_98_Escapes/VRLOG-2023-10-14_12-28-13-voice.csv']
+2024-02-19 00:15:59,254 - INFO - Extraction started...
+2024-02-19 00:15:59,328 - INFO - control extracted
+2024-02-19 00:15:59,328 - INFO - Face data present!- extract in the next phase
+2024-02-19 00:15:59,388 - INFO - gaze_extracted
+2024-02-19 00:15:59,677 - INFO - pose extracted
+2024-02-19 00:15:59,678 - INFO - scene extracted
+2024-02-19 00:16:49,606 - INFO - video extracted
+2024-02-19 00:16:49,638 - INFO - Motion sickness rating extracted
+2024-02-19 00:16:49,638 - INFO - Scene: obj data is not available
+2024-02-19 00:16:49,638 - INFO - Scene: camera data is not available
+2024-02-19 00:16:57,368 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:16:57,368 - INFO - ***************268_2_MB_Deja_Vu********************
+2024-02-19 00:16:57,368 - INFO - There are 8 files here
+2024-02-19 00:16:57,368 - INFO - Following files are available: ['log_192_168_1_59_2023_10_14_15_21_control/data', 'log_192_168_1_59_2023_10_14_15_21_face/data', 'log_192_168_1_59_2023_10_14_15_21_gaze/data', 'log_192_168_1_59_2023_10_14_15_21_pose/data', 'log_192_168_1_59_2023_10_14_15_21_scene/data', 'log_192_168_1_59_2023_10_14_15_21_video/data', 'VRLOG-2023-10-14_15-21-15-voice.csv', '266_1_98_Escapes.zip']
+2024-02-19 00:16:57,368 - INFO - Extraction started...
+2024-02-19 00:16:57,454 - INFO - control extracted
+2024-02-19 00:16:57,454 - INFO - Face data present!- extract in the next phase
+2024-02-19 00:16:57,520 - INFO - gaze_extracted
+2024-02-19 00:16:57,843 - INFO - pose extracted
+2024-02-19 00:16:57,844 - INFO - scene extracted
+2024-02-19 00:17:58,012 - INFO - video extracted
+2024-02-19 00:17:58,049 - INFO - Motion sickness rating extracted
+2024-02-19 00:17:58,049 - INFO - Scene: obj data is not available
+2024-02-19 00:17:58,049 - INFO - Scene: camera data is not available
+2024-02-19 00:18:06,714 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:18:06,714 - INFO - ***************36_2_Super_Rumble********************
+2024-02-19 00:18:06,714 - INFO - There are 11 files here
+2024-02-19 00:18:06,714 - INFO - Following files are available: ['VRLOG-2023-09-27_16-20-36-voice.csv', 'log_192_168_1_59_2023_09_27_16_19_scene/', 'log_192_168_1_59_2023_09_27_16_19_scene/data', 'log_192_168_1_59_2023_09_27_16_19_video/', 'log_192_168_1_59_2023_09_27_16_19_video/data', 'log_192_168_1_59_2023_09_27_16_19_gaze/', 'log_192_168_1_59_2023_09_27_16_19_gaze/data', 'log_192_168_1_59_2023_09_27_16_19_control/', 'log_192_168_1_59_2023_09_27_16_19_control/data', 'log_192_168_1_59_2023_09_27_16_19_pose/', 'log_192_168_1_59_2023_09_27_16_19_pose/data']
+2024-02-19 00:18:06,714 - INFO - Extraction started...
+2024-02-19 00:18:06,715 - INFO - Motion sickness rating extracted
+2024-02-19 00:18:33,676 - INFO - scene extracted
+2024-02-19 00:19:01,855 - INFO - video extracted
+2024-02-19 00:19:01,860 - INFO - gaze_extracted
+2024-02-19 00:19:01,913 - INFO - control extracted
+2024-02-19 00:19:02,568 - INFO - pose extracted
+2024-02-19 00:19:02,568 - INFO - Gaze data is not available
+2024-02-19 00:19:52,687 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:19:52,687 - INFO - ***************36_1_Citadel********************
+2024-02-19 00:19:52,687 - INFO - There are 11 files here
+2024-02-19 00:19:52,687 - INFO - Following files are available: ['VRLOG-2023-09-27_16-04-48-voice.csv', 'log_192_168_1_59_2023_09_27_16_02_scene/', 'log_192_168_1_59_2023_09_27_16_02_scene/data', 'log_192_168_1_59_2023_09_27_16_02_video/', 'log_192_168_1_59_2023_09_27_16_02_video/data', 'log_192_168_1_59_2023_09_27_16_02_gaze/', 'log_192_168_1_59_2023_09_27_16_02_gaze/data', 'log_192_168_1_59_2023_09_27_16_02_control/', 'log_192_168_1_59_2023_09_27_16_02_control/data', 'log_192_168_1_59_2023_09_27_16_02_pose/', 'log_192_168_1_59_2023_09_27_16_02_pose/data']
+2024-02-19 00:19:52,687 - INFO - Extraction started...
+2024-02-19 00:19:52,688 - INFO - Motion sickness rating extracted
+2024-02-19 00:20:28,090 - INFO - scene extracted
+2024-02-19 00:21:01,565 - INFO - video extracted
+2024-02-19 00:21:01,572 - INFO - gaze_extracted
+2024-02-19 00:21:01,603 - INFO - control extracted
+2024-02-19 00:21:01,774 - INFO - pose extracted
+2024-02-19 00:21:01,775 - INFO - Gaze data is not available
+2024-02-19 00:22:01,605 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:22:01,605 - INFO - ***************28_2_Army_Men********************
+2024-02-19 00:22:01,605 - INFO - There are 11 files here
+2024-02-19 00:22:01,605 - INFO - Following files are available: ['log_192_168_1_85_2023_09_27_09_37_control/', 'log_192_168_1_85_2023_09_27_09_37_control/data', 'log_192_168_1_85_2023_09_27_09_37_gaze/', 'log_192_168_1_85_2023_09_27_09_37_gaze/data', 'log_192_168_1_85_2023_09_27_09_37_pose/', 'log_192_168_1_85_2023_09_27_09_37_pose/data', 'log_192_168_1_85_2023_09_27_09_37_scene/', 'log_192_168_1_85_2023_09_27_09_37_scene/data', 'log_192_168_1_85_2023_09_27_09_37_video/', 'log_192_168_1_85_2023_09_27_09_37_video/data', 'VRLOG-2023-09-27_09-41-12-voice.csv']
+2024-02-19 00:22:01,605 - INFO - Extraction started...
+2024-02-19 00:22:04,379 - INFO - control extracted
+2024-02-19 00:22:04,434 - INFO - gaze_extracted
+2024-02-19 00:22:04,579 - INFO - pose extracted
+2024-02-19 00:22:32,600 - INFO - scene extracted
+2024-02-19 00:23:05,904 - INFO - video extracted
+2024-02-19 00:23:05,924 - INFO - Motion sickness rating extracted
+2024-02-19 00:23:51,814 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:23:51,814 - INFO - ***************25_2_Bobber_Bay_Fishing********************
+2024-02-19 00:23:51,814 - INFO - There are 11 files here
+2024-02-19 00:23:51,814 - INFO - Following files are available: ['VRLOG-2023-09-26_18-29-49-voice.csv', 'log_192_168_1_59_2023_09_26_18_28_scene/', 'log_192_168_1_59_2023_09_26_18_28_scene/data', 'log_192_168_1_59_2023_09_26_18_28_video/', 'log_192_168_1_59_2023_09_26_18_28_video/data', 'log_192_168_1_59_2023_09_26_18_28_gaze/', 'log_192_168_1_59_2023_09_26_18_28_gaze/data', 'log_192_168_1_59_2023_09_26_18_28_control/', 'log_192_168_1_59_2023_09_26_18_28_control/data', 'log_192_168_1_59_2023_09_26_18_28_pose/', 'log_192_168_1_59_2023_09_26_18_28_pose/data']
+2024-02-19 00:23:51,814 - INFO - Extraction started...
+2024-02-19 00:23:51,815 - INFO - Motion sickness rating extracted
+2024-02-19 00:24:09,253 - INFO - scene extracted
+2024-02-19 00:24:45,142 - INFO - video extracted
+2024-02-19 00:24:45,146 - INFO - gaze_extracted
+2024-02-19 00:24:45,165 - INFO - control extracted
+2024-02-19 00:24:45,312 - INFO - pose extracted
+2024-02-19 00:24:45,312 - INFO - Gaze data is not available
+2024-02-19 00:25:18,165 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:25:18,165 - INFO - ***************38_1_Super_Rumble********************
+2024-02-19 00:25:18,165 - INFO - There are 11 files here
+2024-02-19 00:25:18,165 - INFO - Following files are available: ['log_192_168_1_59_2023_09_28_09_05_control/', 'log_192_168_1_59_2023_09_28_09_05_control/data', 'log_192_168_1_59_2023_09_28_09_05_gaze/', 'log_192_168_1_59_2023_09_28_09_05_gaze/data', 'log_192_168_1_59_2023_09_28_09_05_pose/', 'log_192_168_1_59_2023_09_28_09_05_pose/data', 'log_192_168_1_59_2023_09_28_09_05_scene/', 'log_192_168_1_59_2023_09_28_09_05_scene/data', 'log_192_168_1_59_2023_09_28_09_05_video/', 'log_192_168_1_59_2023_09_28_09_05_video/data', 'VRLOG-2023-09-28_09-04-59-voice.csv']
+2024-02-19 00:25:18,165 - INFO - Extraction started...
+2024-02-19 00:25:18,223 - INFO - control extracted
+2024-02-19 00:25:18,224 - INFO - gaze_extracted
+2024-02-19 00:25:18,397 - INFO - pose extracted
+2024-02-19 00:25:21,826 - INFO - scene extracted
+2024-02-19 00:26:07,393 - INFO - video extracted
+2024-02-19 00:26:07,421 - INFO - Motion sickness rating extracted
+2024-02-19 00:26:07,421 - INFO - Gaze data is not available
+2024-02-19 00:26:27,792 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:26:27,792 - INFO - ***************30_2_Army_Men********************
+2024-02-19 00:26:27,792 - INFO - There are 11 files here
+2024-02-19 00:26:27,792 - INFO - Following files are available: ['log_192_168_1_85_2023_09_27_10_26_control/', 'log_192_168_1_85_2023_09_27_10_26_control/data', 'log_192_168_1_85_2023_09_27_10_26_gaze/', 'log_192_168_1_85_2023_09_27_10_26_gaze/data', 'log_192_168_1_85_2023_09_27_10_26_pose/', 'log_192_168_1_85_2023_09_27_10_26_pose/data', 'log_192_168_1_85_2023_09_27_10_26_scene/', 'log_192_168_1_85_2023_09_27_10_26_scene/data', 'log_192_168_1_85_2023_09_27_10_26_video/', 'log_192_168_1_85_2023_09_27_10_26_video/data', 'VRLOG-2023-09-27_10-30-56-voice.csv']
+2024-02-19 00:26:27,792 - INFO - Extraction started...
+2024-02-19 00:26:27,831 - INFO - control extracted
+2024-02-19 00:26:27,851 - INFO - gaze_extracted
+2024-02-19 00:26:28,036 - INFO - pose extracted
+2024-02-19 00:26:52,012 - INFO - scene extracted
+2024-02-19 00:27:26,511 - INFO - video extracted
+2024-02-19 00:27:26,531 - INFO - Motion sickness rating extracted
+2024-02-19 00:28:07,838 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:28:07,838 - INFO - ***************28_1_Bobber_Bay_Fishing********************
+2024-02-19 00:28:07,838 - INFO - There are 19 files here
+2024-02-19 00:28:07,838 - INFO - Following files are available: ['28_1_Fishing/', '__MACOSX/._28_1_Fishing', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_scene/', '28_1_Fishing/.DS_Store', '__MACOSX/28_1_Fishing/._.DS_Store', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_control/', '28_1_Fishing/VRLOG-2023-09-27_09-31-21-voice.csv', '__MACOSX/28_1_Fishing/._VRLOG-2023-09-27_09-31-21-voice.csv', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_gaze/', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_pose/', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_video/', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_scene/data', '__MACOSX/28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_scene/._data', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_control/data', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_gaze/data', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_pose/data', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_video/.DS_Store', '__MACOSX/28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_video/._.DS_Store', '28_1_Fishing/log_192_168_1_85_2023_09_27_09_12_video/data']
+2024-02-19 00:28:07,838 - INFO - Extraction started...
+2024-02-19 00:28:07,846 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:28:07,846 - INFO - ***************39_1_Super_Rumble********************
+2024-02-19 00:28:07,846 - INFO - There are 11 files here
+2024-02-19 00:28:07,846 - INFO - Following files are available: ['39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_control/', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_control/data', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_gaze/', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_gaze/data', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_pose/', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_pose/data', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_scene/', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_scene/data', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_video/', '39_1_Super_Rumble/log_192_168_1_128_2023_09_28_09_03_video/data', '39_1_Super_Rumble/VRLOG-2023-09-28_09-04-13-voice.csv']
+2024-02-19 00:28:07,846 - INFO - Extraction started...
+2024-02-19 00:29:52,933 - INFO - ----------------------------------------------------Starting extraction for failed files--------------------------------------------------------------
+2024-02-19 00:29:52,941 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:29:52,941 - INFO - ***************30_1_Bobber_Bay_Fishing********************
+2024-02-19 00:29:52,941 - INFO - There are 11 files here
+2024-02-19 00:29:52,941 - INFO - Following files are available: ['log_192_168_1_85_2023_09_27_10_06_control/', 'log_192_168_1_85_2023_09_27_10_06_control/data', 'log_192_168_1_85_2023_09_27_10_06_gaze/', 'log_192_168_1_85_2023_09_27_10_06_gaze/data', 'log_192_168_1_85_2023_09_27_10_06_pose/', 'log_192_168_1_85_2023_09_27_10_06_pose/data', 'log_192_168_1_85_2023_09_27_10_06_scene/', 'log_192_168_1_85_2023_09_27_10_06_scene/data', 'log_192_168_1_85_2023_09_27_10_06_video/', 'log_192_168_1_85_2023_09_27_10_06_video/data', 'VRLOG-2023-09-27_10-09-31-voice.csv']
+2024-02-19 00:29:52,941 - INFO - Extraction started...
+2024-02-19 00:29:52,993 - INFO - control extracted
+2024-02-19 00:29:53,016 - INFO - gaze_extracted
+2024-02-19 00:29:53,191 - INFO - pose extracted
+2024-02-19 00:30:14,666 - INFO - scene extracted
+2024-02-19 00:30:53,292 - INFO - video extracted
+2024-02-19 00:30:53,313 - INFO - Motion sickness rating extracted
+2024-02-19 00:31:31,344 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:31:31,344 - INFO - ***************34_2_Super_Rumble********************
+2024-02-19 00:31:31,344 - INFO - There are 12 files here
+2024-02-19 00:31:31,344 - INFO - Following files are available: ['VRLOG-2023-09-27_15-35-21-voice.csv', '__MACOSX/._VRLOG-2023-09-27_15-35-21-voice.csv', 'log_192_168_1_59_2023_09_27_15_33_scene/', 'log_192_168_1_59_2023_09_27_15_33_scene/data', 'log_192_168_1_59_2023_09_27_15_33_video/', 'log_192_168_1_59_2023_09_27_15_33_video/data', 'log_192_168_1_59_2023_09_27_15_33_gaze/', 'log_192_168_1_59_2023_09_27_15_33_gaze/data', 'log_192_168_1_59_2023_09_27_15_33_control/', 'log_192_168_1_59_2023_09_27_15_33_control/data', 'log_192_168_1_59_2023_09_27_15_33_pose/', 'log_192_168_1_59_2023_09_27_15_33_pose/data']
+2024-02-19 00:31:31,344 - INFO - Extraction started...
+2024-02-19 00:31:31,345 - INFO - Motion sickness rating extracted
+2024-02-19 00:32:09,915 - INFO - scene extracted
+2024-02-19 00:32:43,539 - INFO - video extracted
+2024-02-19 00:32:43,547 - INFO - gaze_extracted
+2024-02-19 00:32:43,565 - INFO - control extracted
+2024-02-19 00:32:43,707 - INFO - pose extracted
+2024-02-19 00:32:43,707 - INFO - Gaze data is not available
+2024-02-19 00:33:52,833 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:33:52,833 - INFO - ***************34_1_Citadel********************
+2024-02-19 00:33:52,833 - INFO - There are 12 files here
+2024-02-19 00:33:52,833 - INFO - Following files are available: ['VRLOG-2023-09-27_15-12-27-voice.csv', '__MACOSX/._VRLOG-2023-09-27_15-12-27-voice.csv', 'log_192_168_1_59_2023_09_27_15_11_scene/', 'log_192_168_1_59_2023_09_27_15_11_scene/data', 'log_192_168_1_59_2023_09_27_15_11_video/', 'log_192_168_1_59_2023_09_27_15_11_video/data', 'log_192_168_1_59_2023_09_27_15_11_gaze/', 'log_192_168_1_59_2023_09_27_15_11_gaze/data', 'log_192_168_1_59_2023_09_27_15_11_control/', 'log_192_168_1_59_2023_09_27_15_11_control/data', 'log_192_168_1_59_2023_09_27_15_11_pose/', 'log_192_168_1_59_2023_09_27_15_11_pose/data']
+2024-02-19 00:33:52,833 - INFO - Extraction started...
+2024-02-19 00:33:52,834 - INFO - Motion sickness rating extracted
+2024-02-19 00:34:21,725 - INFO - scene extracted
+2024-02-19 00:34:56,496 - INFO - video extracted
+2024-02-19 00:34:56,499 - INFO - gaze_extracted
+2024-02-19 00:34:56,531 - INFO - control extracted
+2024-02-19 00:34:57,276 - INFO - pose extracted
+2024-02-19 00:34:57,276 - INFO - Gaze data is not available
+2024-02-19 00:35:46,544 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:35:46,544 - INFO - ***************25_1_Army_Men********************
+2024-02-19 00:35:46,544 - INFO - There are 11 files here
+2024-02-19 00:35:46,544 - INFO - Following files are available: ['VRLOG-2023-09-26_18-11-55-voice.csv', 'log_192_168_1_59_2023_09_26_18_08_scene/', 'log_192_168_1_59_2023_09_26_18_08_scene/data', 'log_192_168_1_59_2023_09_26_18_08_video/', 'log_192_168_1_59_2023_09_26_18_08_video/data', 'log_192_168_1_59_2023_09_26_18_08_gaze/', 'log_192_168_1_59_2023_09_26_18_08_gaze/data', 'log_192_168_1_59_2023_09_26_18_08_control/', 'log_192_168_1_59_2023_09_26_18_08_control/data', 'log_192_168_1_59_2023_09_26_18_08_pose/', 'log_192_168_1_59_2023_09_26_18_08_pose/data']
+2024-02-19 00:35:46,544 - INFO - Extraction started...
+2024-02-19 00:35:46,544 - INFO - Motion sickness rating extracted
+2024-02-19 00:36:01,933 - INFO - scene extracted
+2024-02-19 00:36:37,123 - INFO - video extracted
+2024-02-19 00:36:37,127 - INFO - gaze_extracted
+2024-02-19 00:36:37,160 - INFO - control extracted
+2024-02-19 00:36:37,346 - INFO - pose extracted
+2024-02-19 00:36:37,347 - INFO - Gaze data is not available
+2024-02-19 00:37:07,374 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:37:07,374 - INFO - ***************31_2_Super_Rumble********************
+2024-02-19 00:37:07,374 - INFO - There are 11 files here
+2024-02-19 00:37:07,375 - INFO - Following files are available: ['VRLOG-2023-09-27_13-19-17-voice.csv', 'log_192_168_1_59_2023_09_27_13_17_scene/', 'log_192_168_1_59_2023_09_27_13_17_scene/data', 'log_192_168_1_59_2023_09_27_13_17_video/', 'log_192_168_1_59_2023_09_27_13_17_video/data', 'log_192_168_1_59_2023_09_27_13_17_gaze/', 'log_192_168_1_59_2023_09_27_13_17_gaze/data', 'log_192_168_1_59_2023_09_27_13_17_control/', 'log_192_168_1_59_2023_09_27_13_17_control/data', 'log_192_168_1_59_2023_09_27_13_17_pose/', 'log_192_168_1_59_2023_09_27_13_17_pose/data']
+2024-02-19 00:37:07,375 - INFO - Extraction started...
+2024-02-19 00:37:07,390 - INFO - Motion sickness rating extracted
+2024-02-19 00:37:38,053 - INFO - scene extracted
+2024-02-19 00:38:10,864 - INFO - video extracted
+2024-02-19 00:38:10,869 - INFO - gaze_extracted
+2024-02-19 00:38:10,890 - INFO - control extracted
+2024-02-19 00:38:11,027 - INFO - pose extracted
+2024-02-19 00:38:11,027 - INFO - Gaze data is not available
+2024-02-19 00:39:11,003 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:39:11,003 - INFO - ***************31_1_Citadel********************
+2024-02-19 00:39:11,004 - INFO - There are 11 files here
+2024-02-19 00:39:11,004 - INFO - Following files are available: ['VRLOG-2023-09-27_13-00-05-voice.csv', 'log_192_168_1_59_2023_09_27_12_57_scene/', 'log_192_168_1_59_2023_09_27_12_57_scene/data', 'log_192_168_1_59_2023_09_27_12_57_video/', 'log_192_168_1_59_2023_09_27_12_57_video/data', 'log_192_168_1_59_2023_09_27_12_57_gaze/', 'log_192_168_1_59_2023_09_27_12_57_gaze/data', 'log_192_168_1_59_2023_09_27_12_57_control/', 'log_192_168_1_59_2023_09_27_12_57_control/data', 'log_192_168_1_59_2023_09_27_12_57_pose/', 'log_192_168_1_59_2023_09_27_12_57_pose/data']
+2024-02-19 00:39:11,004 - INFO - Extraction started...
+2024-02-19 00:39:11,004 - INFO - Motion sickness rating extracted
+2024-02-19 00:39:38,457 - INFO - scene extracted
+2024-02-19 00:40:13,974 - INFO - video extracted
+2024-02-19 00:40:13,980 - INFO - gaze_extracted
+2024-02-19 00:40:14,012 - INFO - control extracted
+2024-02-19 00:40:14,729 - INFO - pose extracted
+2024-02-19 00:40:14,729 - INFO - Gaze data is not available
+2024-02-19 00:41:03,266 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:41:03,267 - INFO - ***************32_1_Citadel********************
+2024-02-19 00:41:03,267 - INFO - There are 6 files here
+2024-02-19 00:41:03,267 - INFO - Extraction started...
+2024-02-19 00:41:03,312 - INFO - control extracted
+2024-02-19 00:41:03,329 - INFO - gaze_extracted
+2024-02-19 00:41:03,442 - INFO - pose extracted
+2024-02-19 00:41:19,459 - INFO - scene extracted
+2024-02-19 00:41:48,888 - INFO - video extracted
+2024-02-19 00:41:48,904 - INFO - Motion sickness rating extracted
+2024-02-19 00:42:18,852 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:42:18,852 - INFO - ***************16_1_Mars_Miners********************
+2024-02-19 00:42:18,852 - INFO - There are 11 files here
+2024-02-19 00:42:18,852 - INFO - Following files are available: ['VRLOG-2023-09-26_10-52-41-voice.csv', 'log_192_168_1_85_2023_09_26_10_52_scene/', 'log_192_168_1_85_2023_09_26_10_52_scene/data', 'log_192_168_1_85_2023_09_26_10_52_video/', 'log_192_168_1_85_2023_09_26_10_52_video/data', 'log_192_168_1_85_2023_09_26_10_52_gaze/', 'log_192_168_1_85_2023_09_26_10_52_gaze/data', 'log_192_168_1_85_2023_09_26_10_52_control/', 'log_192_168_1_85_2023_09_26_10_52_control/data', 'log_192_168_1_85_2023_09_26_10_52_pose/', 'log_192_168_1_85_2023_09_26_10_52_pose/data']
+2024-02-19 00:42:18,852 - INFO - Extraction started...
+2024-02-19 00:42:18,853 - INFO - Motion sickness rating extracted
+2024-02-19 00:42:34,507 - INFO - scene extracted
+2024-02-19 00:43:03,795 - INFO - video extracted
+2024-02-19 00:43:04,136 - INFO - gaze_extracted
+2024-02-19 00:43:04,160 - INFO - control extracted
+2024-02-19 00:43:04,316 - INFO - pose extracted
+2024-02-19 00:43:34,217 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:43:34,217 - INFO - ***************10_2_Earth_Gym********************
+2024-02-19 00:43:34,217 - INFO - There are 11 files here
+2024-02-19 00:43:34,217 - INFO - Following files are available: ['log_192_168_1_128_2023_09_25_15_30_control/', 'log_192_168_1_128_2023_09_25_15_30_control/data', 'log_192_168_1_128_2023_09_25_15_30_gaze/', 'log_192_168_1_128_2023_09_25_15_30_gaze/data', 'log_192_168_1_128_2023_09_25_15_30_pose/', 'log_192_168_1_128_2023_09_25_15_30_pose/data', 'log_192_168_1_128_2023_09_25_15_30_scene/', 'log_192_168_1_128_2023_09_25_15_30_scene/data', 'log_192_168_1_128_2023_09_25_15_30_video/', 'log_192_168_1_128_2023_09_25_15_30_video/data', 'VRLOG-2023-09-25_15-31-26-voice.csv']
+2024-02-19 00:43:34,217 - INFO - Extraction started...
+2024-02-19 00:43:34,258 - INFO - control extracted
+2024-02-19 00:43:34,291 - INFO - gaze_extracted
+2024-02-19 00:43:34,456 - INFO - pose extracted
+2024-02-19 00:43:40,037 - INFO - scene extracted
+2024-02-19 00:44:19,952 - INFO - video extracted
+2024-02-19 00:44:19,976 - INFO - Motion sickness rating extracted
+2024-02-19 00:44:36,450 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:44:36,451 - INFO - ***************18_1_Mars_Miners********************
+2024-02-19 00:44:36,451 - INFO - There are 12 files here
+2024-02-19 00:44:36,451 - INFO - Following files are available: ['VRLOG-2023-09-26_13-31-38-voice.csv', '__MACOSX/._VRLOG-2023-09-26_13-31-38-voice.csv', 'log_192_168_1_85_2023_09_26_13_29_scene/', 'log_192_168_1_85_2023_09_26_13_29_scene/data', 'log_192_168_1_85_2023_09_26_13_29_video/', 'log_192_168_1_85_2023_09_26_13_29_video/data', 'log_192_168_1_85_2023_09_26_13_29_gaze/', 'log_192_168_1_85_2023_09_26_13_29_gaze/data', 'log_192_168_1_85_2023_09_26_13_29_control/', 'log_192_168_1_85_2023_09_26_13_29_control/data', 'log_192_168_1_85_2023_09_26_13_29_pose/', 'log_192_168_1_85_2023_09_26_13_29_pose/data']
+2024-02-19 00:44:36,451 - INFO - Extraction started...
+2024-02-19 00:44:36,451 - INFO - Motion sickness rating extracted
+2024-02-19 00:45:10,959 - INFO - scene extracted
+2024-02-19 00:45:47,663 - INFO - video extracted
+2024-02-19 00:45:47,690 - INFO - gaze_extracted
+2024-02-19 00:45:47,721 - INFO - control extracted
+2024-02-19 00:45:48,600 - INFO - pose extracted
+2024-02-19 00:46:46,490 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:46:46,490 - INFO - ***************13_2_American_Idol********************
+2024-02-19 00:46:46,490 - INFO - There are 11 files here
+2024-02-19 00:46:46,490 - INFO - Following files are available: ['VRLOG-2023-09-28_15-21-08-voice.csv', 'log_192_168_1_59_2023_09_28_15_19_scene/', 'log_192_168_1_59_2023_09_28_15_19_scene/data', 'log_192_168_1_59_2023_09_28_15_19_video/', 'log_192_168_1_59_2023_09_28_15_19_video/data', 'log_192_168_1_59_2023_09_28_15_19_gaze/', 'log_192_168_1_59_2023_09_28_15_19_gaze/data', 'log_192_168_1_59_2023_09_28_15_19_control/', 'log_192_168_1_59_2023_09_28_15_19_control/data', 'log_192_168_1_59_2023_09_28_15_19_pose/', 'log_192_168_1_59_2023_09_28_15_19_pose/data']
+2024-02-19 00:46:46,490 - INFO - Extraction started...
+2024-02-19 00:46:46,491 - INFO - Motion sickness rating extracted
+2024-02-19 00:47:19,108 - INFO - scene extracted
+2024-02-19 00:47:56,036 - INFO - video extracted
+2024-02-19 00:47:56,040 - INFO - gaze_extracted
+2024-02-19 00:47:56,072 - INFO - control extracted
+2024-02-19 00:47:56,248 - INFO - pose extracted
+2024-02-19 00:47:56,249 - INFO - Gaze data is not available
+2024-02-19 00:48:48,108 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:48:48,108 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 00:48:48,108 - INFO - There are 11 files here
+2024-02-19 00:48:48,108 - INFO - Following files are available: ['VRLOG-2023-09-26_14-39-51-voice.csv', 'log_192_168_1_85_2023_09_26_14_39_video/', 'log_192_168_1_85_2023_09_26_14_39_video/data', 'log_192_168_1_85_2023_09_26_14_39_scene/', 'log_192_168_1_85_2023_09_26_14_39_scene/data', 'log_192_168_1_85_2023_09_26_14_39_gaze/', 'log_192_168_1_85_2023_09_26_14_39_gaze/data', 'log_192_168_1_85_2023_09_26_14_39_control/', 'log_192_168_1_85_2023_09_26_14_39_control/data', 'log_192_168_1_85_2023_09_26_14_39_pose/', 'log_192_168_1_85_2023_09_26_14_39_pose/data']
+2024-02-19 00:48:48,108 - INFO - Extraction started...
+2024-02-19 00:48:48,109 - INFO - Motion sickness rating extracted
+2024-02-19 00:48:48,109 - INFO - video extracted
+2024-02-19 00:48:48,109 - INFO - scene extracted
+2024-02-19 00:48:48,109 - INFO - gaze_extracted
+2024-02-19 00:48:48,109 - INFO - control extracted
+2024-02-19 00:48:48,109 - INFO - pose extracted
+2024-02-19 00:48:48,109 - INFO - Can't proceed: no 'pose' data
+2024-02-19 00:48:48,109 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:48:48,109 - INFO - ***************8_2_Earth_Gym********************
+2024-02-19 00:48:48,109 - INFO - There are 11 files here
+2024-02-19 00:48:48,109 - INFO - Following files are available: ['VRLOG-2023-09-25_14-31-42-voice.csv', 'log_192_168_1_128_2023_09_25_14_31_scene/', 'log_192_168_1_128_2023_09_25_14_31_scene/data', 'log_192_168_1_128_2023_09_25_14_31_video/', 'log_192_168_1_128_2023_09_25_14_31_video/data', 'log_192_168_1_128_2023_09_25_14_31_gaze/', 'log_192_168_1_128_2023_09_25_14_31_gaze/data', 'log_192_168_1_128_2023_09_25_14_31_control/', 'log_192_168_1_128_2023_09_25_14_31_control/data', 'log_192_168_1_128_2023_09_25_14_31_pose/', 'log_192_168_1_128_2023_09_25_14_31_pose/data']
+2024-02-19 00:48:48,109 - INFO - Extraction started...
+2024-02-19 00:48:48,110 - INFO - Motion sickness rating extracted
+2024-02-19 00:48:57,605 - INFO - scene extracted
+2024-02-19 00:49:27,500 - INFO - video extracted
+2024-02-19 00:49:27,520 - INFO - gaze_extracted
+2024-02-19 00:49:27,744 - INFO - control extracted
+2024-02-19 00:49:27,846 - INFO - pose extracted
+2024-02-19 00:49:48,357 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:49:48,358 - INFO - ***************23_1_Army_Men********************
+2024-02-19 00:49:48,358 - INFO - There are 11 files here
+2024-02-19 00:49:48,358 - INFO - Following files are available: ['VRLOG-2023-09-26_16-56-22-voice.csv', 'log_192_168_1_59_2023_09_26_16_52_scene/', 'log_192_168_1_59_2023_09_26_16_52_scene/data', 'log_192_168_1_59_2023_09_26_16_52_video/', 'log_192_168_1_59_2023_09_26_16_52_video/data', 'log_192_168_1_59_2023_09_26_16_52_gaze/', 'log_192_168_1_59_2023_09_26_16_52_gaze/data', 'log_192_168_1_59_2023_09_26_16_52_control/', 'log_192_168_1_59_2023_09_26_16_52_control/data', 'log_192_168_1_59_2023_09_26_16_52_pose/', 'log_192_168_1_59_2023_09_26_16_52_pose/data']
+2024-02-19 00:49:48,358 - INFO - Extraction started...
+2024-02-19 00:49:48,364 - INFO - Motion sickness rating extracted
+2024-02-19 00:50:36,805 - INFO - scene extracted
+2024-02-19 00:51:07,635 - INFO - video extracted
+2024-02-19 00:51:07,640 - INFO - gaze_extracted
+2024-02-19 00:51:07,674 - INFO - control extracted
+2024-02-19 00:51:08,791 - INFO - pose extracted
+2024-02-19 00:51:08,791 - INFO - Gaze data is not available
+2024-02-19 00:52:24,402 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:52:24,402 - INFO - ***************10_1_Wild_Quest********************
+2024-02-19 00:52:24,402 - INFO - There are 11 files here
+2024-02-19 00:52:24,402 - INFO - Following files are available: ['log_192_168_1_128_2023_09_25_15_07_control/', 'log_192_168_1_128_2023_09_25_15_07_control/data', 'log_192_168_1_128_2023_09_25_15_07_gaze/', 'log_192_168_1_128_2023_09_25_15_07_gaze/data', 'log_192_168_1_128_2023_09_25_15_07_pose/', 'log_192_168_1_128_2023_09_25_15_07_pose/data', 'log_192_168_1_128_2023_09_25_15_07_scene/', 'log_192_168_1_128_2023_09_25_15_07_scene/data', 'log_192_168_1_128_2023_09_25_15_07_video/', 'log_192_168_1_128_2023_09_25_15_07_video/data', 'VRLOG-2023-09-25_15-06-15-voice.csv']
+2024-02-19 00:52:24,402 - INFO - Extraction started...
+2024-02-19 00:52:24,435 - INFO - control extracted
+2024-02-19 00:52:24,451 - INFO - gaze_extracted
+2024-02-19 00:52:24,578 - INFO - pose extracted
+2024-02-19 00:52:35,902 - INFO - scene extracted
+2024-02-19 00:53:06,834 - INFO - video extracted
+2024-02-19 00:53:06,854 - INFO - Motion sickness rating extracted
+2024-02-19 00:53:30,227 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:53:30,227 - INFO - ***************17_1_Mars_Miners********************
+2024-02-19 00:53:30,227 - INFO - There are 11 files here
+2024-02-19 00:53:30,227 - INFO - Following files are available: ['VRLOG-2023-09-26_13-08-11-voice.csv', 'log_192_168_1_85_2023_09_26_13_07_scene/', 'log_192_168_1_85_2023_09_26_13_07_scene/data', 'log_192_168_1_85_2023_09_26_13_07_video/', 'log_192_168_1_85_2023_09_26_13_07_video/data', 'log_192_168_1_85_2023_09_26_13_07_gaze/', 'log_192_168_1_85_2023_09_26_13_07_gaze/data', 'log_192_168_1_85_2023_09_26_13_07_control/', 'log_192_168_1_85_2023_09_26_13_07_control/data', 'log_192_168_1_85_2023_09_26_13_07_pose/', 'log_192_168_1_85_2023_09_26_13_07_pose/data']
+2024-02-19 00:53:30,227 - INFO - Extraction started...
+2024-02-19 00:53:30,228 - INFO - Motion sickness rating extracted
+2024-02-19 00:54:02,995 - INFO - scene extracted
+2024-02-19 00:54:37,205 - INFO - video extracted
+2024-02-19 00:54:37,227 - INFO - gaze_extracted
+2024-02-19 00:54:37,252 - INFO - control extracted
+2024-02-19 00:54:38,045 - INFO - pose extracted
+2024-02-19 00:55:33,272 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:55:33,272 - INFO - ***************20_2_American_Idol********************
+2024-02-19 00:55:33,272 - INFO - There are 11 files here
+2024-02-19 00:55:33,272 - INFO - Following files are available: ['VRLOG-2023-09-26_15-02-01-voice.csv', 'log_192_168_1_59_2023_09_26_15_00_scene/', 'log_192_168_1_59_2023_09_26_15_00_scene/data', 'log_192_168_1_59_2023_09_26_15_00_video/', 'log_192_168_1_59_2023_09_26_15_00_video/data', 'log_192_168_1_59_2023_09_26_15_00_gaze/', 'log_192_168_1_59_2023_09_26_15_00_gaze/data', 'log_192_168_1_59_2023_09_26_15_00_control/', 'log_192_168_1_59_2023_09_26_15_00_control/data', 'log_192_168_1_59_2023_09_26_15_00_pose/', 'log_192_168_1_59_2023_09_26_15_00_pose/data']
+2024-02-19 00:55:33,272 - INFO - Extraction started...
+2024-02-19 00:55:33,273 - INFO - Motion sickness rating extracted
+2024-02-19 00:55:50,197 - INFO - scene extracted
+2024-02-19 00:56:21,614 - INFO - video extracted
+2024-02-19 00:56:21,620 - INFO - gaze_extracted
+2024-02-19 00:56:21,649 - INFO - control extracted
+2024-02-19 00:56:21,815 - INFO - pose extracted
+2024-02-19 00:56:21,816 - INFO - Gaze data is not available
+2024-02-19 00:56:54,650 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:56:54,650 - INFO - ***************15_2_American_Idol********************
+2024-02-19 00:56:54,650 - INFO - There are 11 files here
+2024-02-19 00:56:54,650 - INFO - Following files are available: ['VRLOG-2023-09-26_10-35-09-voice.csv', 'log_192_168_1_85_2023_09_26_10_35_scene/', 'log_192_168_1_85_2023_09_26_10_35_scene/data', 'log_192_168_1_85_2023_09_26_10_35_video/', 'log_192_168_1_85_2023_09_26_10_35_video/data', 'log_192_168_1_85_2023_09_26_10_35_gaze/', 'log_192_168_1_85_2023_09_26_10_35_gaze/data', 'log_192_168_1_85_2023_09_26_10_35_control/', 'log_192_168_1_85_2023_09_26_10_35_control/data', 'log_192_168_1_85_2023_09_26_10_35_pose/', 'log_192_168_1_85_2023_09_26_10_35_pose/data']
+2024-02-19 00:56:54,650 - INFO - Extraction started...
+2024-02-19 00:56:54,660 - INFO - Motion sickness rating extracted
+2024-02-19 00:57:12,444 - INFO - scene extracted
+2024-02-19 00:57:41,286 - INFO - video extracted
+2024-02-19 00:57:41,307 - INFO - gaze_extracted
+2024-02-19 00:57:41,335 - INFO - control extracted
+2024-02-19 00:57:41,827 - INFO - pose extracted
+2024-02-19 00:58:12,543 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:58:12,543 - INFO - ***************15_1_Mars_Miners********************
+2024-02-19 00:58:12,543 - INFO - There are 11 files here
+2024-02-19 00:58:12,543 - INFO - Following files are available: ['VRLOG-2023-09-26_10-18-34-voice.csv', 'log_192_168_1_85_2023_09_26_10_17_scene/', 'log_192_168_1_85_2023_09_26_10_17_scene/data', 'log_192_168_1_85_2023_09_26_10_17_video/', 'log_192_168_1_85_2023_09_26_10_17_video/data', 'log_192_168_1_85_2023_09_26_10_17_gaze/', 'log_192_168_1_85_2023_09_26_10_17_gaze/data', 'log_192_168_1_85_2023_09_26_10_17_control/', 'log_192_168_1_85_2023_09_26_10_17_control/data', 'log_192_168_1_85_2023_09_26_10_17_pose/', 'log_192_168_1_85_2023_09_26_10_17_pose/data']
+2024-02-19 00:58:12,543 - INFO - Extraction started...
+2024-02-19 00:58:12,544 - INFO - Motion sickness rating extracted
+2024-02-19 00:58:18,563 - INFO - scene extracted
+2024-02-19 00:58:49,410 - INFO - video extracted
+2024-02-19 00:58:49,435 - INFO - gaze_extracted
+2024-02-19 00:58:49,459 - INFO - control extracted
+2024-02-19 00:58:49,670 - INFO - pose extracted
+2024-02-19 00:59:06,083 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 00:59:06,083 - INFO - ***************23_2_Bobber_Bay_Fishing********************
+2024-02-19 00:59:06,083 - INFO - There are 11 files here
+2024-02-19 00:59:06,083 - INFO - Following files are available: ['VRLOG-2023-09-26_17-16-31-voice.csv', 'log_192_168_1_59_2023_09_26_17_13_scene/', 'log_192_168_1_59_2023_09_26_17_13_scene/data', 'log_192_168_1_59_2023_09_26_17_13_video/', 'log_192_168_1_59_2023_09_26_17_13_video/data', 'log_192_168_1_59_2023_09_26_17_13_gaze/', 'log_192_168_1_59_2023_09_26_17_13_gaze/data', 'log_192_168_1_59_2023_09_26_17_13_control/', 'log_192_168_1_59_2023_09_26_17_13_control/data', 'log_192_168_1_59_2023_09_26_17_13_pose/', 'log_192_168_1_59_2023_09_26_17_13_pose/data']
+2024-02-19 00:59:06,083 - INFO - Extraction started...
+2024-02-19 00:59:06,084 - INFO - Motion sickness rating extracted
+2024-02-19 00:59:38,011 - INFO - scene extracted
+2024-02-19 01:00:11,601 - INFO - video extracted
+2024-02-19 01:00:11,606 - INFO - gaze_extracted
+2024-02-19 01:00:11,635 - INFO - control extracted
+2024-02-19 01:00:11,806 - INFO - pose extracted
+2024-02-19 01:00:11,806 - INFO - Gaze data is not available
+2024-02-19 01:01:04,629 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:01:04,629 - INFO - ***************17_2_American_Idol********************
+2024-02-19 01:01:04,629 - INFO - There are 11 files here
+2024-02-19 01:01:04,629 - INFO - Following files are available: ['VRLOG-2023-09-26_13-49-30-voice.csv', 'log_192_168_1_85_2023_09_26_13_48_scene/', 'log_192_168_1_85_2023_09_26_13_48_scene/data', 'log_192_168_1_85_2023_09_26_13_48_video/', 'log_192_168_1_85_2023_09_26_13_48_video/data', 'log_192_168_1_85_2023_09_26_13_48_gaze/', 'log_192_168_1_85_2023_09_26_13_48_gaze/data', 'log_192_168_1_85_2023_09_26_13_48_control/', 'log_192_168_1_85_2023_09_26_13_48_control/data', 'log_192_168_1_85_2023_09_26_13_48_pose/', 'log_192_168_1_85_2023_09_26_13_48_pose/data']
+2024-02-19 01:01:04,629 - INFO - Extraction started...
+2024-02-19 01:01:04,630 - INFO - Motion sickness rating extracted
+2024-02-19 01:01:26,670 - INFO - scene extracted
+2024-02-19 01:02:00,443 - INFO - video extracted
+2024-02-19 01:02:00,465 - INFO - gaze_extracted
+2024-02-19 01:02:00,495 - INFO - control extracted
+2024-02-19 01:02:00,668 - INFO - pose extracted
+2024-02-19 01:02:38,080 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:02:38,080 - INFO - ***************16_2_American_Idol********************
+2024-02-19 01:02:38,080 - INFO - There are 11 files here
+2024-02-19 01:02:38,080 - INFO - Following files are available: ['VRLOG-2023-09-26_11-10-30-voice.csv', 'log_192_168_1_85_2023_09_26_11_10_scene/', 'log_192_168_1_85_2023_09_26_11_10_scene/data', 'log_192_168_1_85_2023_09_26_11_10_video/', 'log_192_168_1_85_2023_09_26_11_10_video/data', 'log_192_168_1_85_2023_09_26_11_10_gaze/', 'log_192_168_1_85_2023_09_26_11_10_gaze/data', 'log_192_168_1_85_2023_09_26_11_10_control/', 'log_192_168_1_85_2023_09_26_11_10_control/data', 'log_192_168_1_85_2023_09_26_11_10_pose/', 'log_192_168_1_85_2023_09_26_11_10_pose/data']
+2024-02-19 01:02:38,080 - INFO - Extraction started...
+2024-02-19 01:02:38,094 - INFO - Motion sickness rating extracted
+2024-02-19 01:02:55,076 - INFO - scene extracted
+2024-02-19 01:03:21,198 - INFO - video extracted
+2024-02-19 01:03:21,217 - INFO - gaze_extracted
+2024-02-19 01:03:21,243 - INFO - control extracted
+2024-02-19 01:03:21,400 - INFO - pose extracted
+2024-02-19 01:03:51,643 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:03:51,643 - INFO - ***************86_1_Metdonalds********************
+2024-02-19 01:03:51,643 - INFO - There are 11 files here
+2024-02-19 01:03:51,643 - INFO - Following files are available: ['VRLOG-2023-10-02_15-56-39-voice.csv', 'log_192_168_1_59_2023_10_02_15_54_scene/', 'log_192_168_1_59_2023_10_02_15_54_scene/data', 'log_192_168_1_59_2023_10_02_15_54_video/', 'log_192_168_1_59_2023_10_02_15_54_video/data', 'log_192_168_1_59_2023_10_02_15_54_gaze/', 'log_192_168_1_59_2023_10_02_15_54_gaze/data', 'log_192_168_1_59_2023_10_02_15_54_control/', 'log_192_168_1_59_2023_10_02_15_54_control/data', 'log_192_168_1_59_2023_10_02_15_54_pose/', 'log_192_168_1_59_2023_10_02_15_54_pose/data']
+2024-02-19 01:03:51,643 - INFO - Extraction started...
+2024-02-19 01:03:51,650 - INFO - Motion sickness rating extracted
+2024-02-19 01:04:08,559 - INFO - scene extracted
+2024-02-19 01:04:42,776 - INFO - video extracted
+2024-02-19 01:04:42,780 - INFO - gaze_extracted
+2024-02-19 01:04:42,811 - INFO - control extracted
+2024-02-19 01:04:42,988 - INFO - pose extracted
+2024-02-19 01:04:42,989 - INFO - Gaze data is not available
+2024-02-19 01:05:17,207 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:05:17,207 - INFO - ***************88_2_3D_Play_House********************
+2024-02-19 01:05:17,207 - INFO - There are 11 files here
+2024-02-19 01:05:17,207 - INFO - Following files are available: ['VRLOG-2023-10-02_17-20-27-voice.csv', 'log_192_168_1_59_2023_10_02_17_19_scene/', 'log_192_168_1_59_2023_10_02_17_19_scene/data', 'log_192_168_1_59_2023_10_02_17_19_video/', 'log_192_168_1_59_2023_10_02_17_19_video/data', 'log_192_168_1_59_2023_10_02_17_19_gaze/', 'log_192_168_1_59_2023_10_02_17_19_gaze/data', 'log_192_168_1_59_2023_10_02_17_18_control/', 'log_192_168_1_59_2023_10_02_17_18_control/data', 'log_192_168_1_59_2023_10_02_17_18_pose/', 'log_192_168_1_59_2023_10_02_17_18_pose/data']
+2024-02-19 01:05:17,207 - INFO - Extraction started...
+2024-02-19 01:05:17,217 - INFO - Motion sickness rating extracted
+2024-02-19 01:05:51,617 - INFO - scene extracted
+2024-02-19 01:06:30,641 - INFO - video extracted
+2024-02-19 01:06:30,650 - INFO - gaze_extracted
+2024-02-19 01:06:31,349 - INFO - control extracted
+2024-02-19 01:06:31,522 - INFO - pose extracted
+2024-02-19 01:06:31,522 - INFO - Gaze data is not available
+2024-02-19 01:07:33,032 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:07:33,032 - INFO - ***************86_2_3D_Play_House********************
+2024-02-19 01:07:33,032 - INFO - There are 11 files here
+2024-02-19 01:07:33,032 - INFO - Following files are available: ['VRLOG-2023-10-02_16-14-22-voice.csv', 'log_192_168_1_59_2023_10_02_16_12_scene/', 'log_192_168_1_59_2023_10_02_16_12_scene/data', 'log_192_168_1_59_2023_10_02_16_12_video/', 'log_192_168_1_59_2023_10_02_16_12_video/data', 'log_192_168_1_59_2023_10_02_16_12_gaze/', 'log_192_168_1_59_2023_10_02_16_12_gaze/data', 'log_192_168_1_59_2023_10_02_16_12_control/', 'log_192_168_1_59_2023_10_02_16_12_control/data', 'log_192_168_1_59_2023_10_02_16_12_pose/', 'log_192_168_1_59_2023_10_02_16_12_pose/data']
+2024-02-19 01:07:33,032 - INFO - Extraction started...
+2024-02-19 01:07:33,051 - INFO - Motion sickness rating extracted
+2024-02-19 01:07:58,845 - INFO - scene extracted
+2024-02-19 01:08:35,240 - INFO - video extracted
+2024-02-19 01:08:35,246 - INFO - gaze_extracted
+2024-02-19 01:08:35,280 - INFO - control extracted
+2024-02-19 01:08:35,968 - INFO - pose extracted
+2024-02-19 01:08:35,968 - INFO - Gaze data is not available
+2024-02-19 01:09:22,680 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 01:09:22,680 - INFO - ***************88_1_Metdonalds********************
+2024-02-19 01:09:22,680 - INFO - There are 11 files here
+2024-02-19 01:09:22,680 - INFO - Following files are available: ['VRLOG-2023-10-02_17-03-22-voice.csv', 'log_192_168_1_59_2023_10_02_17_01_scene/', 'log_192_168_1_59_2023_10_02_17_01_scene/data', 'log_192_168_1_59_2023_10_02_17_01_video/', 'log_192_168_1_59_2023_10_02_17_01_video/data', 'log_192_168_1_59_2023_10_02_17_01_gaze/', 'log_192_168_1_59_2023_10_02_17_01_gaze/data', 'log_192_168_1_59_2023_10_02_17_01_control/', 'log_192_168_1_59_2023_10_02_17_01_control/data', 'log_192_168_1_59_2023_10_02_17_01_pose/', 'log_192_168_1_59_2023_10_02_17_01_pose/data']
+2024-02-19 01:09:22,680 - INFO - Extraction started...
+2024-02-19 01:09:22,704 - INFO - Motion sickness rating extracted
+2024-02-19 01:09:40,985 - INFO - scene extracted
+2024-02-19 01:10:14,702 - INFO - video extracted
+2024-02-19 01:10:14,708 - INFO - gaze_extracted
+2024-02-19 01:10:14,731 - INFO - control extracted
+2024-02-19 01:10:14,886 - INFO - pose extracted
+2024-02-19 01:10:14,887 - INFO - Gaze data is not available
+2024-02-19 15:11:47,003 - INFO - ----------------------------------------------------Starting extraction again--------------------------------------------------------------
+2024-02-19 15:11:47,012 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,012 - INFO - ***************3_2_Wild_Quest********************
+2024-02-19 15:11:47,012 - INFO - There are 11 files here
+2024-02-19 15:11:47,012 - INFO - Following files are available: ['log_192_168_1_85_2023_09_25_10_46_control/', 'log_192_168_1_85_2023_09_25_10_46_control/data', 'log_192_168_1_85_2023_09_25_10_46_gaze/', 'log_192_168_1_85_2023_09_25_10_46_gaze/data', 'log_192_168_1_85_2023_09_25_10_46_pose/', 'log_192_168_1_85_2023_09_25_10_46_pose/data', 'log_192_168_1_85_2023_09_25_10_46_scene/', 'log_192_168_1_85_2023_09_25_10_46_scene/data', 'log_192_168_1_85_2023_09_25_10_46_video/', 'log_192_168_1_85_2023_09_25_10_46_video/data', 'VRLOG-2023-09-25_10-46-59-voice.csv']
+2024-02-19 15:11:47,012 - INFO - Can't extract, many files: Please proceed manually
+2024-02-19 15:11:47,013 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,013 - INFO - ***************39_2_Citadel********************
+2024-02-19 15:11:47,013 - INFO - There are 11 files here
+2024-02-19 15:11:47,013 - INFO - Following files are available: ['39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_control/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_control/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_gaze/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_gaze/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_pose/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_pose/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_scene/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_scene/data', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_video/', '39_2_Citadel/log_192_168_1_128_2023_09_28_09_26_video/data', '39_2_Citadel/VRLOG-2023-09-28_09-25-01-voice.csv']
+2024-02-19 15:11:47,013 - INFO - Can't extract, many files: Please proceed manually
+2024-02-19 15:11:47,014 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,014 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 15:11:47,014 - INFO - There are 11 files here
+2024-02-19 15:11:47,014 - INFO - Following files are available: ['VRLOG-2023-09-26_14-39-51-voice.csv', 'log_192_168_1_85_2023_09_26_14_39_video/', 'log_192_168_1_85_2023_09_26_14_39_video/data', 'log_192_168_1_85_2023_09_26_14_39_scene/', 'log_192_168_1_85_2023_09_26_14_39_scene/data', 'log_192_168_1_85_2023_09_26_14_39_gaze/', 'log_192_168_1_85_2023_09_26_14_39_gaze/data', 'log_192_168_1_85_2023_09_26_14_39_control/', 'log_192_168_1_85_2023_09_26_14_39_control/data', 'log_192_168_1_85_2023_09_26_14_39_pose/', 'log_192_168_1_85_2023_09_26_14_39_pose/data']
+2024-02-19 15:11:47,014 - INFO - Can't extract, many files: Please proceed manually
+2024-02-19 15:11:47,031 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,031 - INFO - ***************61_2_UFO_crash_site_venue********************
+2024-02-19 15:11:47,031 - INFO - There are 6 files here
+2024-02-19 15:11:47,031 - INFO - Extraction started...
+2024-02-19 15:11:47,032 - INFO - control extracted
+2024-02-19 15:11:47,032 - INFO - gaze_extracted
+2024-02-19 15:11:47,032 - INFO - pose extracted
+2024-02-19 15:11:47,033 - INFO - scene extracted
+2024-02-19 15:11:47,033 - INFO - video extracted
+2024-02-19 15:11:47,052 - INFO - Motion sickness rating extracted
+2024-02-19 15:11:47,052 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:11:47,060 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,060 - INFO - ***************42_1_Super_Rumble********************
+2024-02-19 15:11:47,060 - INFO - There are 6 files here
+2024-02-19 15:11:47,060 - INFO - Extraction started...
+2024-02-19 15:11:47,060 - INFO - control extracted
+2024-02-19 15:11:47,060 - INFO - gaze_extracted
+2024-02-19 15:11:47,060 - INFO - pose extracted
+2024-02-19 15:11:47,061 - INFO - scene extracted
+2024-02-19 15:11:47,061 - INFO - video extracted
+2024-02-19 15:11:47,061 - INFO - Motion sickness rating extracted
+2024-02-19 15:11:47,061 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:11:47,061 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:11:47,061 - INFO - ***************304_2_Kawaii_Urgent_Care********************
+2024-02-19 15:11:47,061 - INFO - There are 7 files here
+2024-02-19 15:11:47,061 - INFO - Extraction started...
+2024-02-19 15:11:47,148 - INFO - control extracted
+2024-02-19 15:11:47,149 - INFO - Face data present!- extract in the next phase
+2024-02-19 15:11:47,327 - INFO - gaze_extracted
+2024-02-19 15:11:47,327 - INFO - pose extracted
+2024-02-19 15:11:47,327 - INFO - scene extracted
+2024-02-19 15:12:25,615 - INFO - video extracted
+2024-02-19 15:12:25,624 - INFO - Motion sickness rating extracted
+2024-02-19 15:12:25,624 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:12:25,655 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:12:25,655 - INFO - ***************81_2_Venues********************
+2024-02-19 15:12:25,655 - INFO - There are 6 files here
+2024-02-19 15:12:25,655 - INFO - Extraction started...
+2024-02-19 15:12:25,656 - INFO - control extracted
+2024-02-19 15:12:25,656 - INFO - gaze_extracted
+2024-02-19 15:12:25,656 - INFO - pose extracted
+2024-02-19 15:12:25,656 - INFO - scene extracted
+2024-02-19 15:12:25,656 - INFO - video extracted
+2024-02-19 15:12:25,657 - INFO - Motion sickness rating extracted
+2024-02-19 15:12:25,658 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:12:25,658 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:12:25,658 - INFO - ***************29_1_Army_Men********************
+2024-02-19 15:12:25,658 - INFO - There are 6 files here
+2024-02-19 15:12:25,658 - INFO - Extraction started...
+2024-02-19 15:12:25,658 - INFO - control extracted
+2024-02-19 15:12:25,658 - INFO - gaze_extracted
+2024-02-19 15:12:25,659 - INFO - pose extracted
+2024-02-19 15:12:25,659 - INFO - scene extracted
+2024-02-19 15:12:25,659 - INFO - video extracted
+2024-02-19 15:12:25,660 - INFO - Motion sickness rating extracted
+2024-02-19 15:12:25,660 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:12:25,661 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:12:25,661 - INFO - ***************33_1_Citadel********************
+2024-02-19 15:12:25,661 - INFO - There are 6 files here
+2024-02-19 15:12:25,661 - INFO - Extraction started...
+2024-02-19 15:12:25,661 - INFO - control extracted
+2024-02-19 15:12:25,661 - INFO - gaze_extracted
+2024-02-19 15:12:25,661 - INFO - pose extracted
+2024-02-19 15:12:25,661 - INFO - scene extracted
+2024-02-19 15:12:25,661 - INFO - video extracted
+2024-02-19 15:12:25,663 - INFO - Motion sickness rating extracted
+2024-02-19 15:12:25,663 - INFO - Can't proceed: no 'pose' data
+2024-02-19 15:25:04,757 - INFO - ----------------------------------------------------Starting extraction again--------------------------------------------------------------
+2024-02-19 15:25:04,765 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,765 - INFO - ***************3_2_Wild_Quest********************
+2024-02-19 15:25:04,765 - INFO - Extraction started...
+2024-02-19 15:25:04,765 - INFO - control extracted
+2024-02-19 15:25:04,765 - INFO - gaze_extracted
+2024-02-19 15:25:04,765 - INFO - pose extracted
+2024-02-19 15:25:04,765 - INFO - scene extracted
+2024-02-19 15:25:04,765 - INFO - video extracted
+2024-02-19 15:25:04,766 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:04,766 - INFO - Gaze data is not available
+2024-02-19 15:25:04,767 - INFO - Control data is not available
+2024-02-19 15:25:04,767 - INFO - Scene: obj data is not available
+2024-02-19 15:25:04,767 - INFO - Scene: camera data is not available
+2024-02-19 15:25:04,767 - INFO - Video data is not available
+2024-02-19 15:25:04,767 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,767 - INFO - ***************39_2_Citadel********************
+2024-02-19 15:25:04,767 - INFO - Extraction started...
+2024-02-19 15:25:04,767 - INFO - control extracted
+2024-02-19 15:25:04,767 - INFO - gaze_extracted
+2024-02-19 15:25:04,767 - INFO - pose extracted
+2024-02-19 15:25:04,767 - INFO - scene extracted
+2024-02-19 15:25:04,767 - INFO - video extracted
+2024-02-19 15:25:04,768 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:04,768 - INFO - Gaze data is not available
+2024-02-19 15:25:04,768 - INFO - Control data is not available
+2024-02-19 15:25:04,768 - INFO - Scene: obj data is not available
+2024-02-19 15:25:04,768 - INFO - Scene: camera data is not available
+2024-02-19 15:25:04,768 - INFO - Video data is not available
+2024-02-19 15:25:04,768 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,768 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 15:25:04,768 - INFO - Extraction started...
+2024-02-19 15:25:04,768 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:04,769 - INFO - video extracted
+2024-02-19 15:25:04,769 - INFO - scene extracted
+2024-02-19 15:25:04,769 - INFO - gaze_extracted
+2024-02-19 15:25:04,769 - INFO - control extracted
+2024-02-19 15:25:04,769 - INFO - pose extracted
+2024-02-19 15:25:04,769 - INFO - Gaze data is not available
+2024-02-19 15:25:04,769 - INFO - Control data is not available
+2024-02-19 15:25:04,769 - INFO - Scene: obj data is not available
+2024-02-19 15:25:04,769 - INFO - Scene: camera data is not available
+2024-02-19 15:25:04,769 - INFO - Video data is not available
+2024-02-19 15:25:04,769 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,769 - INFO - ***************61_2_UFO_crash_site_venue********************
+2024-02-19 15:25:04,769 - INFO - Extraction started...
+2024-02-19 15:25:04,769 - INFO - control extracted
+2024-02-19 15:25:04,769 - INFO - gaze_extracted
+2024-02-19 15:25:04,769 - INFO - pose extracted
+2024-02-19 15:25:04,769 - INFO - scene extracted
+2024-02-19 15:25:04,769 - INFO - video extracted
+2024-02-19 15:25:04,770 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:04,770 - INFO - Gaze data is not available
+2024-02-19 15:25:04,770 - INFO - Control data is not available
+2024-02-19 15:25:04,770 - INFO - Scene: obj data is not available
+2024-02-19 15:25:04,770 - INFO - Scene: camera data is not available
+2024-02-19 15:25:04,770 - INFO - Video data is not available
+2024-02-19 15:25:04,770 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,770 - INFO - ***************42_1_Super_Rumble********************
+2024-02-19 15:25:04,770 - INFO - Extraction started...
+2024-02-19 15:25:04,770 - INFO - control extracted
+2024-02-19 15:25:04,770 - INFO - gaze_extracted
+2024-02-19 15:25:04,770 - INFO - pose extracted
+2024-02-19 15:25:04,770 - INFO - scene extracted
+2024-02-19 15:25:04,770 - INFO - video extracted
+2024-02-19 15:25:04,771 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:04,771 - INFO - Gaze data is not available
+2024-02-19 15:25:04,771 - INFO - Control data is not available
+2024-02-19 15:25:04,771 - INFO - Scene: obj data is not available
+2024-02-19 15:25:04,771 - INFO - Scene: camera data is not available
+2024-02-19 15:25:04,771 - INFO - Video data is not available
+2024-02-19 15:25:04,771 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:04,771 - INFO - ***************304_2_Kawaii_Urgent_Care********************
+2024-02-19 15:25:04,771 - INFO - Extraction started...
+2024-02-19 15:25:04,828 - INFO - control extracted
+2024-02-19 15:25:04,829 - INFO - Face data present!- extract in the next phase
+2024-02-19 15:25:04,882 - INFO - gaze_extracted
+2024-02-19 15:25:04,882 - INFO - pose extracted
+2024-02-19 15:25:04,883 - INFO - scene extracted
+2024-02-19 15:25:42,525 - INFO - video extracted
+2024-02-19 15:25:42,534 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:42,535 - INFO - Scene: obj data is not available
+2024-02-19 15:25:42,535 - INFO - Scene: camera data is not available
+2024-02-19 15:25:51,334 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:51,334 - INFO - ***************81_2_Venues********************
+2024-02-19 15:25:51,335 - INFO - Extraction started...
+2024-02-19 15:25:51,335 - INFO - control extracted
+2024-02-19 15:25:51,335 - INFO - gaze_extracted
+2024-02-19 15:25:51,335 - INFO - pose extracted
+2024-02-19 15:25:51,335 - INFO - scene extracted
+2024-02-19 15:25:51,335 - INFO - video extracted
+2024-02-19 15:25:51,335 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:51,335 - INFO - Gaze data is not available
+2024-02-19 15:25:51,335 - INFO - Control data is not available
+2024-02-19 15:25:51,335 - INFO - Scene: obj data is not available
+2024-02-19 15:25:51,335 - INFO - Scene: camera data is not available
+2024-02-19 15:25:51,335 - INFO - Video data is not available
+2024-02-19 15:25:51,336 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:51,336 - INFO - ***************29_1_Army_Men********************
+2024-02-19 15:25:51,336 - INFO - Extraction started...
+2024-02-19 15:25:51,336 - INFO - control extracted
+2024-02-19 15:25:51,336 - INFO - gaze_extracted
+2024-02-19 15:25:51,336 - INFO - pose extracted
+2024-02-19 15:25:51,336 - INFO - scene extracted
+2024-02-19 15:25:51,336 - INFO - video extracted
+2024-02-19 15:25:51,336 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:51,336 - INFO - Gaze data is not available
+2024-02-19 15:25:51,336 - INFO - Control data is not available
+2024-02-19 15:25:51,336 - INFO - Scene: obj data is not available
+2024-02-19 15:25:51,336 - INFO - Scene: camera data is not available
+2024-02-19 15:25:51,336 - INFO - Video data is not available
+2024-02-19 15:25:51,337 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:25:51,337 - INFO - ***************33_1_Citadel********************
+2024-02-19 15:25:51,337 - INFO - Extraction started...
+2024-02-19 15:25:51,337 - INFO - control extracted
+2024-02-19 15:25:51,337 - INFO - gaze_extracted
+2024-02-19 15:25:51,337 - INFO - pose extracted
+2024-02-19 15:25:51,337 - INFO - scene extracted
+2024-02-19 15:25:51,337 - INFO - video extracted
+2024-02-19 15:25:51,337 - INFO - Motion sickness rating extracted
+2024-02-19 15:25:51,337 - INFO - Gaze data is not available
+2024-02-19 15:25:51,337 - INFO - Control data is not available
+2024-02-19 15:25:51,337 - INFO - Scene: obj data is not available
+2024-02-19 15:25:51,337 - INFO - Scene: camera data is not available
+2024-02-19 15:25:51,337 - INFO - Video data is not available
+2024-02-19 15:45:39,217 - INFO - ----------------------------------------------------Starting extraction again: files_without pose_correction--------------------------------------------------------------
+2024-02-19 15:45:39,224 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,225 - INFO - ***************3_2_Wild_Quest********************
+2024-02-19 15:45:39,225 - INFO - Extraction started...
+2024-02-19 15:45:39,225 - INFO - control extracted
+2024-02-19 15:45:39,225 - INFO - gaze_extracted
+2024-02-19 15:45:39,225 - INFO - pose extracted
+2024-02-19 15:45:39,225 - INFO - scene extracted
+2024-02-19 15:45:39,225 - INFO - video extracted
+2024-02-19 15:45:39,227 - INFO - Motion sickness rating extracted
+2024-02-19 15:45:39,228 - INFO - Gaze data is not available
+2024-02-19 15:45:39,228 - INFO - Control data is not available
+2024-02-19 15:45:39,228 - INFO - Scene: obj data is not available
+2024-02-19 15:45:39,228 - INFO - Scene: camera data is not available
+2024-02-19 15:45:39,228 - INFO - Video data is not available
+2024-02-19 15:45:39,228 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,228 - INFO - ***************39_2_Citadel********************
+2024-02-19 15:45:39,228 - INFO - Extraction started...
+2024-02-19 15:45:39,228 - INFO - control extracted
+2024-02-19 15:45:39,228 - INFO - gaze_extracted
+2024-02-19 15:45:39,228 - INFO - pose extracted
+2024-02-19 15:45:39,229 - INFO - scene extracted
+2024-02-19 15:45:39,229 - INFO - video extracted
+2024-02-19 15:45:39,230 - INFO - Motion sickness rating extracted
+2024-02-19 15:45:39,230 - INFO - Gaze data is not available
+2024-02-19 15:45:39,230 - INFO - Control data is not available
+2024-02-19 15:45:39,230 - INFO - Scene: obj data is not available
+2024-02-19 15:45:39,230 - INFO - Scene: camera data is not available
+2024-02-19 15:45:39,230 - INFO - Video data is not available
+2024-02-19 15:45:39,230 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,230 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 15:45:39,231 - INFO - Extraction started...
+2024-02-19 15:45:39,231 - INFO - Motion sickness rating extracted
+2024-02-19 15:45:39,232 - INFO - video extracted
+2024-02-19 15:45:39,232 - INFO - scene extracted
+2024-02-19 15:45:39,232 - INFO - gaze_extracted
+2024-02-19 15:45:39,232 - INFO - control extracted
+2024-02-19 15:45:39,232 - INFO - pose extracted
+2024-02-19 15:45:39,232 - INFO - Gaze data is not available
+2024-02-19 15:45:39,232 - INFO - Control data is not available
+2024-02-19 15:45:39,232 - INFO - Scene: obj data is not available
+2024-02-19 15:45:39,232 - INFO - Scene: camera data is not available
+2024-02-19 15:45:39,232 - INFO - Video data is not available
+2024-02-19 15:45:39,233 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,233 - INFO - ***************61_2_UFO_crash_site_venue********************
+2024-02-19 15:45:39,233 - INFO - Extraction started...
+2024-02-19 15:45:39,233 - INFO - control extracted
+2024-02-19 15:45:39,233 - INFO - gaze_extracted
+2024-02-19 15:45:39,233 - INFO - pose extracted
+2024-02-19 15:45:39,233 - INFO - scene extracted
+2024-02-19 15:45:39,233 - INFO - video extracted
+2024-02-19 15:45:39,234 - INFO - Motion sickness rating extracted
+2024-02-19 15:45:39,234 - INFO - Gaze data is not available
+2024-02-19 15:45:39,234 - INFO - Control data is not available
+2024-02-19 15:45:39,234 - INFO - Scene: obj data is not available
+2024-02-19 15:45:39,234 - INFO - Scene: camera data is not available
+2024-02-19 15:45:39,234 - INFO - Video data is not available
+2024-02-19 15:45:39,235 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,235 - INFO - ***************42_1_Super_Rumble********************
+2024-02-19 15:45:39,235 - INFO - Extraction started...
+2024-02-19 15:45:39,235 - INFO - control extracted
+2024-02-19 15:45:39,235 - INFO - gaze_extracted
+2024-02-19 15:45:39,235 - INFO - pose extracted
+2024-02-19 15:45:39,235 - INFO - scene extracted
+2024-02-19 15:45:39,235 - INFO - video extracted
+2024-02-19 15:45:39,236 - INFO - Motion sickness rating extracted
+2024-02-19 15:45:39,236 - INFO - Gaze data is not available
+2024-02-19 15:45:39,236 - INFO - Control data is not available
+2024-02-19 15:45:39,236 - INFO - Scene: obj data is not available
+2024-02-19 15:45:39,237 - INFO - Scene: camera data is not available
+2024-02-19 15:45:39,237 - INFO - Video data is not available
+2024-02-19 15:45:39,237 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:45:39,237 - INFO - ***************304_2_Kawaii_Urgent_Care********************
+2024-02-19 15:45:39,237 - INFO - Extraction started...
+2024-02-19 15:45:39,299 - INFO - control extracted
+2024-02-19 15:45:39,299 - INFO - Face data present!- extract in the next phase
+2024-02-19 15:45:39,368 - INFO - gaze_extracted
+2024-02-19 15:45:39,369 - INFO - pose extracted
+2024-02-19 15:45:39,369 - INFO - scene extracted
+2024-02-19 15:46:34,159 - INFO - ----------------------------------------------------Starting extraction again: files_without pose_correction--------------------------------------------------------------
+2024-02-19 15:46:34,168 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,168 - INFO - ***************3_2_Wild_Quest********************
+2024-02-19 15:46:34,168 - INFO - Extraction started...
+2024-02-19 15:46:34,168 - INFO - control extracted
+2024-02-19 15:46:34,169 - INFO - gaze_extracted
+2024-02-19 15:46:34,169 - INFO - pose extracted
+2024-02-19 15:46:34,169 - INFO - scene extracted
+2024-02-19 15:46:34,169 - INFO - video extracted
+2024-02-19 15:46:34,173 - INFO - Motion sickness rating extracted
+2024-02-19 15:46:34,173 - INFO - Gaze data is not available
+2024-02-19 15:46:34,173 - INFO - Control data is not available
+2024-02-19 15:46:34,173 - INFO - Scene: obj data is not available
+2024-02-19 15:46:34,173 - INFO - Scene: camera data is not available
+2024-02-19 15:46:34,173 - INFO - Video data is not available
+2024-02-19 15:46:34,174 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,174 - INFO - ***************39_2_Citadel********************
+2024-02-19 15:46:34,174 - INFO - Extraction started...
+2024-02-19 15:46:34,174 - INFO - control extracted
+2024-02-19 15:46:34,174 - INFO - gaze_extracted
+2024-02-19 15:46:34,174 - INFO - pose extracted
+2024-02-19 15:46:34,175 - INFO - scene extracted
+2024-02-19 15:46:34,175 - INFO - video extracted
+2024-02-19 15:46:34,176 - INFO - Motion sickness rating extracted
+2024-02-19 15:46:34,176 - INFO - Gaze data is not available
+2024-02-19 15:46:34,176 - INFO - Control data is not available
+2024-02-19 15:46:34,176 - INFO - Scene: obj data is not available
+2024-02-19 15:46:34,176 - INFO - Scene: camera data is not available
+2024-02-19 15:46:34,176 - INFO - Video data is not available
+2024-02-19 15:46:34,177 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,177 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 15:46:34,177 - INFO - Extraction started...
+2024-02-19 15:46:34,178 - INFO - Motion sickness rating extracted
+2024-02-19 15:46:34,178 - INFO - video extracted
+2024-02-19 15:46:34,178 - INFO - scene extracted
+2024-02-19 15:46:34,178 - INFO - gaze_extracted
+2024-02-19 15:46:34,178 - INFO - control extracted
+2024-02-19 15:46:34,178 - INFO - pose extracted
+2024-02-19 15:46:34,179 - INFO - Gaze data is not available
+2024-02-19 15:46:34,179 - INFO - Control data is not available
+2024-02-19 15:46:34,179 - INFO - Scene: obj data is not available
+2024-02-19 15:46:34,179 - INFO - Scene: camera data is not available
+2024-02-19 15:46:34,179 - INFO - Video data is not available
+2024-02-19 15:46:34,179 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,179 - INFO - ***************61_2_UFO_crash_site_venue********************
+2024-02-19 15:46:34,179 - INFO - Extraction started...
+2024-02-19 15:46:34,179 - INFO - control extracted
+2024-02-19 15:46:34,179 - INFO - gaze_extracted
+2024-02-19 15:46:34,180 - INFO - pose extracted
+2024-02-19 15:46:34,180 - INFO - scene extracted
+2024-02-19 15:46:34,180 - INFO - video extracted
+2024-02-19 15:46:34,181 - INFO - Motion sickness rating extracted
+2024-02-19 15:46:34,181 - INFO - Gaze data is not available
+2024-02-19 15:46:34,181 - INFO - Control data is not available
+2024-02-19 15:46:34,181 - INFO - Scene: obj data is not available
+2024-02-19 15:46:34,181 - INFO - Scene: camera data is not available
+2024-02-19 15:46:34,181 - INFO - Video data is not available
+2024-02-19 15:46:34,182 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,182 - INFO - ***************42_1_Super_Rumble********************
+2024-02-19 15:46:34,182 - INFO - Extraction started...
+2024-02-19 15:46:34,182 - INFO - control extracted
+2024-02-19 15:46:34,182 - INFO - gaze_extracted
+2024-02-19 15:46:34,182 - INFO - pose extracted
+2024-02-19 15:46:34,182 - INFO - scene extracted
+2024-02-19 15:46:34,182 - INFO - video extracted
+2024-02-19 15:46:34,183 - INFO - Motion sickness rating extracted
+2024-02-19 15:46:34,183 - INFO - Gaze data is not available
+2024-02-19 15:46:34,183 - INFO - Control data is not available
+2024-02-19 15:46:34,183 - INFO - Scene: obj data is not available
+2024-02-19 15:46:34,183 - INFO - Scene: camera data is not available
+2024-02-19 15:46:34,183 - INFO - Video data is not available
+2024-02-19 15:46:34,184 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:46:34,184 - INFO - ***************304_2_Kawaii_Urgent_Care********************
+2024-02-19 15:46:34,184 - INFO - Extraction started...
+2024-02-19 15:46:34,259 - INFO - control extracted
+2024-02-19 15:46:34,260 - INFO - Face data present!- extract in the next phase
+2024-02-19 15:46:34,321 - INFO - gaze_extracted
+2024-02-19 15:46:34,321 - INFO - pose extracted
+2024-02-19 15:46:34,321 - INFO - scene extracted
+2024-02-19 15:47:12,257 - INFO - video extracted
+2024-02-19 15:47:12,267 - INFO - Motion sickness rating extracted
+2024-02-19 15:47:12,267 - INFO - Scene: obj data is not available
+2024-02-19 15:47:12,267 - INFO - Scene: camera data is not available
+2024-02-19 15:47:21,180 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:47:21,180 - INFO - ***************81_2_Venues********************
+2024-02-19 15:47:21,180 - INFO - Extraction started...
+2024-02-19 15:47:21,180 - INFO - control extracted
+2024-02-19 15:47:21,180 - INFO - gaze_extracted
+2024-02-19 15:47:21,181 - INFO - pose extracted
+2024-02-19 15:47:21,181 - INFO - scene extracted
+2024-02-19 15:47:21,181 - INFO - video extracted
+2024-02-19 15:47:21,182 - INFO - Motion sickness rating extracted
+2024-02-19 15:47:21,182 - INFO - Gaze data is not available
+2024-02-19 15:47:21,182 - INFO - Control data is not available
+2024-02-19 15:47:21,182 - INFO - Scene: obj data is not available
+2024-02-19 15:47:21,182 - INFO - Scene: camera data is not available
+2024-02-19 15:47:21,182 - INFO - Video data is not available
+2024-02-19 15:47:21,183 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:47:21,183 - INFO - ***************29_1_Army_Men********************
+2024-02-19 15:47:21,183 - INFO - Extraction started...
+2024-02-19 15:47:21,183 - INFO - control extracted
+2024-02-19 15:47:21,183 - INFO - gaze_extracted
+2024-02-19 15:47:21,183 - INFO - pose extracted
+2024-02-19 15:47:21,184 - INFO - scene extracted
+2024-02-19 15:47:21,184 - INFO - video extracted
+2024-02-19 15:47:21,185 - INFO - Motion sickness rating extracted
+2024-02-19 15:47:21,185 - INFO - Gaze data is not available
+2024-02-19 15:47:21,185 - INFO - Control data is not available
+2024-02-19 15:47:21,185 - INFO - Scene: obj data is not available
+2024-02-19 15:47:21,185 - INFO - Scene: camera data is not available
+2024-02-19 15:47:21,185 - INFO - Video data is not available
+2024-02-19 15:47:21,186 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:47:21,186 - INFO - ***************33_1_Citadel********************
+2024-02-19 15:47:21,186 - INFO - Extraction started...
+2024-02-19 15:47:21,186 - INFO - control extracted
+2024-02-19 15:47:21,186 - INFO - gaze_extracted
+2024-02-19 15:47:21,186 - INFO - pose extracted
+2024-02-19 15:47:21,186 - INFO - scene extracted
+2024-02-19 15:47:21,186 - INFO - video extracted
+2024-02-19 15:47:21,187 - INFO - Motion sickness rating extracted
+2024-02-19 15:47:21,187 - INFO - Gaze data is not available
+2024-02-19 15:47:21,187 - INFO - Control data is not available
+2024-02-19 15:47:21,187 - INFO - Scene: obj data is not available
+2024-02-19 15:47:21,187 - INFO - Scene: camera data is not available
+2024-02-19 15:47:21,187 - INFO - Video data is not available
+2024-02-19 15:52:24,123 - INFO - ----------------------------------------------------Starting extraction again: files_without pose_correction--------------------------------------------------------------
+2024-02-19 15:52:24,130 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,131 - INFO - ***************3_2_Wild_Quest********************
+2024-02-19 15:52:24,131 - INFO - Extraction started...
+2024-02-19 15:52:24,131 - INFO - control extracted
+2024-02-19 15:52:24,131 - INFO - gaze_extracted
+2024-02-19 15:52:24,131 - INFO - pose extracted
+2024-02-19 15:52:24,131 - INFO - scene extracted
+2024-02-19 15:52:24,131 - INFO - video extracted
+2024-02-19 15:52:24,134 - INFO - Motion sickness rating extracted
+2024-02-19 15:52:24,134 - INFO - Gaze data is not available
+2024-02-19 15:52:24,134 - INFO - Control data is not available
+2024-02-19 15:52:24,134 - INFO - Scene: obj data is not available
+2024-02-19 15:52:24,134 - INFO - Scene: camera data is not available
+2024-02-19 15:52:24,134 - INFO - Video data is not available
+2024-02-19 15:52:24,135 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,135 - INFO - ***************39_2_Citadel********************
+2024-02-19 15:52:24,135 - INFO - Extraction started...
+2024-02-19 15:52:24,135 - INFO - control extracted
+2024-02-19 15:52:24,135 - INFO - gaze_extracted
+2024-02-19 15:52:24,135 - INFO - pose extracted
+2024-02-19 15:52:24,135 - INFO - scene extracted
+2024-02-19 15:52:24,135 - INFO - video extracted
+2024-02-19 15:52:24,136 - INFO - Motion sickness rating extracted
+2024-02-19 15:52:24,136 - INFO - Gaze data is not available
+2024-02-19 15:52:24,136 - INFO - Control data is not available
+2024-02-19 15:52:24,137 - INFO - Scene: obj data is not available
+2024-02-19 15:52:24,137 - INFO - Scene: camera data is not available
+2024-02-19 15:52:24,137 - INFO - Video data is not available
+2024-02-19 15:52:24,137 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,137 - INFO - ***************20_1_Mars_Miners********************
+2024-02-19 15:52:24,137 - INFO - Extraction started...
+2024-02-19 15:52:24,138 - INFO - Motion sickness rating extracted
+2024-02-19 15:52:24,138 - INFO - video extracted
+2024-02-19 15:52:24,139 - INFO - scene extracted
+2024-02-19 15:52:24,139 - INFO - gaze_extracted
+2024-02-19 15:52:24,139 - INFO - control extracted
+2024-02-19 15:52:24,139 - INFO - pose extracted
+2024-02-19 15:52:24,139 - INFO - Gaze data is not available
+2024-02-19 15:52:24,139 - INFO - Control data is not available
+2024-02-19 15:52:24,139 - INFO - Scene: obj data is not available
+2024-02-19 15:52:24,139 - INFO - Scene: camera data is not available
+2024-02-19 15:52:24,139 - INFO - Video data is not available
+2024-02-19 15:52:24,140 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,140 - INFO - ***************61_2_UFO_crash_site_venue********************
+2024-02-19 15:52:24,140 - INFO - Extraction started...
+2024-02-19 15:52:24,140 - INFO - control extracted
+2024-02-19 15:52:24,140 - INFO - gaze_extracted
+2024-02-19 15:52:24,140 - INFO - pose extracted
+2024-02-19 15:52:24,141 - INFO - scene extracted
+2024-02-19 15:52:24,141 - INFO - video extracted
+2024-02-19 15:52:24,142 - INFO - Motion sickness rating extracted
+2024-02-19 15:52:24,142 - INFO - Gaze data is not available
+2024-02-19 15:52:24,142 - INFO - Control data is not available
+2024-02-19 15:52:24,142 - INFO - Scene: obj data is not available
+2024-02-19 15:52:24,142 - INFO - Scene: camera data is not available
+2024-02-19 15:52:24,142 - INFO - Video data is not available
+2024-02-19 15:52:24,143 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,143 - INFO - ***************42_1_Super_Rumble********************
+2024-02-19 15:52:24,143 - INFO - Extraction started...
+2024-02-19 15:52:24,143 - INFO - control extracted
+2024-02-19 15:52:24,143 - INFO - gaze_extracted
+2024-02-19 15:52:24,143 - INFO - pose extracted
+2024-02-19 15:52:24,144 - INFO - scene extracted
+2024-02-19 15:52:24,144 - INFO - video extracted
+2024-02-19 15:52:24,145 - INFO - Motion sickness rating extracted
+2024-02-19 15:52:24,145 - INFO - Gaze data is not available
+2024-02-19 15:52:24,145 - INFO - Control data is not available
+2024-02-19 15:52:24,145 - INFO - Scene: obj data is not available
+2024-02-19 15:52:24,145 - INFO - Scene: camera data is not available
+2024-02-19 15:52:24,145 - INFO - Video data is not available
+2024-02-19 15:52:24,146 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:52:24,146 - INFO - ***************304_2_Kawaii_Urgent_Care********************
+2024-02-19 15:52:24,146 - INFO - Extraction started...
+2024-02-19 15:52:24,213 - INFO - control extracted
+2024-02-19 15:52:24,213 - INFO - Face data present!- extract in the next phase
+2024-02-19 15:52:24,267 - INFO - gaze_extracted
+2024-02-19 15:52:24,267 - INFO - pose extracted
+2024-02-19 15:52:24,267 - INFO - scene extracted
+2024-02-19 15:53:01,839 - INFO - video extracted
+2024-02-19 15:53:01,849 - INFO - Motion sickness rating extracted
+2024-02-19 15:53:01,849 - INFO - Scene: obj data is not available
+2024-02-19 15:53:01,849 - INFO - Scene: camera data is not available
+2024-02-19 15:53:10,523 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:53:10,524 - INFO - ***************81_2_Venues********************
+2024-02-19 15:53:10,524 - INFO - Extraction started...
+2024-02-19 15:53:10,524 - INFO - control extracted
+2024-02-19 15:53:10,524 - INFO - gaze_extracted
+2024-02-19 15:53:10,524 - INFO - pose extracted
+2024-02-19 15:53:10,524 - INFO - scene extracted
+2024-02-19 15:53:10,524 - INFO - video extracted
+2024-02-19 15:53:10,525 - INFO - Motion sickness rating extracted
+2024-02-19 15:53:10,525 - INFO - Gaze data is not available
+2024-02-19 15:53:10,525 - INFO - Control data is not available
+2024-02-19 15:53:10,525 - INFO - Scene: obj data is not available
+2024-02-19 15:53:10,525 - INFO - Scene: camera data is not available
+2024-02-19 15:53:10,525 - INFO - Video data is not available
+2024-02-19 15:53:10,525 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:53:10,526 - INFO - ***************29_1_Army_Men********************
+2024-02-19 15:53:10,526 - INFO - Extraction started...
+2024-02-19 15:53:10,526 - INFO - control extracted
+2024-02-19 15:53:10,526 - INFO - gaze_extracted
+2024-02-19 15:53:10,526 - INFO - pose extracted
+2024-02-19 15:53:10,526 - INFO - scene extracted
+2024-02-19 15:53:10,526 - INFO - video extracted
+2024-02-19 15:53:10,527 - INFO - Motion sickness rating extracted
+2024-02-19 15:53:10,527 - INFO - Gaze data is not available
+2024-02-19 15:53:10,527 - INFO - Control data is not available
+2024-02-19 15:53:10,527 - INFO - Scene: obj data is not available
+2024-02-19 15:53:10,527 - INFO - Scene: camera data is not available
+2024-02-19 15:53:10,527 - INFO - Video data is not available
+2024-02-19 15:53:10,527 - INFO - ------------------------------------------------------------------------------------------------------------------
+2024-02-19 15:53:10,527 - INFO - ***************33_1_Citadel********************
+2024-02-19 15:53:10,527 - INFO - Extraction started...
+2024-02-19 15:53:10,527 - INFO - control extracted
+2024-02-19 15:53:10,527 - INFO - gaze_extracted
+2024-02-19 15:53:10,527 - INFO - pose extracted
+2024-02-19 15:53:10,527 - INFO - scene extracted
+2024-02-19 15:53:10,527 - INFO - video extracted
+2024-02-19 15:53:10,528 - INFO - Motion sickness rating extracted
+2024-02-19 15:53:10,528 - INFO - Gaze data is not available
+2024-02-19 15:53:10,528 - INFO - Control data is not available
+2024-02-19 15:53:10,528 - INFO - Scene: obj data is not available
+2024-02-19 15:53:10,528 - INFO - Scene: camera data is not available
+2024-02-19 15:53:10,528 - INFO - Video data is not available
