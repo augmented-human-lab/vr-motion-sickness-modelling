@@ -1,0 +1,310 @@
+<html lang="en">
+    <head>
+
+    <!-- Basic Page Needs
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>ScanObjectNN</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/footable.standalone.min.css">
+
+    <!-- Favicon
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Analytics -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-86869673-1', 'auto');
+      ga('send', 'pageview');
+    </script><script src="chrome-extension://nngceckbapebfimnlniiiahkandclblb/content/fido2/page-script.js" id="bw-fido2-page-script"></script>
+
+    <!-- Hover effect: https://codepen.io/nxworld/pen/ZYNOBZ -->
+    <style>
+      img {
+          display: block;
+      }
+
+      .column-50 {
+          float: left;
+          width: 50%;
+      }
+      .row-50:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      .floating-teaser {
+          float: left;
+          width: 30%;
+          text-align: center;
+          padding: 15px;
+      }
+      .venue strong {
+          color: #99324b;
+      }
+
+      .benchmark {
+          width: 100%;
+          max-width: 960px;
+          overflow: scroll;
+          overflow-y: hidden;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- Primary Page Layout
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <h4 style="text-align:center">Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data</h4>
+      <p align="center" ,="" style="margin-bottom:12px;">
+        <a class="simple" href="https://mikacuy.github.io/">Mikaela Angelina Uy</a><sup>1</sup>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="simple" href="https://pqhieu.github.io/">Quang-Hieu Pham</a><sup>2</sup>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="simple" href="https://sonhua.github.io/">Binh-Son Hua</a><sup>3</sup>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="simple" href="https://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a><sup>4</sup>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="simple" href="http://saikit.org/">Sai-Kit Yeung</a><sup>1</sup>
+      </p>
+
+      <p align="center" style="margin-bottom:20px;">
+        <sup>1</sup>Hong Kong University of Science and Technology
+        <span style="display:inline-block; width: 32px"></span>
+        <sup>2</sup>Singapore University of Technology and Design <br>
+        <span style="display:inline-block; width: 32px"></span>
+        <sup>3</sup>The University of Tokyo
+        <span style="display:inline-block; width: 32px"></span>
+        <sup>4</sup>Deakin University
+      </p>
+
+      <div class="venue">
+        <p align="center"> International Conference on Computer Vision (ICCV), 2019 <strong>(Oral)</strong> </p>
+      </div>
+
+      <figure>
+        <img src="images/objects_teaser.png" style="width:100%">
+        <br>
+      </figure>
+      <div class="caption">
+        <b>Sample objects from our ScanObjectNN dataset.</b> The dataset
+        contains ~15,000 objects that are categorized into 15 categories with
+        2902 unique object instances.  The raw objects are represented by a list
+        of points with global and local coordinates, normals, colors attributes
+        and semantic labels. We also provide part annotations, which to the best
+        of our knowledge is the first on real-world data.
+      </div>
+
+      <br>
+
+      <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
+        <h5>Abstract</h5>
+        <p align="justify">
+          Deep learning techniques for point cloud data have demonstrated great
+          potentials in solving classical problems in 3D computer vision such as
+          3D object classification and segmentation. Several recent 3D object
+          classification methods have reported state-of-the-art performance on
+          CAD model datasets such as ModelNet40 with high accuracy ~92%. Despite
+          such impressive results, in this paper, we argue that object
+          classification is still a challenging task when objects are framed
+          with real-world settings. To prove this, we introduce ScanObjectNN, a
+          new real-world point cloud object dataset based on scanned indoor
+          scene data. From our comprehensive benchmark, we show that our dataset
+          poses great challenges to existing point cloud classification
+          techniques as objects from real-world scans are often cluttered with
+          background and/or are partial due to occlusions. We identify three key
+          open problems for point cloud object classification, and propose new
+          point cloud classification neural networks that achieve
+          state-of-the-art performance on classifying objects with cluttered
+          background.
+          <br>
+          <br>
+        </p>
+      </div>
+
+      <!-- -->
+      <div class="section">
+        <h5>Benchmark</h5>
+        <!--
+        <p>
+          <h6> <b> <a class="simple" href="https://hkust-vgd.github.io/benchmark/">3D Scene Understanding Benchmark</a> </b> </h6>
+          The ScanObjectNN benchmark is part of the <a class="simple" href="https://hkust-vgd.github.io/benchmark/">3D Scene Understanding Benchmark</a>, a greater effort for benchmarking point cloud deep learning for real-world data. Please visit and submit your results to our benchmark page <a class="simple" href="https://hkust-vgd.github.io/benchmark/"> here</a>.
+        </p>
+        -->
+        <div class="benchmark">
+                    <table class="table footable footable-1 breakpoint-sm" data-sorting="true" style="display: table;">
+            <thead>
+              <tr class="footable-header">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              <th class="footable-sortable footable-first-visible" style="display: table-cell;">Method<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">overall acc.<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">avg acc.<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">bag<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">bin<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">box<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">cabinet<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">chair<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">desk<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">display<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">door<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">shelf<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">table<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">bed<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">pillow<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">sink<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable" style="display: table-cell;">sofa<span class="fooicon fooicon-sort"></span></th><th class="footable-sortable footable-last-visible" style="display: table-cell;">toilet<span class="fooicon fooicon-sort"></span></th></tr>
+            </thead>
+            <tbody>
+              
+              
+              
+              
+              
+              
+              
+              
+            <tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">3DmFV</td><td style="display: table-cell;">63.0</td><td style="display: table-cell;">58.1</td><td style="display: table-cell;">39.8</td><td style="display: table-cell;">62.8</td><td style="display: table-cell;">15.0</td><td style="display: table-cell;">65.1</td><td style="display: table-cell;">84.4</td><td style="display: table-cell;">36.0</td><td style="display: table-cell;">62.3</td><td style="display: table-cell;">85.2</td><td style="display: table-cell;">60.6</td><td style="display: table-cell;">66.7</td><td style="display: table-cell;">51.8</td><td style="display: table-cell;">61.9</td><td style="display: table-cell;">46.7</td><td style="display: table-cell;">72.4</td><td class="footable-last-visible" style="display: table-cell;">61.2</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">PointNet</td><td style="display: table-cell;">68.2</td><td style="display: table-cell;">63.4</td><td style="display: table-cell;">36.1</td><td style="display: table-cell;">69.8</td><td style="display: table-cell;">10.5</td><td style="display: table-cell;">62.6</td><td style="display: table-cell;">89.0</td><td style="display: table-cell;">50.0</td><td style="display: table-cell;">73.0</td><td style="display: table-cell;">93.8</td><td style="display: table-cell;">72.6</td><td style="display: table-cell;">67.8</td><td style="display: table-cell;">61.8</td><td style="display: table-cell;">67.6</td><td style="display: table-cell;">64.2</td><td style="display: table-cell;">76.7</td><td class="footable-last-visible" style="display: table-cell;">55.3</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">SpiderCNN</td><td style="display: table-cell;">73.7</td><td style="display: table-cell;">69.8</td><td style="display: table-cell;">43.4</td><td style="display: table-cell;">75.9</td><td style="display: table-cell;">12.8</td><td style="display: table-cell;">74.2</td><td style="display: table-cell;">89</td><td style="display: table-cell;">65.3</td><td style="display: table-cell;">74.5</td><td style="display: table-cell;">91.4</td><td style="display: table-cell;">78</td><td style="display: table-cell;">65.9</td><td style="display: table-cell;">69.1</td><td style="display: table-cell;">80</td><td style="display: table-cell;">65.8</td><td style="display: table-cell;">90.5</td><td class="footable-last-visible" style="display: table-cell;">70.6</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">PointNet++</td><td style="display: table-cell;">77.9</td><td style="display: table-cell;">75.4</td><td style="display: table-cell;">49.4</td><td style="display: table-cell;">84.4</td><td style="display: table-cell;">31.6</td><td style="display: table-cell;">77.4</td><td style="display: table-cell;">91.3</td><td style="display: table-cell;">74</td><td style="display: table-cell;">79.4</td><td style="display: table-cell;">85.2</td><td style="display: table-cell;">72.6</td><td style="display: table-cell;">72.6</td><td style="display: table-cell;">75.5</td><td style="display: table-cell;">81</td><td style="display: table-cell;">80.8</td><td style="display: table-cell;">90.5</td><td class="footable-last-visible" style="display: table-cell;">85.9</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">DGCNN</td><td style="display: table-cell;">78.1</td><td style="display: table-cell;">73.6</td><td style="display: table-cell;">49.4</td><td style="display: table-cell;">82.4</td><td style="display: table-cell;">33.1</td><td style="display: table-cell;">83.9</td><td style="display: table-cell;">91.8</td><td style="display: table-cell;">63.3</td><td style="display: table-cell;">77</td><td style="display: table-cell;">89</td><td style="display: table-cell;">79.3</td><td style="display: table-cell;">77.4</td><td style="display: table-cell;">64.5</td><td style="display: table-cell;">77.1</td><td style="display: table-cell;">75</td><td style="display: table-cell;">91.4</td><td class="footable-last-visible" style="display: table-cell;">69.4</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">PointCNN</td><td style="display: table-cell;">78.5</td><td style="display: table-cell;">75.1</td><td style="display: table-cell;">57.8</td><td style="display: table-cell;">82.9</td><td style="display: table-cell;">33.1</td><td style="display: table-cell;">83.6</td><td style="display: table-cell;">92.6</td><td style="display: table-cell;">65.3</td><td style="display: table-cell;">78.4</td><td style="display: table-cell;">84.8</td><td style="display: table-cell;">84.2</td><td style="display: table-cell;">67.4</td><td style="display: table-cell;">80</td><td style="display: table-cell;">80</td><td style="display: table-cell;">72.5</td><td style="display: table-cell;">91.9</td><td class="footable-last-visible" style="display: table-cell;">71.8</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">BGA-PN++</td><td style="display: table-cell;">80.2</td><td style="display: table-cell;">77.5</td><td style="display: table-cell;">54.2</td><td style="display: table-cell;">85.9</td><td style="display: table-cell;">39.8</td><td style="display: table-cell;">81.7</td><td style="display: table-cell;">90.8</td><td style="display: table-cell;">76</td><td style="display: table-cell;">84.3</td><td style="display: table-cell;">87.6</td><td style="display: table-cell;">78.4</td><td style="display: table-cell;">74.4</td><td style="display: table-cell;">73.6</td><td style="display: table-cell;">80</td><td style="display: table-cell;">77.5</td><td style="display: table-cell;">91.9</td><td class="footable-last-visible" style="display: table-cell;">85.9</td></tr><tr>
+                
+              <td class="footable-first-visible" style="display: table-cell;">BGA-DGCNN</td><td style="display: table-cell;">79.7</td><td style="display: table-cell;">75.7</td><td style="display: table-cell;">48.2</td><td style="display: table-cell;">81.9</td><td style="display: table-cell;">30.1</td><td style="display: table-cell;">84.4</td><td style="display: table-cell;">92.6</td><td style="display: table-cell;">77.3</td><td style="display: table-cell;">80.4</td><td style="display: table-cell;">92.4</td><td style="display: table-cell;">80.5</td><td style="display: table-cell;">74.1</td><td style="display: table-cell;">72.7</td><td style="display: table-cell;">78.1</td><td style="display: table-cell;">79.2</td><td style="display: table-cell;">91</td><td class="footable-last-visible" style="display: table-cell;">72.9</td></tr></tbody>
+          </table>
+        </div>
+        <p align="center">
+          <a href="assets/results_pb_t50_rs.csv">Download as .csv</a>
+        </p>
+        <p>
+        Leaderboard shows the classification accuracy for our hardest variant, PB_T50_RS. Researchers who want to add results on our dataset to this leaderboard, please visit our <a class="simple" href="https://hkust-vgd.github.io/benchmark/"> 3D Scene Understanding Benchmark</a> page and submit your predictions there.
+        </p>
+      </div>
+      <br>
+      <br>
+
+    <div class="section">
+        <h5>Materials</h5>
+        <div class="container" style="width:95%">
+          <!-- Icon row -->
+          <div class="row">
+            <div class="two columns">
+              <a href="https://arxiv.org/pdf/1908.04616.pdf"><img style="border: 1px solid #ddd; border-radius: 4px; padding: 2px; width: 108px;" src="images/screenshot_main.png"></a>
+            </div>
+            <div class="two columns">
+              <a href="assets/iccv19_supp.pdf"><img style="border: 1px solid #ddd; border-radius: 4px; padding: 2px; width: 108px;" src="images/screenshot_supplementary.png"></a>
+            </div>
+            <div class="four columns">
+              <a href="assets/iccv2019_poster_v2.pdf"><img style="border: 1px solid #ddd; border-radius: 4px; padding: 2px; width: 280px;" src="images/poster_screenshot.png"></a>
+            </div>
+			<div class="two columns" style="padding-left: 12px;">
+              <a href="https://github.com/hkust-vgd/scanobjectnn.git"><img style="border: 1px solid #ddd; border-radius: 4px; padding: 2px; width: 277px;" src="./images/github-logo.png"></a>
+            </div>
+			
+          </div>
+          <!-- Link row -->
+          <div class="row">
+            <div class="two columns">
+              <a href="https://arxiv.org/pdf/1908.04616.pdf">Paper</a>
+            </div>
+            <div class="two columns">
+              <a href="assets/iccv19_supp.pdf">Supplementary</a>
+            </div>
+            <div class="four columns">
+              <a href="assets/iccv2019_poster_v2.pdf">Poster</a>
+            </div>
+			<div class="two columns" style="padding-left: 12px;">
+              <a href="https://github.com/hkust-vgd/scanobjectnn.git">Code</a>
+            </div>
+          </div>
+
+          <br>
+          <div class="row">
+            <div class="two columns">
+              <img style="border: 1px solid #ddd; border-radius: 4px; padding: 6px; width: 256px;" src="images/perturbations3.png">
+            </div>
+          </div>
+          <div class="row">
+            <!--<p>Data coming soon! We are currently tidying up the data for public release, if an early access is needed for academic purposes, please send an email to mikacuy@gmail.com.</p>-->
+		<p><u style="color:#007399;">Dataset:</u><br>
+		If you would like to download the ScanObjectNN data, please fill out an agreement to the <a href="https://forms.gle/g29a6qSgjatjb1vZ6">"ScanObjectNN Terms of Use"</a> to get the download link. 
+		It should be noted that the processed and raw data sizes are 13 GB and 197 GB, respectively.</p>
+          </div>
+        </div>
+      </div>
+
+		<!-- -->
+	<div class="section">
+          <h5>Citation</h5> 
+  <pre style="margin:0"><code>@inproceedings{uy-scanobjectnn-iccv19,
+      title = {Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data},
+      author = {Mikaela Angelina Uy and Quang-Hieu Pham and Binh-Son Hua and Duc Thanh Nguyen and Sai-Kit Yeung},
+      booktitle = {International Conference on Computer Vision (ICCV)},
+      year = {2019}
+  }</code></pre>    			
+		</div>
+		
+        <!-- -->
+        <br> 
+        
+  <div class="section">
+      <h5>Acknowledgements</h5>            
+      <p>
+			We would like to sincerely thank Tan Sang Ha, Fan Wai Shan, Xu Ting Ting, Loh Pei Huan, Luong Van An, Ng Shi Xian Bryden, Li Jingxin and Chiz Huang for helping in the part annotations.
+			</p>
+			
+			<p>
+			This research project is partially supported by an internal grant from HKUST (R9429).
+      </p>
+  </div>
+  </div>
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/footable.min.js"></script>
+
+    <script type="text/javascript">
+      jQuery(function($){
+          $('.table').footable();
+      });
+    </script>
+
+    <!-- End Document
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+
+    </body>
+</html>
