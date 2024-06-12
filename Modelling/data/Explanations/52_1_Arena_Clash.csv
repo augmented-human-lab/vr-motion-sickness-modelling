@@ -1,0 +1,9 @@
+,Start,End,Reason
+0,57940,58240,diff_HE_yaw
+1,58520,58820,diff_HE_yaw
+2,58830,59130,diff_HE_yaw
+3,59140,59440,diff_HE_yaw
+4,57950,58250,le_roll
+5,58260,58560,le_roll
+6,58640,58940,le_roll
+7,59040,59340,le_roll
