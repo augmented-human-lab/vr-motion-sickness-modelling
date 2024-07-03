@@ -344,9 +344,10 @@ if __name__ == "__main__":
     parser.add_argument('--session', metavar='SESSION', type=str,
                         help='Name of the session that you want to explain')
     parser.add_argument('--modelname', metavar='MODEL', type=str,
-                        help='Name of the model you need the explanation from', default='GradientBoosting')
+                        help='Name of the model you need the explanation from', default='XGBoost')
     parser.add_argument('--log', metavar='LOG', type=str,
-                        help='the log file you need the explanation from', default='log_1719971872')
+                        help='the log file you need the explanation from', default='log_1720005500')
     args = parser.parse_args()
     
     main(args.modelname, args.dataset, args.session, args.log)
+    
