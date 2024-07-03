@@ -1,0 +1,34 @@
+Column,Long_Name
+IndTrig_L,Left Index Trigger
+IndTrig_R,Right Index Trigger
+HandTrig_L,Left Hand Trigger
+HandTrig_R,Right Hand Trigger
+Thumb_L_x,Left Thumbstick movement across X axis
+Thumb_R_x,Right Thumbstick movement across X axis
+Thumb_L_y,Left Thumbstick movement across Y axis
+Thumb_R_y,Right Thumbstick movement across Y axis
+Head_Speed,Head Speed
+LE_speed,Eye Velocity
+Head_Velocity,Change of HEad Velocity
+Head_AngVel,Change in Head Angular Velocity
+c_speed,Camera Speed
+text_presence,Text Presence
+change in brightness,Change in brightness
+diff_HE_yaw,Difference of head and eyes in Yaw angle
+diff_HE_roll,Difference of head and eyes in Roll angle
+diff_HE_pitch,Difference of head and eyes in Pitch angle
+c_acceleration1,Camera Acceleration X axis
+c_acceleration2,Camera Acceleration Y axis
+c_acceleration3,Camera Acceleration Z axis
+c_velocity1,Camera Velocity X axis
+c_velocity2,Camera Velocity Y axis
+c_velocity3,Camera Velocity Z axis
+le_roll,Change in Roll angle of Eyes
+le_pitch,Change in Pitch angle of Eyes
+le_yaw,Change in Yaw angle of Eyes
+h_roll,Change in Roll angle of Head
+h_pitch,Change in Pitch angle of Head
+h_yaw,Change in Yaw angle of Head
+c_roll,Change in Roll angle of Camera
+c_pitch,Change in Pitch angle of Camera
+c_yaw,Change in Yaw angle of Camera
