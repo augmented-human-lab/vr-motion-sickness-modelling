@@ -93,25 +93,24 @@ def create_frames_1(df_m, aggre,j):
     msr=df['MS_rating'].dropna().tolist()
     df3=df.iloc[0:1]
     count1=0
-    for i in range(len(index_list) - 1):
-        if count1==0:
-            start_idx=0
-            end_idx=1
-            df2=df.iloc[start_idx:end_idx]
-            aggre1=aggre.copy()
-            df2=aggregate_df(df2.copy(), aggre1)
-            dfs1=df2.copy()
+    for i in range(len(index_list) - 3):
         start_idx = index_list[i]
-        end_idx = index_list[i + 1]  
+        end_idx = index_list[i + 3]  
         if count==1:
             start_idx+=1
         df2=df.iloc[start_idx:end_idx]
         aggre1=aggre.copy()
         df2=aggregate_df(df2.copy(), aggre1)
-        df_c1=[dfs1,df2]
-        dfs1 = pd.concat(df_c1, ignore_index=True)
+        if count1 ==0:
+            dfs1=df2.copy()
+        else:
+            df_c1=[dfs1,df2]
+            dfs1 = pd.concat(df_c1, ignore_index=True)
         count1+=1
-    dfs1['msr']=msr
+    dfs1['msr']=msr[3:]
+    dfs1['msr_1']=msr[2:-1]
+    dfs1['msr_2']=msr[1:-2]
+    dfs1['msr_3']=msr[:-3]
     dfs1['session']=j
     return dfs1
         
@@ -148,4 +147,4 @@ for i in sessions.keys():
         except:
             logger.info('*******failed********')
 
-dfs.to_csv('/home/sharedFolder/data/dataset2.csv')
+dfs.to_csv('/home/sharedFolder/data/dataset4.csv')

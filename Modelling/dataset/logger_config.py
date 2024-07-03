@@ -17,7 +17,7 @@ import logging
 
 def setup_logger():
     # Configure logging
-    logging.basicConfig(filename='log/data_set_4_aggregation.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(filename='/home/sharedFolder/data/log1.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
     # Define logger
     logger = logging.getLogger(__name__)

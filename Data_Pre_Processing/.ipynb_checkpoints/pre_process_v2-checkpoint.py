@@ -9,6 +9,9 @@ import json
 import ast
 import cv2
 import logging
+import warnings
+# Ignore warnings
+warnings.filterwarnings('ignore')
 
 from clean_v2 import * 
 # from aggregation import *
@@ -71,7 +74,8 @@ root_dir='/data/VR_NET/folders'
 
 logger.info('--------------------------------aggregation starting----------------------------------------------------------------------------------')
 
-
+# games={'Arena_Clash': ['45_2_Arena_Clash',
+#   '43_2_Arena_Clash']}
 
 for game in games:
     logger.info(f'***************{game}********************')
@@ -84,7 +88,7 @@ for game in games:
         # print(sess_path)
         try:
             df_clean=clean_v2(sess_path)
-            path2=os.path.join(sess_path,"data_file_2.csv")
+            path2=os.path.join(sess_path,"data_file_4.csv")
             df_clean.to_csv(path2, index=False)
             logger.info('successful saving')
         except:

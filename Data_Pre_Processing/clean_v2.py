@@ -81,6 +81,40 @@ def detect_lighting_changes(images):
     brightness_changes.insert(0, 0)
     return brightness_changes
 
+# def expand_cols(df1, column_name):
+#     df=df1.copy()
+#     df[column_name]= df[column_name].apply(lambda x: ast.literal_eval(x))
+#     data_expanded = pd.DataFrame(df[column_name].tolist(), index=df.index)
+#     data_expanded.columns = [column_name+'1', column_name+'2', column_name+'3']
+#     df2 = df.drop(columns=[column_name]).join(data_expanded)
+#     return df2
+
+def expand_cols(df: pd.DataFrame, column_name: str) -> pd.DataFrame:
+    # Copy the DataFrame
+    df = df.copy()
+    
+    # Safely evaluate string representations of lists or dictionaries
+    def safe_eval(val):
+        try:
+            return ast.literal_eval(val)
+        except (ValueError, SyntaxError):
+            return val
+
+    # Apply safe_eval to the specified column
+    df[column_name] = df[column_name].apply(safe_eval)
+    
+    # Determine the maximum length of the lists in the column
+    max_len = df[column_name].apply(lambda x: len(x) if isinstance(x, (list, dict)) else 0).max()
+    
+    # Create new columns dynamically based on the maximum length
+    data_expanded = pd.DataFrame(df[column_name].tolist(), index=df.index)
+    new_column_names = [f"{column_name}{i+1}" for i in range(max_len)]
+    data_expanded.columns = new_column_names
+    
+    # Drop the original column and join the new expanded columns
+    df2 = df.drop(columns=[column_name]).join(data_expanded)
+    
+    return df2
 
 
 def quaternion_to_euler(row):
@@ -242,11 +276,14 @@ def clean_v2(df_sess_path):
     df_cleaned['c_fov']=c_fov
     df_cleaned['c_velocity']=c_vel
     df_cleaned['c_acceleration']=c_acc
+    
+    
     # df_cleaned['c_fov_change']=c_fov_change
     # df_cleaned['c_change_pitch']=abs(df_cleaned['c_pitch']-df_cleaned['c_pitch'].shift(1))
     # df_cleaned['c_change_roll']=abs(df_cleaned['c_roll']-df_cleaned['c_roll'].shift(1))
     # df_cleaned['c_change_yaw']=abs(df_cleaned['c_yaw']-df_cleaned['c_yaw'].shift(1))
     # Apply the function to each row of the 'object_name' column
+
     df_cleaned['text_presence'] = df_cleaned['object_name'].apply(check_for_text)
     # Display the modified DataFrame
     # print(df)
@@ -280,14 +317,19 @@ def clean_v2(df_sess_path):
     
     df_cleaned.reset_index(drop=True, inplace=True)
     
-    df_final=df_cleaned[['frame', 'timestamp', 'head_dir', 'head_pos', 'head_vel', 'head_angvel', 'left_eye_dir', 'left_eye_pos', 'left_eye_vel', 'left_eye_angvel', 'right_eye_dir', 'right_eye_pos', 'right_eye_vel', 
+    df_cleaned1=expand_cols(df_cleaned.copy(),'c_acceleration')
+    df_cleaned2=expand_cols(df_cleaned1.copy(),'c_velocity')
+    
+    # print(df_cleaned2.columns)
+    
+    df_final=df_cleaned2[['frame', 'timestamp', 'head_dir', 'head_pos', 'head_vel', 'head_angvel', 'left_eye_dir', 'left_eye_pos', 'left_eye_vel', 'left_eye_angvel', 'right_eye_dir', 'right_eye_pos', 'right_eye_vel', 
 'right_eye_angvel', 'left_eye', 'right_eye', 'confidence', 'is_valid', 'ConnectedControllerTypes', 'Buttons', 'Touches', 'NearTouches', 'IndexTrigger', 'HandTrigger', 'Thumbstick', 'object_name', 
 'bounds', 'm_matrix', 'camera_name', 'p_matrix', 'v_matrix', 'video', 'MS_rating', 'left_controller_dir', 'left_controller_pos', 'left_controller_vel', 'left_controller_angvel', 
 'right_controller_dir', 'right_controller_pos', 'right_controller_vel', 'right_controller_angvel', 'IndTrig_L', 'IndTrig_R', 'HandTrig_L', 'HandTrig_R', 'Thumb_L', 'Thumb_R', 'Thumb_L_x', 
 'Thumb_R_x', 'Thumb_L_y', 'Thumb_R_y', 'le_x', 'le_y', 'le_z', 'le_w', 'le_p1', 'le_p2', 'le_p3', 'le_roll', 'le_pitch', 'le_yaw', 'LE_speed', 'LE_pos_change', 're_x', 're_y', 're_z', 're_w', 
 're_p1', 're_p2', 're_p3', 're_roll', 're_pitch', 're_yaw', 'RE_speed', 'RE_pos_change', 'h_x', 'h_y', 'h_z', 'h_w', 'h_roll', 'h_pitch', 'h_yaw', 'h_p1', 'h_p2', 'h_p3', 'Head_Speed', 
 'Head_pos_change', 'h_vp1', 'h_vp2', 'h_vp3', 'Head_Velocity_Change', 'h_avp1', 'h_avp2', 'h_avp3', 'Head_AngVel_Change', 'c_roll', 'c_pitch', 'c_yaw', 'c_x', 'c_y', 'c_z', 'c_speed', 
-'c_velocity', 'c_acceleration', 'text_presence', 'change in brightness', 'diff_HE_yaw', 'diff_HE_roll', 'diff_HE_pitch']]
+'c_velocity1', 'c_acceleration1','c_velocity2', 'c_acceleration2', 'c_velocity3', 'c_acceleration3', 'text_presence', 'change in brightness', 'diff_HE_yaw', 'diff_HE_roll', 'diff_HE_pitch']]
     
     # df_final=df_cleaned[['frame', 'hour','Buttons', 'IndTrig_L', 'IndTrig_R', 'HandTrig_L',
     #    'HandTrig_R', 'Thumb_L', 'Thumb_R', 'Thumb_L_x', 'Thumb_R_x', 'Thumb_L_y', 'Thumb_R_y', 
