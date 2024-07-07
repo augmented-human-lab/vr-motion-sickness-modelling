@@ -1,5 +1,7 @@
 # Model Training and Explanation Generation
 
+For the scripts train.py and generate_explanation.py, you have to edit the relevant root path to the root folder path of vr-motion-sickness-modelling folder at your local machine
+
 ## Training the Model
 
 You can train the model using the following command:
@@ -17,5 +19,6 @@ ex: ```python generate_explanation.py --dataset dataset3.csv --modelname XGBoost
 
 ## Pipeline
 
-The pipeline to get a prediction using new datafile is still WIP
-    
+This is the pipeline to get a prediction to a new file. 
+Check the changes you need to do to pipeline.py which are commented out.
+You can then run the file to get the predictions.

@@ -29,6 +29,8 @@ from sklearn.metrics import mean_squared_error
 np.random.seed(42)
 random.seed(42)
 
+global root_path
+root_path='/home/vr-motion-sickness-modelling/Modelling'
 # Ignore warnings
 warnings.filterwarnings('ignore')
 
@@ -261,17 +263,16 @@ def classification(data, session_data, train_games, models, params, classtype, p
 
 def main(dataset):
     dataset_name=dataset[:-4]
-    root_path= '/home/sharedFolder/modelling'
-    path=os.path.join(root_path, dataset_name, 'log_'+time_now)
+    path=os.path.join(root_path,'modelling', dataset_name, 'log_'+time_now)
     log_path=os.path.join(path, 'models.log')
     global logger
     logger = setup_logger(log_path)
-    dataset_path=os.path.join('/home/sharedFolder/data/', dataset)
+    dataset_path=os.path.join(root_path, 'data', dataset)
     data=pd.read_csv(dataset_path)
 
     cols=select_cols(dataset)
 
-    with open('/home/sharedFolder/sessions.json') as f:
+    with open(os.path.join(root_path,'sessions.json')) as f:
         session_data = json.load(f)
         
     logger.info('Multiclass Classification')

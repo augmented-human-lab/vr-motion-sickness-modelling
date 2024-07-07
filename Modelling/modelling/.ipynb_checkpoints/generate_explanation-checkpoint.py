@@ -33,6 +33,9 @@ global path_for_datafile
 # Ignore warnings
 warnings.filterwarnings('ignore')
 
+global root_path
+root_path='/home/vr-motion-sickness-modelling/Modelling'
+
 pd.set_option('display.float_format', '{:.10f}'.format)
 
 time_now=str(int(time.time()))
@@ -83,10 +86,10 @@ def select_cols(dataset):
     return cols
 
 def get_model(modelname,dataset, log):
-    model_path=os.path.join('/home/sharedFolder/modelling/', dataset[:-4], log, modelname, 'model.pkl')
+    model_path=os.path.join(root_path,'modelling', dataset[:-4], log, modelname, 'model.pkl')
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
-    threshold_path=os.path.join('/home/sharedFolder/modelling/', dataset[:-4], log, modelname, 'threshold.json')
+    threshold_path=os.path.join(root_path,'modelling', dataset[:-4], log, modelname, 'threshold.json')
     # Read the threshold value from the JSON file 
     with open(threshold_path, 'r') as json_file: 
         data = json.load(json_file) 
@@ -178,7 +181,7 @@ def find_explanation(conditions):
 def find_explanation_sum(conditions):
     statements=[]
     range1=[]
-    dflong=pd.read_csv('/home/sharedFolder/modelling/Codebook.csv')
+    dflong=pd.read_csv(os.path.join(root_path, 'modelling','Codebook.csv'))
     for condition, coefficient in conditions:
         list1=condition.split(' ')
         count=find_than_signs(condition)
@@ -233,7 +236,7 @@ def get_min_explanation(y_pred, X, dataful, model, indexes, frame,cols, set1):
     count=0
     df2=None
     explainer = lime.lime_tabular.LimeTabularExplainer(dataful.values, feature_names=cols, class_names=['msr'], mode='regression')
-    dflong=pd.read_csv('/home/sharedFolder/modelling/Codebook.csv')
+    dflong=pd.read_csv(os.path.join(root_path, 'modelling','Codebook.csv'))
     for i in range(len(X)):
         if y_pred[i]==1:
             
@@ -256,7 +259,7 @@ def get_min_explanation(y_pred, X, dataful, model, indexes, frame,cols, set1):
 
 def get_summary(session):
     model, threshold=get_model('LightGBM','dataset1.csv', 'log_1719903504')
-    data2=pd.read_csv('/home/sharedFolder/data/dataset1.csv')
+    data2=pd.read_csv(os.appth.join(root_path,'data/dataset1.csv')
     cols1=select_cols('dataset1.csv')
     data2_1=data2[cols1].abs()
     X_1=data2[data2['session']==session]
@@ -275,7 +278,7 @@ def get_summary(session):
     return statement, range1
 
 def main(modelname, dataset, session, log):
-    with open("/home/sharedFolder/sessions.json", 'r') as file:
+    with open(os.path.join(root_path,'sessions.json'), 'r') as file:
         games = json.load(file)
     game_name = '_'.join(session.split('_')[2:])
     if int(dataset[-5])>1:
@@ -299,7 +302,7 @@ def main(modelname, dataset, session, log):
     X=data_filtered[cols].abs()
     model, threshold= get_model(modelname,dataset, log)
    
-    root_path1=os.path.join('/home/sharedFolder', game_name, session)
+    root_path1=os.path.join(root_path, game_name, session)
     save_file_at=os.path.join(root_path1, 'Explanation.csv')
     os.makedirs(os.path.dirname(save_file_at), exist_ok=True)
     df=None
