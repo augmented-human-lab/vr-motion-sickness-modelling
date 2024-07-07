@@ -29,38 +29,15 @@ random.seed(42)
 np.random.seed(42)
 # from logger_config import setup_logger
 global path_for_datafile
+# global cols
 
 # Ignore warnings
 warnings.filterwarnings('ignore')
+# global root_path
 
 pd.set_option('display.float_format', '{:.10f}'.format)
 
 time_now=str(int(time.time()))
-
-def setup_logger(fname):
-    # Create the directory if it doesn't exist
-    os.makedirs(os.path.dirname(fname), exist_ok=True)
-    
-    # Configure logging
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)
-    
-    # Prevent adding multiple handlers to the logger
-    if not logger.hasHandlers():
-        fh = logging.FileHandler(fname)
-        fh.setLevel(logging.DEBUG)
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-        
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        fh.setFormatter(formatter)
-        ch.setFormatter(formatter)
-        
-        logger.addHandler(fh)
-        logger.addHandler(ch)
-    
-    return logger
-
 
 def select_cols(dataset):
     cols=['IndTrig_L', 'IndTrig_R', 'HandTrig_L', 'HandTrig_R', 'Thumb_L_x',
@@ -71,22 +48,17 @@ def select_cols(dataset):
        'c_acceleration3', 'c_velocity1', 'c_velocity2', 'c_velocity3',
        'le_roll_change', 'le_pitch_change', 'le_yaw_change', 'h_roll_change',
        'h_pitch_change', 'h_yaw_change', 'c_roll_change', 'c_pitch_change',
-       'c_yaw_change','msr_1','time']
+       'c_yaw_change','time']
     if dataset=='dataset1.csv':
-        cols.remove('msr_1')
+        # cols.remove('msr_1')
         cols.remove('time')
-    if dataset=='dataset3.csv':
-        cols.append('msr_2')
-    if dataset=='dataset4.csv':
-        cols.append('msr_2')
-        cols.append('msr_3')
     return cols
 
-def get_model(modelname,dataset, log):
-    model_path=os.path.join('/home/sharedFolder/modelling/', dataset[:-4], log, modelname, 'model.pkl')
+def get_model(modelname,dataset, log, root_path):
+    model_path=os.path.join(root_path,'modelling', dataset[:-4], log, modelname, 'model.pkl')
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
-    threshold_path=os.path.join('/home/sharedFolder/modelling/', dataset[:-4], log, modelname, 'threshold.json')
+    threshold_path=os.path.join(root_path,'modelling', dataset[:-4], log, modelname, 'threshold.json')
     # Read the threshold value from the JSON file 
     with open(threshold_path, 'r') as json_file: 
         data = json.load(json_file) 
@@ -175,10 +147,10 @@ def find_explanation(conditions):
                 # print(variables)
     return variables, range
 
-def find_explanation_sum(conditions):
+def find_explanation_sum(conditions, root_path):
     statements=[]
     range1=[]
-    dflong=pd.read_csv('/home/sharedFolder/modelling/Codebook.csv')
+    dflong=pd.read_csv(os.path.join(root_path,'modelling','Codebook.csv'))
     for condition, coefficient in conditions:
         list1=condition.split(' ')
         count=find_than_signs(condition)
@@ -228,12 +200,12 @@ def get_long_name(column_names, df):
         long_names = matching_rows['Long_Name'].where(pd.notnull(matching_rows['Long_Name']), None).tolist()
         return long_names
 
-def get_min_explanation(y_pred, X, dataful, model, indexes, frame,cols, set1):
+def get_min_explanation(y_pred, X, dataful, model, indexes, frame,cols, set1, root_path):
     # print(frame)
     count=0
     df2=None
     explainer = lime.lime_tabular.LimeTabularExplainer(dataful.values, feature_names=cols, class_names=['msr'], mode='regression')
-    dflong=pd.read_csv('/home/sharedFolder/modelling/Codebook.csv')
+    dflong=pd.read_csv(os.path.join(root_path,'modelling','Codebook.csv'))
     for i in range(len(X)):
         if y_pred[i]==1:
             
@@ -254,16 +226,15 @@ def get_min_explanation(y_pred, X, dataful, model, indexes, frame,cols, set1):
             count+=1
     return df2
 
-def get_summary(session):
-    model, threshold=get_model('LightGBM','dataset1.csv', 'log_1719903504')
-    data2=pd.read_csv('/home/sharedFolder/data/dataset1.csv')
+def get_summary(df, root_path):
+    model, threshold=get_model('LightGBM','dataset1.csv', 'log_1719903504',root_path)
+    data2=pd.read_csv(os.path.join(root_path,'data/dataset1.csv'))
     cols1=select_cols('dataset1.csv')
     data2_1=data2[cols1].abs()
-    X_1=data2[data2['session']==session]
     explainer = lime.lime_tabular.LimeTabularExplainer(data2_1.values, feature_names=cols1, class_names=['msr'], mode='regression')
-    conditions = explainer.explain_instance(X_1[cols1].abs().values[0], model.predict)
-    statement, range1=find_explanation_sum(conditions.as_list())
-    y_pred1= model.predict(X_1[cols1].abs())
+    conditions = explainer.explain_instance(df[cols1].abs().values[0], model.predict)
+    statement, range1=find_explanation_sum(conditions.as_list(), root_path)
+    y_pred1= model.predict(df[cols1].abs())
     if y_pred1[0]<0:
         y_pred1[0]=0
     if y_pred1[0]>1:
@@ -274,43 +245,40 @@ def get_summary(session):
     range1.insert(0, str(y_pred1[0]))
     return statement, range1
 
-def gen_explanation(modelname, dataset, session, log):
-    with open("/home/sharedFolder/sessions.json", 'r') as file:
-        games = json.load(file)
-    game_name = '_'.join(session.split('_')[2:])
-    if int(dataset[-5])>1:
-        set1=int(dataset[-5])-1
-    else:
-        set1=int(dataset[-5])
-    
-    if (game_name not in games.keys()) or (session not in games[game_name]):
-        print("Incorrect gaming session, check whether your session is included in Modelling/sessions.json")
-        return None
-    path_for_datafile=os.path.join('/data/VR_NET/folders/', game_name, session, 'data_file_2.csv')
-    full_data_file=pd.read_csv(path_for_datafile)
+def gen_explanation_new(modelname, dataset, save_file_at, log, data_filtered,df_sum, root_path, frame, aggre_point):
+    # game_name = '_'.join(session.split('_')[2:])
+    # if int(dataset[-5])>1:
+    #     set1=int(dataset[-5])-1
+    # else:
+    #     set1=int(dataset[-5])
+    # path_for_datafile=os.path.join('/data/VR_NET/folders/', game_name, session, 'data_file_2.csv')
+    # full_data_file=pd.read_csv(path_for_datafile)
     cols=select_cols(dataset)
-    data_path=os.path.join('/home/sharedFolder/data', dataset)
+    data_path=os.path.join(root_path, 'data', dataset)
     data=pd.read_csv(data_path)
-    data_filtered=data[data['session']==session]
+    # data_filtered=data[data['session']==session]
     indexes = data_filtered.index
-    filtered_df_for_msr = full_data_file[full_data_file['MS_rating'].notnull()]
+    # filtered_df_for_msr = full_data_file[full_data_file['MS_rating'].notnull()]
     # print(filtered_df_for_msr['MS_rating'])
-    frame= filtered_df_for_msr['frame'].tolist()
+    # frame= filtered_df_for_msr['frame'].tolist()
     X=data_filtered[cols].abs()
-    model, threshold= get_model(modelname,dataset, log)
+    model, threshold= get_model(modelname,dataset, log,root_path)
    
-    root_path1=os.path.join('/home/sharedFolder', game_name, session)
-    save_file_at=os.path.join(root_path1, 'Explanation.csv')
+    # root_path1=os.path.join('/home/sharedFolder', game_name, session)
+    # save_file_at=os.path.join(root_path1, 'Explanation.csv')
+    # save_file_at=path_to_sees
     os.makedirs(os.path.dirname(save_file_at), exist_ok=True)
     df=None
     
-    if len(frame)>set1+1:
+    save_file_exp=os.path.join(save_file_at, 'Explanation.csv')
+    
+    if data_filtered is not None:
         y_pred= get_prediction(model,X,threshold)
-        df=get_min_explanation(y_pred, X, data[cols].abs(), model, indexes, frame,cols, set1)
+        df=get_min_explanation(y_pred, X, data[cols].abs(), model, indexes, frame,cols, aggre_point, root_path)
 
         if df is None:
             # output_file = os.path.join(root_path1,'Explanation.csv')
-            with open(save_file_at, 'w', newline='') as file:
+            with open(save_file_exp, 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow(['No high motion sickness areas detected'])
                 print('No high motion sickness areas detected')
@@ -320,33 +288,18 @@ def gen_explanation(modelname, dataset, session, log):
                     if df.loc[i, "Reason"] == df.loc[j, "Reason"] and df.loc[j, "Start"] < df.loc[i, "End"]:
                         df.loc[j, "Start"] = df.loc[i, "End"]
 
-                df.to_csv(save_file_at, index=False)
+                df.to_csv(save_file_exp, index=False)
     else:
-        with open(save_file_at, 'w', newline='') as file:
+        with open(save_file_exp, 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow(['Not enough gameplay minutes to give a prediction'])
                 print('Not enough gameplay minutes to give a prediction')
-        
-    
-    statement, range1=get_summary(session)
-    file_path = os.path.join(root_path1,'summary.csv')
+
+    statement, range1=get_summary(df_sum, root_path)
+    file_path = os.path.join(save_file_at,'summary.csv')
     sum_data = {'summary': statement, 'condition': range1}
 
     # Create the DataFrame
     df_sum = pd.DataFrame(sum_data)
     df_sum.to_csv(file_path, index=False)
         
-
-# if __name__ == "__main__":
-#     parser = argparse.ArgumentParser(description='Script to process a dataset')
-#     parser.add_argument('--dataset', metavar='DATASET', type=str,
-#                         help='Name of the dataset to process', default='dataset3.csv')
-#     parser.add_argument('--session', metavar='SESSION', type=str,
-#                         help='Name of the session that you want to explain')
-#     parser.add_argument('--modelname', metavar='MODEL', type=str,
-#                         help='Name of the model you need the explanation from', default='GradientBoosting')
-#     parser.add_argument('--log', metavar='LOG', type=str,
-#                         help='the log file you need the explanation from', default='log_1719971872')
-#     args = parser.parse_args()
-    
-#     main(args.modelname, args.dataset, args.session, args.log)
